@@ -54,8 +54,6 @@ The inventory is formatted like this:
 
 This function should use forEach to populate your grocery list based on the store's inventory. If the item is available, add it to your list. Return the final list.
 ------------------------------------------------------------------------------------------------ */
-describe('Testing challenge 3', () => {
-  const inventory = [{ name: 'apples', available: true }, { name: 'pears', available: true }, { name: 'oranges', available: false }, { name: 'bananas', available: true }, { name: 'blueberries', available: false }];
 
   test('It should only add the available items to the list', () => {
     expect(createList(inventory)).toStrictEqual(['apples', 'pears', 'bananas']);
@@ -64,10 +62,14 @@ describe('Testing challenge 3', () => {
 });
 
 const createList = (availableItems) => {
-  availableItems.forEach(value => {
-    callback(, value, availableItems);
-  });
-  return inventory(availableItems);
+  let list = [];
+  function checkAvailable(availableItems){
+    if (availableItems.available === true){
+      list.push(availableItems.name);
+    }
+  }
+availableItems.forEach(checkAvailable);
+return list;
 };
 
 /* ------------------------------------------------------------------------------------------------
