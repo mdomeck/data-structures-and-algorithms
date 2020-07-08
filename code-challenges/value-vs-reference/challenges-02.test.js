@@ -31,8 +31,9 @@ appendFirstToLast(a);
 console.log(a) prints [1, 2, 3, 1]
 ------------------------------------------------------------------------------------------------ */
 const appendFirstToLast = (arr) => {
-  // Solution code here...
+   arr[arr.length] = arr[0];
 };
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 Write a function that accepts an object and an integer as arguments and adds a new property to the object called yearBorn. The value of the yearBorn property should be the integer that was passed in.
@@ -44,7 +45,7 @@ addBirthYearProperty(octavia, 1947);
 console.log(a) prints { fullName: 'Octavia Estelle Butler', yearBorn: 1947 }
 ------------------------------------------------------------------------------------------------ */
 const addBirthYearProperty = (obj, year) => {
-  // Solution code here...
+  
 };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 - Stretch Goal
