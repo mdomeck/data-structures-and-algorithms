@@ -81,7 +81,12 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 ------------------------------------------------------------------------------------------------ */
 
 const wordsToCharList = (arr) => {
-  
+  let result = [];
+  for (let i = 0; i < arr.length;)
+  {
+  result.push(arr.slice(i, ++i));
+  }
+  return result;
 };
 
 
@@ -128,9 +133,17 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+  recipe.lastIndexof('');
+  result.push(recipe.slice(i.length, -1))
   return result;
 };
+
+// describe('Testing challenge 4', () => {
+//   test('It should return a list of foods', () => {
+//     expect(listFoods(gruffaloCrumble)).toStrictEqual(['Gruffalo', 'oats', 'brown sugar', 'flour', 'pure maple syrup', 'chopped nuts', 'baking soda', 'baking powder', 'cinnamon', 'melted butter', 'fresh water']);
+//     expect(listFoods(gruffaloCrumble).length).toStrictEqual(11);
+//   });
+// });
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 - Stretch Goal
