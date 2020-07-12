@@ -37,8 +37,18 @@ let $ = createSnippetWithJQuery(`
 `);
 
 const templateWithJQuery = () => {
-  // Solution code here...
+  starWarsPeople.forEach( person =>{
+    const template = $('#template').html();
+    const $section = $('<section></section>');
+    $section.html(template);
+    $section.find('h2').text(person.name);
+    $section.find('h3').text(person.height);
+    $section.find('p').text(person.eye_color);
+    $('main').append($section);
+  }) 
+  
 }
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -55,7 +65,10 @@ For example, if the input is 'Welcome', the output will be:
 
 const howMuchPencil = (str) => {
   let result = [];
-  // Solution code here...
+  for (let i = 0; i <= str.length; i++)
+  {
+  result[i] = str.slice([i], 8);
+  };
   return result;
 };
 
@@ -68,7 +81,7 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 ------------------------------------------------------------------------------------------------ */
 
 const wordsToCharList = (arr) => {
-  // Solution code here...
+  
 };
 
 
@@ -338,6 +351,6 @@ xdescribe('Testing challenge 11', () => {
 });
 
 
-function createSnippetWithJQuery(html){
+function createSnippetWithJQuery(html) {
   return cheerio.load(html);
 };
