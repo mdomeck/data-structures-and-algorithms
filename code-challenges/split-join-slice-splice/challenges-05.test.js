@@ -130,11 +130,15 @@ const gruffaloCrumble = {
   ]
 };
 
+// https://stackoverflow.com/questions/36342430/get-substring-before-and-after-second-space-in-a-string-via-javascript
 
 const listFoods = (recipe) => {
   let result = [];
-  recipe.lastIndexof('');
-  result.push(recipe.slice(i.length, -1))
+  for ( let i = 0; i < recipe.ingredients.length; i++) {
+    let list = recipe.ingredients[i];
+    let index = list.indexOf(' ', list.indexOf(' ') +1);
+    result.push(list.slice(index +1));
+  }
   return result;
 };
 
