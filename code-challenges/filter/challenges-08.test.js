@@ -51,11 +51,10 @@ For example, filterStringsWithVowels('gregor','hound','xyz') returns ['gregor', 
 
 
 const filterStringsWithVowels = (arr) => {
-  let vowelArr = [];
-  vowelArr = arr.filter(vowel => {
-    vowel.toLowerCase() === 'a' || vowel.toLowerCase() === 'e' 
-  })
-  return vowelArr;
+  
+  let vowelArr = .filter(arr => /[aeiou]/i.test(arr))
+  
+
 };
 
 
