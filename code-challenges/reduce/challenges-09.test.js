@@ -169,7 +169,7 @@ const mapCurrentEvents = () => currentEvents.news.map(route => new Events(route)
 
 function Events(obj) {
   this.author = obj.author
-  this.categories = obj.categories
+  this.categories = obj.category
   this.summary = obj.description
   this.img_url = obj.image
   this.date = obj.published
