@@ -165,15 +165,7 @@ function getCurrentEvents(request, response) {
   response.send(mapCurrentEvents());
 }
 
-// const mapCurrentEvents = () => {
-//   return currentEvents.news.map(route => {
-//     console.log('===route=======', route);
-//     return new Events(route)
-// })
-// }
-
 const mapCurrentEvents = () => currentEvents.news.map(route => new Events(route))
-
 
 function Events(obj) {
   this.author = obj.author
@@ -194,7 +186,9 @@ Note: You may not use the array's built-in length property.
 ------------------------------------------------------------------------------------------------ */
 
 const countNumberOfElements = (arr) => {
-  
+  return arr.reduce((aaccumulator, value, index) => {
+    return index + 1;
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -255,8 +249,12 @@ let starWarsData = [{
 }];
 
 const returnNames = (arr) => {
-  // Solution code here...
-};
+  let names = arr.reduce((answerSoFar, theName, index) => {
+    answerSoFar.push(theName.name);
+    return answerSoFar;
+  }, [])
+    return names;
+  };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -267,8 +265,9 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 ------------------------------------------------------------------------------------------------ */
 
 const reversedString = (str) => {
-  // Solution code here...
-};
+  const arr = str.split('');
+   return arr.reduce((accumulator, value) => value + accumulator, ''); 
+  };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 - Stretch Goal
