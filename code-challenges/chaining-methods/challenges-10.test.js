@@ -42,30 +42,18 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 ------------------------------------------------------------------------------------------------ */
 
 const count = (target, input) => {
-  // const numCount = input.reduce(function(obj, num){
-  //   if (!obj[num]){
-  //     obj[num] = 1;
-  //   } else {
-  //     obj[num]++
-  //   }
-  // })
-  // return numCount;
-
+  const total = [];
+  const newArr = input.map(array => {
+    let numCount = array.reduce((accumulator, value, index) => {
+      if (target === value) {
+        total.push(value);
+      }
+    }, 0)
+    return;
+  });
+  return total.length
 };
 
-
-
-// describe('Testing challenge 2', () => {
-//   test('It should return the number of times the input is in the nested arrays', () => {
-//     expect(count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]])).toStrictEqual(4);
-//     expect(count(3, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]])).toStrictEqual(2);
-//     expect(count(12, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]])).toStrictEqual(0);
-//   });
-//   test('It should work on empty arrays', () => {
-//     expect(count(5, [[1, 3, 5, 7, 9], [], [5, 5, 5], [1, 2, 3], []])).toStrictEqual(4);
-//     expect(count(5, [])).toStrictEqual(0);
-//   });
-// });
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
@@ -77,10 +65,12 @@ For example, [[1, 2, 3, 4, 5], [6, 7, 2, 4, 5, 7], [9, 2, 3, 6,]] returns 66.
 ------------------------------------------------------------------------------------------------ */
 
 const totalSum = (input) => {
-  // const output = [];
-  // const arrSum = arr => arr.reduce((a, b) => a + b, 0);
-  // arrSum.push arr.forEach(arrSum)
-  // return output
+  const arrSum = input.reduce((acc, value) => {
+    return acc + value.reduce((acc, value) => {
+      return acc + value;
+    }, 0);
+  }, 0);
+  return arrSum;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -96,20 +86,16 @@ For example, [ [0,2,5,4], [2,4,10], [] ] should return [ [1, 32], [1024], [] ].
 ------------------------------------------------------------------------------------------------ */
 
 const divisibleByFiveTwoToThePower = (input) => {
-
-//   let newArr = [];
-
-//   for (i = 1; i <= input; i++) {
-//     if (i % 5 === 0) {
-//       newArr.push(i);
-//     }
-//   }
-// let secondArr = [];
-//   for (let index in newArr) {
-//     let modIndex = Math.pow(2, input[i])
-//     secondArr.push(modIndex);
-//   }
-//   return secondArr;
+  let onlyNum = input.map(firstArr => {
+    let divFive = firstArr.reduce((answerSoFar, value) => {
+      if(value % 5 === 0 && typeof value === "number"){
+        answerSoFar.push(Math.pow(2, value));
+      }
+      return answerSoFar;
+    }, []);
+    return divFive;
+  });    
+  return onlyNum;
 };
 
 /* ------------------------------------------------------------------------------------------------
