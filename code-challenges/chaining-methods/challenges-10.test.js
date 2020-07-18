@@ -7,7 +7,22 @@ Build a simple express server. Connect a '/hello' route that sends a greeting of
 ------------------------------------------------------------------------------------------------ */
 
 const createServer = () => {
-  // Solution code here...
+  const express = require('express');
+  const app = express();
+
+  app.get('/hello', (request, response) => {
+    response.send('Make it a great day!');
+  });
+  app.get('/aboutme', (request, response) => {
+    response.send('I live in Columbus, OH!');
+  });
+  app.get('/favoritefoods', (request, response) => {
+    response.send('I love pizza.');
+  });
+
+  app.use('*', (request, response) => {
+    response.status(404).send('page not found');
+  });
 
   var server = app.listen(3301, function () {
     var port = server.address().port;
@@ -27,9 +42,30 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 ------------------------------------------------------------------------------------------------ */
 
 const count = (target, input) => {
-  // Solution code here...
+  // const numCount = input.reduce(function(obj, num){
+  //   if (!obj[num]){
+  //     obj[num] = 1;
+  //   } else {
+  //     obj[num]++
+  //   }
+  // })
+  // return numCount;
+
 };
 
+
+
+// describe('Testing challenge 2', () => {
+//   test('It should return the number of times the input is in the nested arrays', () => {
+//     expect(count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]])).toStrictEqual(4);
+//     expect(count(3, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]])).toStrictEqual(2);
+//     expect(count(12, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]])).toStrictEqual(0);
+//   });
+//   test('It should work on empty arrays', () => {
+//     expect(count(5, [[1, 3, 5, 7, 9], [], [5, 5, 5], [1, 2, 3], []])).toStrictEqual(4);
+//     expect(count(5, [])).toStrictEqual(0);
+//   });
+// });
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
@@ -41,7 +77,9 @@ For example, [[1, 2, 3, 4, 5], [6, 7, 2, 4, 5, 7], [9, 2, 3, 6,]] returns 66.
 ------------------------------------------------------------------------------------------------ */
 
 const totalSum = (input) => {
-  // Solution code here...
+  const arrSum = arr => arr.reduce((a, b) => a + b, 0);
+  return arrSum
+}
 };
 
 /* ------------------------------------------------------------------------------------------------
