@@ -44,16 +44,10 @@ const octavia = { fullName: 'Octavia Estelle Butler' };
 addBirthYearProperty(octavia, 1947);
 console.log(a) prints { fullName: 'Octavia Estelle Butler', yearBorn: 1947 }
 ------------------------------------------------------------------------------------------------ */
-// describe('Testing challenge 4', () => {
-//   test('It should add a property to an object', () => {
-//     const a = { fullName: 'Octavia Butler' };
-//     addBirthYearProperty(a, 1947);
-//     expect(a.yearBorn).toStrictEqual(1947);
-//   });
-// });
 const addBirthYearProperty = (obj, year) => {
   obj.yearBorn = year;
   };
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 - Stretch Goal
 Write a function that accepts an array of people objects and adds a new property called isAuthor to each object in the list. Set the value of the new property to true.
@@ -64,7 +58,9 @@ setStatusAsAuthor(people);
 console.log(people[1].isAuthor) prints true
 ------------------------------------------------------------------------------------------------ */
 const setStatusAsAuthor = (people) => {
-  // Solution code here...
+  people.forEach(obj => {
+    obj.isAuthor = true;
+  })
 };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6 - Stretch Goal
