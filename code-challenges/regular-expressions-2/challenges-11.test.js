@@ -12,7 +12,10 @@ Note the space in between first and last names.
 You can assume that neither firstName nor lastName will be blank
 ------------------------------------------------------------------------------------------------ */
 const toLastNames = people => {
-  // Solution code here...
+  newList = [];
+  people.map(firstlist => {
+
+  })
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -69,9 +72,11 @@ Return either true or false.
 ------------------------------------------------------------------------------------------------ */
 
 const validatePhoneNumber = (phoneNumber) => {
-  let regex = 
+  let regex = `\^(\(\d\d\d\)|\d\d\d)(-| )?\d\d\d(-| )?\d\d\d\d$\g`
+  
 
-  str.match(regex);
+  console.log('========================', phoneNumber.match(regex));
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
