@@ -39,7 +39,7 @@ const cookieStores = [firstPike, seaTac, seattleCenter, capHill, alkiBeach];
 
 const grandTotal = (stores) => {
 
-    
+
 
 };
 
@@ -79,7 +79,8 @@ const errands = [
 ];
 
 const howManyTreats = (arr) => {
-  // Solution code here...
+  let treatQuantity = arr[2].items[1].quantity;
+  return treatQuantity;
 };
 
 /* ------------------------------------------------------------------------------------------------
