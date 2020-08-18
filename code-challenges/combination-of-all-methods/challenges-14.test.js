@@ -12,7 +12,17 @@ const createServer = () => {
   const express = require('express');
   const app = express();
 
-  // solution code goes here ...
+  app.get('/', (request, response) => {
+    response.send('status of 200');
+  });
+
+  app.delete('/things/1', (request, response) => {
+    response.status(405).send('sorry something went wrong');
+  });
+
+  app.use('*', (request, response) => {
+    response.status(404).send('page not found');
+  });
 
   var server = app.listen(3000, function () {
     var port = server.address().port;
@@ -30,7 +40,15 @@ For example, ['apple', 'banana', 'MacGyver'] returns ['Apple', 'Banana', 'MacGyv
 ------------------------------------------------------------------------------------------------ */
 
 const toTitleCase = (arr) => {
-  // Solution code here...
+  let capWords = []
+  arr.forEach(word => {
+    let firstLetter = word[0].toUpperCase();
+    let remainder = word.slice(1);
+    let newWord = firstLetter + remainder;
+
+    capWords.push(newWord);
+  })
+    return capWords;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -105,7 +123,7 @@ let starWarsData = [{
 }];
 
 let biggerThanLuke = (arr) => {
-  // Solution code here...
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
