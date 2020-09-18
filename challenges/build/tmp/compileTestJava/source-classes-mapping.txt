@@ -1,0 +1,6 @@
+challenges/ArrayShiftTest.java
+ challenges.ArrayShiftTest
+challenges/LibraryTest.java
+ challenges.LibraryTest
+challenges/BinarySearchTest.java
+ challenges.BinarySearchTest
