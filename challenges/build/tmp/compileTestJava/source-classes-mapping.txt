@@ -4,3 +4,5 @@ challenges/BinarySearchTest.java
  challenges.BinarySearchTest
 challenges/LibraryTest.java
  challenges.LibraryTest
+linkedList/LinkedListTest.java
+ linkedList.LinkedListTest
