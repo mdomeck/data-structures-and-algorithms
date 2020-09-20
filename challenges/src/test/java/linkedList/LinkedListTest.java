@@ -20,7 +20,6 @@ public class LinkedListTest {
         assertEquals("abc", "2 7 4 null", test.toString());
         assertTrue("expect true", test.includes(4));
         assertFalse("expect false", test.includes(10));
-        //assertEquals("Should return string of all values", "{2} -> {7} -> {4} -> {null}",test.toString());
 
     }
 

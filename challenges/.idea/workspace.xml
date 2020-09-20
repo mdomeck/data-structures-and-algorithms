@@ -28,14 +28,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +120,7 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LinkedListTest">
+  <component name="RunManager" selected="Gradle.LinkedListTest.testLinkList">
     <configuration name="LinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -222,8 +218,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LinkedListTest" />
         <item itemvalue="Gradle.LinkedListTest.testLinkList" />
+        <item itemvalue="Gradle.LinkedListTest" />
         <item itemvalue="Gradle.challenges [wrapper]" />
         <item itemvalue="Gradle.challenges [clean]" />
         <item itemvalue="Gradle.challenges [build]" />
@@ -266,25 +262,25 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600484386246" />
-    <state width="1342" height="253" key="GridCell.Tab.0.bottom" timestamp="1600558256724">
+    <state width="1342" height="253" key="GridCell.Tab.0.bottom" timestamp="1600625942836">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1342" height="253" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600485749803" />
-    <state width="1342" height="253" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1600558256724" />
-    <state width="1342" height="253" key="GridCell.Tab.0.center" timestamp="1600558256724">
+    <state width="1342" height="253" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1600625942836" />
+    <state width="1342" height="253" key="GridCell.Tab.0.center" timestamp="1600625942836">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1342" height="253" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600485749803" />
-    <state width="1342" height="253" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1600558256724" />
-    <state width="1342" height="253" key="GridCell.Tab.0.left" timestamp="1600558256724">
+    <state width="1342" height="253" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1600625942836" />
+    <state width="1342" height="253" key="GridCell.Tab.0.left" timestamp="1600625942836">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1342" height="253" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600485749803" />
-    <state width="1342" height="253" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1600558256724" />
-    <state width="1342" height="253" key="GridCell.Tab.0.right" timestamp="1600558256724">
+    <state width="1342" height="253" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1600625942836" />
+    <state width="1342" height="253" key="GridCell.Tab.0.right" timestamp="1600625942836">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1342" height="253" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600485749803" />
-    <state width="1342" height="253" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1600558256724" />
+    <state width="1342" height="253" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1600625942836" />
   </component>
 </project>
