@@ -11,13 +11,15 @@ public class LinkedListTest {
        LinkedList test = new LinkedList();
         test.insert(4);
         test.insert(7);
+        test.insert(2);
         System.out.println(test);
 
 
-        assertEquals("Should return string of all values", "{7} -> {4} -> {null}");
+
         assertNotNull(new LinkedList());
-        assertEquals("abc", "7 4 null", test.toString());
+        assertEquals("abc", "2 7 4 null", test.toString());
         assertTrue("expect true", test.includes(4));
+        assertFalse("expect false", test.includes(10));
 
     }
 
