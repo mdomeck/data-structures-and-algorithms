@@ -34,14 +34,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedList/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/linkedList/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/linkedList/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/linkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,25 +269,25 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600704516678" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1600690044431" />
-    <state width="1346" height="253" key="GridCell.Tab.0.bottom" timestamp="1600730347118">
+    <state width="1346" height="253" key="GridCell.Tab.0.bottom" timestamp="1600731195363">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="253" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600730347118" />
+    <state width="1346" height="253" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600731195363" />
     <state width="1342" height="253" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
-    <state width="1346" height="253" key="GridCell.Tab.0.center" timestamp="1600730347118">
+    <state width="1346" height="253" key="GridCell.Tab.0.center" timestamp="1600731195363">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="253" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600730347118" />
+    <state width="1346" height="253" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600731195363" />
     <state width="1342" height="253" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
-    <state width="1346" height="253" key="GridCell.Tab.0.left" timestamp="1600730347118">
+    <state width="1346" height="253" key="GridCell.Tab.0.left" timestamp="1600731195363">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="253" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600730347118" />
+    <state width="1346" height="253" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600731195363" />
     <state width="1342" height="253" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
-    <state width="1346" height="253" key="GridCell.Tab.0.right" timestamp="1600730347118">
+    <state width="1346" height="253" key="GridCell.Tab.0.right" timestamp="1600731195363">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="253" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600730347118" />
+    <state width="1346" height="253" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600731195363" />
     <state width="1342" height="253" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
   </component>
 </project>

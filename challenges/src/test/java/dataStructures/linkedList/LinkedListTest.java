@@ -16,8 +16,8 @@ public class LinkedListTest {
         test.insertEnd(9);
         test.insertEnd(10);
         test.insertBefore(4, 13);
-        empty.insertBefore(34, 2);
-        test.insertAfter(4, 22);
+        empty.insertBefore(7, 2);
+        test.insertAfter(9, 22);
         System.out.println(test);
 
 

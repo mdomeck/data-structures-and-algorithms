@@ -54,7 +54,7 @@ public class LinkedList {
                 if (currentNode.value == value) {
                     lastNode.next = newNode;
                     newNode.next = currentNode;
-                    break;
+                    return;
                 } else {
                     lastNode = currentNode;
                     currentNode = currentNode.next;
@@ -77,7 +77,7 @@ public class LinkedList {
                 if (currentNode.value == value) {
                     currentNode.next = newNode;
                     newNode.next = nextNode;
-                    break;
+                    return;
                 } else {
                     currentNode = nextNode;
                     nextNode = nextNode.next;
