@@ -13,4 +13,4 @@ write a function called insertShiftArray which takes in an array and the value t
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![Array Shift](assets/array-shift-whiteboard.png)
+![Array Shift](/challenges/assets/array-shift-whiteboard.png)

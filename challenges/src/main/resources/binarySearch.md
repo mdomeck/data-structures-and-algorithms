@@ -30,4 +30,4 @@ BigO time = O(log n) space = O(1)
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![array-binary-search](src/main/resources/array-binary-search.png)
+![array-binary-search](assets/array-binary-search.png)
