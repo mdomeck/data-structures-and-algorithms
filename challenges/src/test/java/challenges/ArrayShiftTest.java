@@ -20,9 +20,9 @@ public class ArrayShiftTest {
         int secondVal = 0;
 
         int [] newArr = testPotato.arrayShift(orgArr, value);
-        int[] anotherArr = testPotato.arrayShift(secondArr, secondVal);
+        //int[] anotherArr = testPotato.arrayShift(secondArr, secondVal);
         assertEquals (7, newArr[2]);
-        assertEquals(7, secondArr[3]);
+        assertEquals(0, secondArr[3]);
     }
 
 }
