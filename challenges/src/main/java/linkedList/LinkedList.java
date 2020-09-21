@@ -44,15 +44,34 @@ public class LinkedList {
         return false;
     }
 
+
     public String toString() {
-        String output = "";
+        if (this.head == null) {
+            return "NULL";
+        }
+
         Node nodeImLookingAt = this.head;
+        String output = String.format("{%d} -> ", nodeImLookingAt.value);
+        nodeImLookingAt = nodeImLookingAt.next;
+
         while (nodeImLookingAt != null) {
-            output = output + nodeImLookingAt.value + " ";
+            output += String.format("{%d} -> ", nodeImLookingAt.value);
             nodeImLookingAt = nodeImLookingAt.next;
         }
-        output = output + "null";
+        output += "NULL";
+
         return output;
     }
+
+//    public String toString() {
+//        String output = "";
+//        Node nodeImLookingAt = this.head;
+//        while (nodeImLookingAt != null) {
+//            output = output + nodeImLookingAt.value + " ";
+//            nodeImLookingAt = nodeImLookingAt.next;
+//        }
+//        output = output + "null";
+//        return output;
+//    }
 
 }

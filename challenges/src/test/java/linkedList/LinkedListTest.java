@@ -17,7 +17,7 @@ public class LinkedListTest {
 
 
         assertNotNull(new LinkedList());
-        assertEquals("abc", "2 7 4 null", test.toString());
+        assertEquals("abc", "{2} -> {7} -> {4} -> NULL", test.toString());
         assertTrue("expect true", test.includes(4));
         assertFalse("expect false", test.includes(10));
 
