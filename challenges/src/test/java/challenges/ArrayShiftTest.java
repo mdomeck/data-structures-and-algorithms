@@ -1,28 +1,26 @@
 package challenges;
 
 import org.junit.Test;
-import  static  org.junit.Assert.*;
+
+import static org.junit.Assert.*;
 import static org.junit.Assert.assertTrue;
 
 public class ArrayShiftTest {
-    @Test
-    public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
-    }
+
     @Test
     public void testArrayShift() {
         ArrayShift testPotato = new ArrayShift();
-        int[] orgArr = {11,12,13,14};
-        int[] secondArr = {10,11,12,13,14,15};
+        int[] testArr = {11, 12, 13, 14};
+        int num1 = 7;
 
-        int value = 7;
-        int secondVal = 0;
+        int[] secondArr = {10, 11, 12, 13, 14, 15};
+        int num2 = 0;
 
-        int [] newArr = testPotato.arrayShift(orgArr, value);
-        //int[] anotherArr = testPotato.arrayShift(secondArr, secondVal);
-        assertEquals (7, newArr[2]);
-        assertEquals(0, secondArr[3]);
+        int[] newArr = testPotato.arrayShift(testArr, num1);
+        assertEquals(newArr[2], num1);
+
+        int[] anotherArr = testPotato.arrayShift(secondArr, num2);
+        assertEquals(anotherArr[3], num2);
     }
 
 }

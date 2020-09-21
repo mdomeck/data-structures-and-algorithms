@@ -1,9 +1,9 @@
-challenges/ArrayShift.java
- challenges.ArrayShift
+challenges/Library.java
+ challenges.Library
 linkedList/LinkedList.java
  linkedList.LinkedList
  linkedList.LinkedList$Node
 challenges/BinarySearch.java
  challenges.BinarySearch
-challenges/Library.java
- challenges.Library
+challenges/ArrayShift.java
+ challenges.ArrayShift

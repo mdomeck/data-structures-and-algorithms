@@ -14,8 +14,8 @@ public class ArrayShift {
             }
 
             for(int i = 0; i < newArr.length; i++){
-                if(i == midIndex){
-                    newArr[i] = value;
+                if(newArr[midIndex] == newArr[i]){
+                    newArr[midIndex] = value;
                 } else {
                     newArr[i] = orgArr[j];
                     j++;
