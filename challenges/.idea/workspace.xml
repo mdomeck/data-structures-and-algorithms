@@ -23,7 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474f673a-6c9c-41f2-899e-cab6744a9016" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/linkedList/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,13 +129,13 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LinkedListTest.testInsertBefore">
-    <configuration name="LinkedListTest.testIncludes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LinkedListTest.testFindKFromEndGreaterThanLength">
+    <configuration name="LinkedListTest.testFindKFromAreSameLength" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedList.LinkedListTest.testIncludes&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedList.LinkedListTest.testFindKFromAreSameLength&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -133,12 +149,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testInsert" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testFindKFromEndGreaterThanLength" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedList.LinkedListTest.testInsert&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedList.LinkedListTest.testFindKFromEndGreaterThanLength&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -152,12 +168,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testInsertAfter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testFindKFromEndInTheMiddle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedList.LinkedListTest.testInsertAfter&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedList.LinkedListTest.testFindKFromEndInTheMiddle&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -171,12 +187,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testInsertBefore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testFindKFromEndNotPositiveInteger" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedList.LinkedListTest.testInsertBefore&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedList.LinkedListTest.testFindKFromEndNotPositiveInteger&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -190,12 +206,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest.testInsertEnd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.testFindKFromEndWithOneNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedList.LinkedListTest.testInsertEnd&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedList.LinkedListTest.testFindKFromEndWithOneNode&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -211,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LinkedListTest.testInsertBefore" />
-        <item itemvalue="Gradle.LinkedListTest.testInsertAfter" />
-        <item itemvalue="Gradle.LinkedListTest.testIncludes" />
-        <item itemvalue="Gradle.LinkedListTest.testInsertEnd" />
-        <item itemvalue="Gradle.LinkedListTest.testInsert" />
+        <item itemvalue="Gradle.LinkedListTest.testFindKFromEndGreaterThanLength" />
+        <item itemvalue="Gradle.LinkedListTest.testFindKFromEndNotPositiveInteger" />
+        <item itemvalue="Gradle.LinkedListTest.testFindKFromEndWithOneNode" />
+        <item itemvalue="Gradle.LinkedListTest.testFindKFromEndInTheMiddle" />
+        <item itemvalue="Gradle.LinkedListTest.testFindKFromAreSameLength" />
       </list>
     </recent_temporary>
   </component>
@@ -256,25 +272,25 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600733278092" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1600690044431" />
-    <state width="1342" height="252" key="GridCell.Tab.0.bottom" timestamp="1600789210790">
+    <state width="1346" height="337" key="GridCell.Tab.0.bottom" timestamp="1600814903612">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="252" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600789210790" />
+    <state width="1346" height="337" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600814903612" />
     <state width="1342" height="253" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
-    <state width="1342" height="252" key="GridCell.Tab.0.center" timestamp="1600789210790">
+    <state width="1346" height="337" key="GridCell.Tab.0.center" timestamp="1600814903612">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="252" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600789210790" />
+    <state width="1346" height="337" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600814903612" />
     <state width="1342" height="253" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
-    <state width="1342" height="252" key="GridCell.Tab.0.left" timestamp="1600789210790">
+    <state width="1346" height="337" key="GridCell.Tab.0.left" timestamp="1600814903612">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="252" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600789210790" />
+    <state width="1346" height="337" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600814903612" />
     <state width="1342" height="253" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
-    <state width="1342" height="252" key="GridCell.Tab.0.right" timestamp="1600789210790">
+    <state width="1346" height="337" key="GridCell.Tab.0.right" timestamp="1600814903612">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="252" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600789210790" />
+    <state width="1346" height="337" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600814903612" />
     <state width="1342" height="253" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
   </component>
 </project>
