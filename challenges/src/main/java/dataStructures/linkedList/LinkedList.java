@@ -69,7 +69,7 @@ public class LinkedList {
 
     public void insertAfter(int value, int newValue) {
         Node newNode = new Node(newValue);
-        Node nextNode = this.head;
+        Node nextNode = this.head.next;
         Node currentNode = this.head;
 
         if (head != null) {
