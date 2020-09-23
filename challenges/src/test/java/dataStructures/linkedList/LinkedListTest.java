@@ -73,4 +73,55 @@ public class LinkedListTest {
 
     }
 
+    @Test public void testFindKFromEndInTheMiddle(){
+        LinkedList test = new LinkedList();
+        test.insert(4);
+        test.insert(7);
+        test.insert(2);
+        int actual = test.findKFromEnd(1);
+        int expected = 7;
+        assertEquals(expected, actual);
+        System.out.println(test);
+    }
+
+    @Test public void testFindKFromEndWithOneNode(){
+        LinkedList test = new LinkedList();
+        test.insert(4);
+        int actual = test.findKFromEnd(0);
+        int expected = 4;
+        assertEquals(expected, actual);
+        System.out.println(test);
+    }
+
+    @Test public void testFindKFromEndGreaterThanLength(){
+        LinkedList test = new LinkedList();
+        test.insert(4);
+        test.insert(7);
+        test.insert(2);
+        assertThrows("Value entered is greater than total linked list length", Exception.class, ()->test.findKFromEnd(5));
+        System.out.println(test);
+    }
+
+
+    @Test public void testFindKFromEndNotPositiveInteger(){
+        LinkedList test = new LinkedList();
+        test.insert(4);
+        test.insert(7);
+        test.insert(2);
+        assertThrows("Value entered is greater than total linked list length", Exception.class, ()->test.findKFromEnd(-1));
+        System.out.println(test);
+    }
+
+    @Test public void testFindKFromAreSameLength(){
+        LinkedList test = new LinkedList();
+        test.insert(4);
+        test.insert(7);
+        test.insert(2);
+        int actual = test.findKFromEnd(2);
+        int expected = 2;
+        assertEquals(expected, actual);
+        System.out.println(test);
+
+    }
+
 }
