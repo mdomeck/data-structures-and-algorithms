@@ -98,18 +98,17 @@ public class LinkedListTest {
         test.insert(4);
         test.insert(7);
         test.insert(2);
-        test.findKFromEnd(5);
-        assertThrows("Value entered is greater than total linked list length", IndexOutOfBoundsException);
+        assertThrows("Value entered is greater than total linked list length", Exception.class, ()->test.findKFromEnd(5));
         System.out.println(test);
     }
+
 
     @Test public void testFindKFromEndNotPositiveInteger(){
         LinkedList test = new LinkedList();
         test.insert(4);
         test.insert(7);
         test.insert(2);
-        test.findKFromEnd(-1);
-        assertThrows("Value entered is greater than total linked list length", IndexOutOfBoundsException);
+        assertThrows("Value entered is greater than total linked list length", Exception.class, ()->test.findKFromEnd(-1));
         System.out.println(test);
     }
 

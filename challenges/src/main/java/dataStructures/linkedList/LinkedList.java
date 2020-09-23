@@ -47,6 +47,10 @@ public class LinkedList {
     public int findKFromEnd(int k) throws IndexOutOfBoundsException {
         Node current = this.head;
 
+        if(k < 0){
+            throw new IndexOutOfBoundsException("Value entered is a negative number");
+        }
+
         while (current != null) {
             Node kAway = current;
             for (int i = 0; i < k; i++) {
@@ -60,9 +64,7 @@ public class LinkedList {
             }
             current = current.next;
         }
-        throw new
-
-                IndexOutOfBoundsException("Value entered is greater than total linked list length");
+        throw new IndexOutOfBoundsException("Value entered is greater than total linked list length");
 
     }
 
