@@ -5,3 +5,4 @@ Table of Contents
 - [linkedList.md](Linked List); 
 - [llInsertions.md](LL Insertions); 
 - [kthFromEnd.md](Kth From End);
+- [llZip.md](LL Zip);
