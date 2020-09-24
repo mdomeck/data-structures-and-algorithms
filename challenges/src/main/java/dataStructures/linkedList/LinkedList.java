@@ -14,6 +14,7 @@ public class LinkedList {
 
     public Node head;
     public Node tail;
+    public Node next;
 
     public LinkedList() {
         this.head = null;
@@ -67,7 +68,6 @@ public class LinkedList {
         throw new IndexOutOfBoundsException("Value entered is greater than total linked list length");
 
     }
-
 
 
 
@@ -150,4 +150,29 @@ public class LinkedList {
     }
 
 
-}
+    public static LinkedList zipLists(LinkedList one, LinkedList two) {
+
+        if(one == null){
+            return two;
+        } else if (two == null){
+            return one;
+        }
+
+        Node head1 = one.head;
+        Node head2 = two.head;
+        Node temp1 = head1.next;
+        Node temp2 = head2.next;
+        LinkedList newList = new LinkedList();
+        newList.insert(head1.value);
+        newList.insert(head2.value);
+
+        while(temp1 != null && temp2 != null) {
+            newList.insert(temp1.value);
+            temp1 = temp1.next;
+            newList.insert(temp2.value);
+            temp2 = temp2.next;
+        }
+            return newList;
+
+        }
+    }
