@@ -1,15 +1,17 @@
 challenges/ArrayShift.java
  challenges.ArrayShift
+dataStructures/linkedList/LinkedList.java
+ dataStructures.linkedList.LinkedList
+ dataStructures.linkedList.LinkedList$Node
+dataStructures/stacksandqueues/Stack.java
+ dataStructures.stacksandqueues.Stack
 challenges/Library.java
  challenges.Library
 challenges/BinarySearch.java
  challenges.BinarySearch
-dataStructures/linkedList/LinkedList.java
- dataStructures.linkedList.LinkedList
- dataStructures.linkedList.LinkedList$Node
-dataStructures/stacksandqueues/Queue.java
- dataStructures.stacksandqueues.Queue
 dataStructures/stacksandqueues/Node.java
  dataStructures.stacksandqueues.Node
-dataStructures/stacksandqueues/Stack.java
- dataStructures.stacksandqueues.Stack
+dataStructures/stacksandqueues/NodeQueue.java
+ dataStructures.stacksandqueues.NodeQueue
+dataStructures/stacksandqueues/Queue.java
+ dataStructures.stacksandqueues.Queue

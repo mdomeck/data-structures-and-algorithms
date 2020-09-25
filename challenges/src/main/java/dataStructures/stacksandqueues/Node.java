@@ -2,7 +2,7 @@ package dataStructures.stacksandqueues;
 
 public class Node {
 
-    int value;
+    public int value; // why does this need to be public
     Node next;
 
     public Node(int value) {
