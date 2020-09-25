@@ -7,3 +7,9 @@ challenges/BinarySearch.java
 dataStructures/linkedList/LinkedList.java
  dataStructures.linkedList.LinkedList
  dataStructures.linkedList.LinkedList$Node
+dataStructures/stacksandqueues/Queue.java
+ dataStructures.stacksandqueues.Queue
+dataStructures/stacksandqueues/Node.java
+ dataStructures.stacksandqueues.Node
+dataStructures/stacksandqueues/Stack.java
+ dataStructures.stacksandqueues.Stack
