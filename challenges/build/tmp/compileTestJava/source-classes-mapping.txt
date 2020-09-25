@@ -1,8 +1,14 @@
-challenges/LibraryTest.java
- challenges.LibraryTest
+dataStructures/linkedList/LinkedListTest.java
+ dataStructures.linkedList.LinkedListTest
+dataStructures/stacksandqueues/QueueTest.java
+ dataStructures.stacksandqueues.QueueTest
 challenges/ArrayShiftTest.java
  challenges.ArrayShiftTest
 challenges/BinarySearchTest.java
  challenges.BinarySearchTest
-dataStructures/linkedList/LinkedListTest.java
- dataStructures.linkedList.LinkedListTest
+challenges/LibraryTest.java
+ challenges.LibraryTest
+dataStructures/stacksandqueues/NodeTest.java
+ dataStructures.stacksandqueues.NodeTest
+dataStructures/stacksandqueues/StackTest.java
+ dataStructures.stacksandqueues.StackTest
