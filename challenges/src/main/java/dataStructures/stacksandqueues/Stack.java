@@ -4,9 +4,10 @@ import org.checkerframework.checker.nullness.qual.NonNull;
 
 public class Stack {
 
-    Node top;
+    public Node top;
 
     public Stack() {
+
         this.top = null;
     }
 
@@ -26,9 +27,31 @@ public class Stack {
             oldTop.next = null;
             return topValue;
         } catch (NullPointerException e) {
-            e.printStackTrace();
+           // e.printStackTrace();
+            System.out.println("the stack is empty");
             throw new NullPointerException();
         }
     }
 
+    public int peek() {
+        try {
+            return top.value;
+        } catch (NullPointerException e) {
+            System.out.println("the stack is empty");
+            throw new NullPointerException();
+        }
+    }
+
+    public boolean isEmpty() {
+//        if (top == null) {
+//            System.out.println("the list is empty");
+//            return true;
+//        } else {
+//            return false;
+//        }
+        return top == null;
+    }
+
 }
+
+
