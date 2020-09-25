@@ -33,6 +33,15 @@ public class LinkedList {
         }
     }
 
+//    public void append(int value){
+//        if(head == null){
+//            head = new Node(value);
+//            tail = head;
+//            return
+//        }
+//        head = new Node(value, head);
+//    }
+
     public void insertEnd(int value) {
         Node newNode = new Node(value);
         if (this.tail == null) {
