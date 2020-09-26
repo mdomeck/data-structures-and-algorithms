@@ -39,10 +39,10 @@
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/stacksandqueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/stacksandqueues/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/stacksandqueues/NodeQueue.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/stacksandqueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/stacksandqueues/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/stacksandqueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/stacksandqueues/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/stacksandqueues/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/stacksandqueues/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/stacksandqueues/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/stacksandqueues/StackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,7 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QueueTest.enqueueIntoQueue">
+  <component name="RunManager" selected="Gradle.StackTest">
     <configuration name="QueueTest.enqueueIntoQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,70 +171,70 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StackTest.emptyStackException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="challenges [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.StackTest.emptyStackException&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StackTest.isEmptyStackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="challenges [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.StackTest.isEmptyStackTest&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StackTest.peekNextItemOnStack" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="challenges [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.StackTest.peekNextItemOnStack&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.QueueTest.enqueueIntoQueue" />
-        <item itemvalue="Gradle.StackTest.isEmptyStackTest" />
         <item itemvalue="Gradle.StackTest" />
-        <item itemvalue="Gradle.StackTest.emptyStackException" />
-        <item itemvalue="Gradle.StackTest.peekNextItemOnStack" />
+        <item itemvalue="Gradle.QueueTest.enqueueIntoQueue" />
+        <item itemvalue="Gradle.challenges [test]" />
+        <item itemvalue="Gradle.challenges [build]" />
+        <item itemvalue="Gradle.challenges [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -279,41 +279,45 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600985853764" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1600690044431" />
-    <state width="1342" height="227" key="GridCell.Tab.0.bottom" timestamp="1601067161613">
+    <state width="1342" height="276" key="GridCell.Tab.0.bottom" timestamp="1601092126140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601067161613" />
-    <state width="1342" height="253" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
-    <state width="1342" height="227" key="GridCell.Tab.0.center" timestamp="1601067161612">
+    <state width="1346" height="276" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601084371418" />
+    <state width="1342" height="276" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1601092126140" />
+    <state width="1342" height="276" key="GridCell.Tab.0.center" timestamp="1601092126140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601067161612" />
-    <state width="1342" height="253" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
-    <state width="1342" height="227" key="GridCell.Tab.0.left" timestamp="1601067161612">
+    <state width="1346" height="276" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601084371417" />
+    <state width="1342" height="276" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1601092126140" />
+    <state width="1342" height="276" key="GridCell.Tab.0.left" timestamp="1601092126140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601067161612" />
-    <state width="1342" height="253" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
-    <state width="1342" height="227" key="GridCell.Tab.0.right" timestamp="1601067161612">
+    <state width="1346" height="276" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601084371417" />
+    <state width="1342" height="276" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1601092126140" />
+    <state width="1342" height="276" key="GridCell.Tab.0.right" timestamp="1601092126140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601067161612" />
-    <state width="1342" height="253" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1600698810614" />
-    <state width="1342" height="314" key="GridCell.Tab.1.bottom" timestamp="1601066409753">
+    <state width="1346" height="276" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601084371417" />
+    <state width="1342" height="276" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1601092126140" />
+    <state width="1342" height="314" key="GridCell.Tab.1.bottom" timestamp="1601087220894">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1342" height="314" key="GridCell.Tab.1.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601066409753" />
-    <state width="1342" height="314" key="GridCell.Tab.1.center" timestamp="1601066409752">
+    <state width="1342" height="314" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1601087220894" />
+    <state width="1342" height="314" key="GridCell.Tab.1.center" timestamp="1601087220894">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1342" height="314" key="GridCell.Tab.1.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601066409752" />
-    <state width="1342" height="314" key="GridCell.Tab.1.left" timestamp="1601066409752">
+    <state width="1342" height="314" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1601087220894" />
+    <state width="1342" height="314" key="GridCell.Tab.1.left" timestamp="1601087220894">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1342" height="314" key="GridCell.Tab.1.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601066409752" />
-    <state width="1342" height="314" key="GridCell.Tab.1.right" timestamp="1601066409753">
+    <state width="1342" height="314" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1601087220894" />
+    <state width="1342" height="314" key="GridCell.Tab.1.right" timestamp="1601087220894">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1342" height="314" key="GridCell.Tab.1.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601066409753" />
+    <state width="1342" height="314" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1601087220894" />
   </component>
 </project>

@@ -1,7 +1,5 @@
 package dataStructures.stacksandqueues;
 
-import org.checkerframework.checker.nullness.qual.NonNull;
-
 public class Stack {
 
     public Node top;
@@ -43,12 +41,6 @@ public class Stack {
     }
 
     public boolean isEmpty() {
-//        if (top == null) {
-//            System.out.println("the list is empty");
-//            return true;
-//        } else {
-//            return false;
-//        }
         return top == null;
     }
 
