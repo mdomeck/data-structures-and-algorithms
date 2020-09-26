@@ -2,19 +2,30 @@ package dataStructures.stacksandqueues;
 
 public class Queue {
 
-    public NodeQueue frontOfLine;
-    public NodeQueue back;
+    public Node front = null;
+    public Node next = null;
 
     public Queue() {
-        this.frontOfLine= null;
-        this.back = null;
+        this.front = null;
+        this.next = null;
     }
 
     public void enqueue(int value) {
-        NodeQueue nodeQueue = new NodeQueue(value);
-        if (frontOfLine != null) {
-             this.frontOfLine.next = nodeQueue;
+        Node newNode = new Node(value);
+//        Queue queue = new Queue();
+        //System.out.println(newNode);
+        if (front == null) {
+            front = newNode;
 
+            System.out.println("if body is null" + newNode);
+        } else if (front != null) {
+            next = newNode;
+        } if (front != null && next != null) {
+            next.next = newNode;
+
+
+//            nodeQueue.next = queue.back;
+            System.out.println("if body is not null" + newNode);
         }
 
     }

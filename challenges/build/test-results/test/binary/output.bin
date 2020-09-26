@@ -1,0 +1,1 @@
+:if body is nullNodeQueue{value=4, next=null, front=null}

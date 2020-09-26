@@ -2,6 +2,7 @@ package dataStructures.stacksandqueues;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
 public class QueueTest {
@@ -9,8 +10,10 @@ public class QueueTest {
     @Test
     public void enqueueIntoQueue() {
         Queue queue = new Queue();
-        assertNull("this queue is empty", queue.top);
-        assertNull("this queue is empty", queue.back);
+        queue.enqueue(4);
+        queue.enqueue(6);
+        assertEquals("this queue has a 4 in front ", 4, queue.front);
+        assertEquals("this queue is next", 6, queue.next);
     }
 
     @Test
@@ -35,7 +38,9 @@ public class QueueTest {
 
     @Test
     public void instantiateEmptyQueue() {
+        Queue queue = new Queue();
 
+        assertNull("this queue is empty", queue.next);
     }
 
     @Test
