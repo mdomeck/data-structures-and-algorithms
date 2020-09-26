@@ -12,8 +12,8 @@ public class QueueTest {
         Queue queue = new Queue();
         queue.enqueue(4);
         queue.enqueue(6);
-        assertEquals("this queue has a 4 in front ", 4, queue.front);
-        assertEquals("this queue is next", 6, queue.next);
+        assertEquals("this queue is front ", 6, queue.front);
+        assertEquals("this queue is next", 4, queue.back);
     }
 
     @Test
@@ -40,7 +40,7 @@ public class QueueTest {
     public void instantiateEmptyQueue() {
         Queue queue = new Queue();
 
-        assertNull("this queue is empty", queue.next);
+        assertNull("this queue is empty", queue.back);
     }
 
     @Test

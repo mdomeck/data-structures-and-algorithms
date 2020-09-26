@@ -6,9 +6,9 @@ challenges/ArrayShiftTest.java
  challenges.ArrayShiftTest
 challenges/BinarySearchTest.java
  challenges.BinarySearchTest
-dataStructures/stacksandqueues/StackTest.java
- dataStructures.stacksandqueues.StackTest
 dataStructures/stacksandqueues/NodeTest.java
  dataStructures.stacksandqueues.NodeTest
 dataStructures/stacksandqueues/QueueTest.java
  dataStructures.stacksandqueues.QueueTest
+dataStructures/stacksandqueues/StackTest.java
+ dataStructures.stacksandqueues.StackTest

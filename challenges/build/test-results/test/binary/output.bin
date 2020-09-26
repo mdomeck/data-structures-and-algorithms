@@ -1,1 +1,2 @@
-:if body is nullNodeQueue{value=4, next=null, front=null}
+the stack is empty
+the stack is empty
