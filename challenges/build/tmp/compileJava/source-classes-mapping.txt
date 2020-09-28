@@ -9,7 +9,9 @@ challenges/BinarySearch.java
  challenges.BinarySearch
 dataStructures/stacksandqueues/Node.java
  dataStructures.stacksandqueues.Node
-dataStructures/stacksandqueues/Stack.java
- dataStructures.stacksandqueues.Stack
 dataStructures/stacksandqueues/Queue.java
  dataStructures.stacksandqueues.Queue
+dataStructures/stacksandqueues/Stack.java
+ dataStructures.stacksandqueues.Stack
+dataStructures/stacksandqueues/PseudoQueue.java
+ dataStructures.stacksandqueues.PseudoQueue
