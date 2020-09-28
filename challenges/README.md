@@ -6,3 +6,4 @@ Table of Contents
 - [llInsertions.md](LL Insertions); 
 - [kthFromEnd.md](Kth From End);
 - [llZip.md](LL Zip);
+- [pseudoQueue.md](Pseudo Queue);

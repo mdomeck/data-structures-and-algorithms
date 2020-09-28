@@ -44,6 +44,12 @@ public class Stack {
         return top == null;
     }
 
+    @Override
+    public String toString() {
+        return "Stack{" +
+                "top=" + top +
+                '}';
+    }
 }
 
 
