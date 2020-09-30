@@ -25,7 +25,7 @@
     <list default="true" id="474f673a-6c9c-41f2-899e-cab6744a9016" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/animalShelter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/animalShelter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/utilities/StackGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/utilities/StackGeneric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/utilities/AnimalShelterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/utilities/AnimalShelterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +116,7 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AnimalShelterTest.dequeueOtherAnimalNull">
+  <component name="RunManager" selected="Gradle.AnimalShelterTest">
     <configuration name="AnimalShelterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -214,8 +214,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AnimalShelterTest.dequeueOtherAnimalNull" />
         <item itemvalue="Gradle.AnimalShelterTest" />
+        <item itemvalue="Gradle.AnimalShelterTest.dequeueOtherAnimalNull" />
         <item itemvalue="Gradle.AnimalShelterTest.shelterNull" />
         <item itemvalue="Gradle.AnimalShelterTest.animalTest" />
         <item itemvalue="Gradle.AnimalShelterTest.dequeueTest" />
@@ -267,25 +267,25 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601336410908" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1601171940230" />
-    <state width="1346" height="231" key="GridCell.Tab.0.bottom" timestamp="1601431915376">
+    <state width="1342" height="230" key="GridCell.Tab.0.bottom" timestamp="1601434866238">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="231" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601431915376" />
+    <state width="1342" height="230" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601434866238" />
     <state width="1342" height="276" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1346" height="231" key="GridCell.Tab.0.center" timestamp="1601431915376">
+    <state width="1342" height="230" key="GridCell.Tab.0.center" timestamp="1601434866238">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="231" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601431915376" />
+    <state width="1342" height="230" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601434866238" />
     <state width="1342" height="276" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1346" height="231" key="GridCell.Tab.0.left" timestamp="1601431915375">
+    <state width="1342" height="230" key="GridCell.Tab.0.left" timestamp="1601434866237">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="231" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601431915375" />
+    <state width="1342" height="230" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601434866237" />
     <state width="1342" height="276" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1346" height="231" key="GridCell.Tab.0.right" timestamp="1601431915376">
+    <state width="1342" height="230" key="GridCell.Tab.0.right" timestamp="1601434866238">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="231" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601431915376" />
+    <state width="1342" height="230" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601434866238" />
     <state width="1342" height="276" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
     <state width="1346" height="314" key="GridCell.Tab.1.bottom" timestamp="1601335738587">
       <screen x="0" y="0" width="1504" height="963" />

@@ -28,9 +28,22 @@ public class StackGeneric {
             gNode<String> thisNode = front;
             while (thisNode != null) {
                 if (thisNode.getValue() == pref) {
-                    thisNode.getLast().setNext(thisNode.getNext());
-                    thisNode.getNext().setLast(thisNode.getNext());
-                    return thisNode.getValue();
+
+                    if (thisNode.getNext() == null) {
+                        thisNode.getLast().setLast(thisNode.getNext());
+                        front = thisNode.getNext();
+                        return thisNode.getValue();
+
+                    } else if (thisNode.getLast() == null) {
+                        thisNode.getNext().setNext(thisNode.getNext());
+                        back = thisNode.getLast();
+                        return thisNode.getValue();
+
+                    } else {
+                        thisNode.getLast().setNext(thisNode.getNext());
+                        thisNode.getNext().setLast(thisNode.getLast());
+                        return thisNode.getValue();
+                    }
                 }
                 thisNode = thisNode.getNext();
             }

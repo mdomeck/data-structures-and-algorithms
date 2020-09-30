@@ -3,9 +3,8 @@ challenges/ArrayShift.java
 dataStructures/linkedList/LinkedList.java
  dataStructures.linkedList.LinkedList
  dataStructures.linkedList.LinkedList$Node
-dataStructures/utilities/StackGeneric.java
- dataStructures.utilities.StackGeneric
- dataStructures.utilities.StackGeneric$gNode
+dataStructures/utilities/AnimalShelter.java
+ dataStructures.utilities.AnimalShelter
 challenges/Library.java
  challenges.Library
 dataStructures/stacksandqueues/PseudoQueue.java
@@ -18,5 +17,6 @@ challenges/BinarySearch.java
  challenges.BinarySearch
 dataStructures/stacksandqueues/Node.java
  dataStructures.stacksandqueues.Node
-dataStructures/utilities/AnimalShelter.java
- dataStructures.utilities.AnimalShelter
+dataStructures/utilities/StackGeneric.java
+ dataStructures.utilities.StackGeneric
+ dataStructures.utilities.StackGeneric$gNode
