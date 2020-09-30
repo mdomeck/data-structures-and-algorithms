@@ -23,8 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474f673a-6c9c-41f2-899e-cab6744a9016" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/utilities/StackGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/utilities/StackGeneric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/utilities/AnimalShelterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/utilities/AnimalShelterTest.java" afterDir="false" />
     </list>
@@ -116,7 +127,7 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AnimalShelterTest">
+  <component name="RunManager" selected="Gradle.AnimalShelterTest.dequeueLastAnimalNull">
     <configuration name="AnimalShelterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -142,6 +153,25 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;dataStructures.utilities.AnimalShelterTest.animalTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AnimalShelterTest.dequeueLastAnimalNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.utilities.AnimalShelterTest.dequeueLastAnimalNull&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -193,32 +223,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.shelterNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.utilities.AnimalShelterTest.shelterNull&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AnimalShelterTest" />
-        <item itemvalue="Gradle.AnimalShelterTest.dequeueOtherAnimalNull" />
-        <item itemvalue="Gradle.AnimalShelterTest.shelterNull" />
+        <item itemvalue="Gradle.AnimalShelterTest.dequeueLastAnimalNull" />
         <item itemvalue="Gradle.AnimalShelterTest.animalTest" />
         <item itemvalue="Gradle.AnimalShelterTest.dequeueTest" />
+        <item itemvalue="Gradle.AnimalShelterTest.dequeueOtherAnimalNull" />
+        <item itemvalue="Gradle.AnimalShelterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,25 +278,25 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601336410908" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1601171940230" />
-    <state width="1342" height="230" key="GridCell.Tab.0.bottom" timestamp="1601434866238">
+    <state width="1342" height="230" key="GridCell.Tab.0.bottom" timestamp="1601503247856">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="230" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601434866238" />
+    <state width="1342" height="230" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601503247856" />
     <state width="1342" height="276" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1342" height="230" key="GridCell.Tab.0.center" timestamp="1601434866238">
+    <state width="1342" height="230" key="GridCell.Tab.0.center" timestamp="1601503247856">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="230" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601434866238" />
+    <state width="1342" height="230" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601503247856" />
     <state width="1342" height="276" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1342" height="230" key="GridCell.Tab.0.left" timestamp="1601434866237">
+    <state width="1342" height="230" key="GridCell.Tab.0.left" timestamp="1601503247856">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="230" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601434866237" />
+    <state width="1342" height="230" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601503247856" />
     <state width="1342" height="276" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1342" height="230" key="GridCell.Tab.0.right" timestamp="1601434866238">
+    <state width="1342" height="230" key="GridCell.Tab.0.right" timestamp="1601503247856">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1342" height="230" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601434866238" />
+    <state width="1342" height="230" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601503247856" />
     <state width="1342" height="276" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
     <state width="1346" height="314" key="GridCell.Tab.1.bottom" timestamp="1601335738587">
       <screen x="0" y="0" width="1504" height="963" />
