@@ -12,10 +12,8 @@ public class PseudoQueueTest {
         s1.enqueue(7);
         s1.enqueue(2);
         s1.enqueue(5);
-
         System.out.println(s1.toString());
        assertEquals(7, s1.deQueue());
-
     }
 
     @Test public void pseudoQueueEnqueueTest() {
@@ -29,7 +27,6 @@ public class PseudoQueueTest {
         s1.enqueue(7);
         s1.enqueue(2);
         s1.enqueue(5);
-
         assertTrue(s1.deQueue() == 7);
         assertTrue(s1.deQueue() == 2);
         assertTrue(s1.deQueue() == 5);
