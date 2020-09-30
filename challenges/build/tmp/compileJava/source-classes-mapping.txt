@@ -3,15 +3,20 @@ challenges/ArrayShift.java
 dataStructures/linkedList/LinkedList.java
  dataStructures.linkedList.LinkedList
  dataStructures.linkedList.LinkedList$Node
+dataStructures/utilities/StackGeneric.java
+ dataStructures.utilities.StackGeneric
+ dataStructures.utilities.StackGeneric$gNode
 challenges/Library.java
  challenges.Library
-challenges/BinarySearch.java
- challenges.BinarySearch
-dataStructures/stacksandqueues/Node.java
- dataStructures.stacksandqueues.Node
+dataStructures/stacksandqueues/PseudoQueue.java
+ dataStructures.stacksandqueues.PseudoQueue
 dataStructures/stacksandqueues/Queue.java
  dataStructures.stacksandqueues.Queue
 dataStructures/stacksandqueues/Stack.java
  dataStructures.stacksandqueues.Stack
-dataStructures/stacksandqueues/PseudoQueue.java
- dataStructures.stacksandqueues.PseudoQueue
+challenges/BinarySearch.java
+ challenges.BinarySearch
+dataStructures/stacksandqueues/Node.java
+ dataStructures.stacksandqueues.Node
+dataStructures/utilities/AnimalShelter.java
+ dataStructures.utilities.AnimalShelter

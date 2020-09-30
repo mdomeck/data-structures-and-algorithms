@@ -24,8 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="474f673a-6c9c-41f2-899e-cab6744a9016" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/stacksandqueues/READMEstacksandqueues.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/READMEstacksandqueues.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/animalShelter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/animalShelter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/utilities/AnimalShelterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/utilities/AnimalShelterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,13 +116,13 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PseudoQueueTest">
-    <configuration name="PseudoQueueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AnimalShelterTest.dequeueOtherAnimalNull">
+    <configuration name="AnimalShelterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.PseudoQueueTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.utilities.AnimalShelterTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -135,12 +136,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.emptyPseudoQueueException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.animalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.PseudoQueueTest.emptyPseudoQueueException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.utilities.AnimalShelterTest.animalTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -154,12 +155,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.pseudoQueueDequeueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.dequeueOtherAnimalNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.PseudoQueueTest.pseudoQueueDequeueTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.utilities.AnimalShelterTest.dequeueOtherAnimalNull&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -173,12 +174,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.pseudoQueueEnqueueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.dequeueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.PseudoQueueTest.pseudoQueueEnqueueTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.utilities.AnimalShelterTest.dequeueTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -192,12 +193,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.testEnqueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalShelterTest.shelterNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.PseudoQueueTest.testEnqueue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.utilities.AnimalShelterTest.shelterNull&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -213,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PseudoQueueTest" />
-        <item itemvalue="Gradle.PseudoQueueTest.emptyPseudoQueueException" />
-        <item itemvalue="Gradle.PseudoQueueTest.testEnqueue" />
-        <item itemvalue="Gradle.PseudoQueueTest.pseudoQueueDequeueTest" />
-        <item itemvalue="Gradle.PseudoQueueTest.pseudoQueueEnqueueTest" />
+        <item itemvalue="Gradle.AnimalShelterTest.dequeueOtherAnimalNull" />
+        <item itemvalue="Gradle.AnimalShelterTest" />
+        <item itemvalue="Gradle.AnimalShelterTest.shelterNull" />
+        <item itemvalue="Gradle.AnimalShelterTest.animalTest" />
+        <item itemvalue="Gradle.AnimalShelterTest.dequeueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,58 +250,62 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="0" y="113" key="#Project_Structure/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600484564342" />
-    <state x="560" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1601334015982">
+    <state x="1040" y="427" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601406373420">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="560" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601334015982" />
+    <state x="1040" y="427" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601406373420" />
+    <state x="560" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1601428616960">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="560" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601428616960" />
     <state x="368" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600717664419">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="368" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600717664419" />
-    <state x="545" y="232" key="FileChooserDialogImpl" timestamp="1601171940230">
+    <state x="545" y="232" key="FileChooserDialogImpl" timestamp="1601336410908">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600985853764" />
+    <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601336410908" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1601171940230" />
-    <state width="1346" height="314" key="GridCell.Tab.0.bottom" timestamp="1601334575396">
+    <state width="1346" height="231" key="GridCell.Tab.0.bottom" timestamp="1601431915376">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="314" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601334575396" />
+    <state width="1346" height="231" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601431915376" />
     <state width="1342" height="276" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1346" height="314" key="GridCell.Tab.0.center" timestamp="1601334575396">
+    <state width="1346" height="231" key="GridCell.Tab.0.center" timestamp="1601431915376">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="314" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601334575396" />
+    <state width="1346" height="231" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601431915376" />
     <state width="1342" height="276" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1346" height="314" key="GridCell.Tab.0.left" timestamp="1601334575396">
+    <state width="1346" height="231" key="GridCell.Tab.0.left" timestamp="1601431915375">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="314" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601334575396" />
+    <state width="1346" height="231" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601431915375" />
     <state width="1342" height="276" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1346" height="314" key="GridCell.Tab.0.right" timestamp="1601334575396">
+    <state width="1346" height="231" key="GridCell.Tab.0.right" timestamp="1601431915376">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="314" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601334575396" />
+    <state width="1346" height="231" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601431915376" />
     <state width="1342" height="276" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1346" height="314" key="GridCell.Tab.1.bottom" timestamp="1601334575396">
+    <state width="1346" height="314" key="GridCell.Tab.1.bottom" timestamp="1601335738587">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="314" key="GridCell.Tab.1.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601334575396" />
+    <state width="1346" height="314" key="GridCell.Tab.1.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601335738587" />
     <state width="1342" height="314" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1601093282832" />
-    <state width="1346" height="314" key="GridCell.Tab.1.center" timestamp="1601334575396">
+    <state width="1346" height="314" key="GridCell.Tab.1.center" timestamp="1601335738587">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="314" key="GridCell.Tab.1.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601334575396" />
+    <state width="1346" height="314" key="GridCell.Tab.1.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601335738587" />
     <state width="1342" height="314" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1601093282832" />
-    <state width="1346" height="314" key="GridCell.Tab.1.left" timestamp="1601334575396">
+    <state width="1346" height="314" key="GridCell.Tab.1.left" timestamp="1601335738587">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="314" key="GridCell.Tab.1.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601334575396" />
+    <state width="1346" height="314" key="GridCell.Tab.1.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601335738587" />
     <state width="1342" height="314" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1601093282832" />
-    <state width="1346" height="314" key="GridCell.Tab.1.right" timestamp="1601334575396">
+    <state width="1346" height="314" key="GridCell.Tab.1.right" timestamp="1601335738587">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1346" height="314" key="GridCell.Tab.1.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601334575396" />
+    <state width="1346" height="314" key="GridCell.Tab.1.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601335738587" />
     <state width="1342" height="314" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1601093282832" />
     <state x="444" y="0" width="1074" height="942" key="dock-window-1" timestamp="1601331260443">
       <screen x="0" y="0" width="1504" height="963" />

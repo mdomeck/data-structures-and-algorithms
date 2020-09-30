@@ -32,7 +32,7 @@ public class PseudoQueue {
         }
         int value = s1.peek();
         s1.pop();
-        return value;
+        return s1.pop();
 
     }
 

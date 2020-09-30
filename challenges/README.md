@@ -7,3 +7,4 @@ Table of Contents
 - [kthFromEnd.md](Kth From End);
 - [llZip.md](LL Zip);
 - [pseudoQueue.md](Pseudo Queue);
+- [animalShelter.md](Animal Shelter);
