@@ -5,7 +5,7 @@
 - dequeue(preference) extracts value dog, cat or null
 ## Challenge
 <!-- Description of the challenge -->
-- AnimalShelter holds only dogs and cats. FIFO. To dequeue kept track of the Node in front and behind it so that the first dog or cat could be returned. Null is returned for any other request. 
+- AnimalShelter holds only dogs and cats. FIFO. To dequeue kept track of the Node in front and behind it so that the first dog or cat could be returned. If request is not for dog or cat then null is returned. 
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->

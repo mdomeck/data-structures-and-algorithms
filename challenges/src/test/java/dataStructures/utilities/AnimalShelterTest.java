@@ -52,13 +52,12 @@ public class AnimalShelterTest {
     }
     @Test public void dequeueOtherAnimalNull(){
         StackGeneric newStackGeneric = new StackGeneric();
-        StackGeneric.gNode<String> nullAnimalTest = new StackGeneric.gNode<>("pig");
+        StackGeneric.gNode<String> nullAnimalTest = new StackGeneric.gNode<>("dog");
         newStackGeneric.enqueue("dog");
         newStackGeneric.enqueue("dog");
         newStackGeneric.enqueue("pig");
-        System.out.println(newStackGeneric.dequeue("dog"));
-        System.out.println(newStackGeneric.dequeue("dog"));
-        assertTrue(newStackGeneric.dequeue("pig"), true);
+        System.out.println(newStackGeneric.dequeue("pig"));
+        assertTrue(newStackGeneric.dequeue("null"), true);
     }
 
 
