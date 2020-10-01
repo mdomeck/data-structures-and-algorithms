@@ -5,8 +5,8 @@ dataStructures/linkedList/LinkedList.java
  dataStructures.linkedList.LinkedList$Node
 dataStructures/utilities/AnimalShelter.java
  dataStructures.utilities.AnimalShelter
-dataStructures/utilities/MultiBracketValidation.java
- dataStructures.utilities.MultiBracketValidation
+challenges/Library.java
+ challenges.Library
 dataStructures/utilities/StackGeneric.java
  dataStructures.utilities.StackGeneric
  dataStructures.utilities.StackGeneric$gNode
@@ -20,5 +20,5 @@ challenges/BinarySearch.java
  challenges.BinarySearch
 dataStructures/stacksandqueues/Node.java
  dataStructures.stacksandqueues.Node
-challenges/Library.java
- challenges.Library
+dataStructures/utilities/MultiBracketValidation.java
+ dataStructures.utilities.MultiBracketValidation
