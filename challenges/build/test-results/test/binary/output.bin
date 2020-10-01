@@ -1,1 +1,0 @@
-jStackGeneric{front=gNode{value=dog, next=gNode{value=cat, next=null}}, back=gNode{value=cat, next=null}}
