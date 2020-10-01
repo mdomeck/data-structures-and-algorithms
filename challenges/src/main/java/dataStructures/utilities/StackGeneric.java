@@ -26,17 +26,37 @@ public class StackGeneric {
             }
 
             gNode<String> thisNode = front;
+
             while (thisNode != null) {
                 if (thisNode.getValue() == pref) {
-                    thisNode.getLast().setNext(thisNode.getNext());
-                    thisNode.getNext().setLast(thisNode.getNext());
-                    return thisNode.getValue();
+                    if (thisNode.getLast() == null && thisNode.getNext() == null) {
+                        String returnValue = thisNode.getValue();
+                        front = null;
+                        back = null;
+                        return returnValue;
+                    }
+                    if (thisNode.getLast() == null) {
+                        thisNode.getNext().setLast(null);
+                        back = thisNode.getNext();
+                        return thisNode.getValue();
+
+                    } else if (thisNode.getNext() == null) {
+                        thisNode.getLast().setNext(null);
+                        front = thisNode.getLast();
+                        return thisNode.getValue();
+
+                    } else {
+                        thisNode.getNext().setLast(thisNode.getLast());
+                        thisNode.getLast().setNext(thisNode.getNext());
+                        return thisNode.getValue();
+                    }
                 }
-                thisNode = thisNode.getNext();
+                thisNode = thisNode.getLast();
             }
             return String.format("Sorry, we are out of animals");
+        } else {
+            return null;
         }
-        return null;
     }
 
 

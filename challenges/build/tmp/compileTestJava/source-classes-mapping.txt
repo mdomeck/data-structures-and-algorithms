@@ -4,6 +4,8 @@ dataStructures/linkedList/LinkedListTest.java
  dataStructures.linkedList.LinkedListTest
 dataStructures/stacksandqueues/QueueTest.java
  dataStructures.stacksandqueues.QueueTest
+dataStructures/utilities/AnimalShelterTest.java
+ dataStructures.utilities.AnimalShelterTest
 challenges/LibraryTest.java
  challenges.LibraryTest
 challenges/ArrayShiftTest.java
@@ -14,5 +16,5 @@ dataStructures/stacksandqueues/StackTest.java
  dataStructures.stacksandqueues.StackTest
 dataStructures/stacksandqueues/NodeTest.java
  dataStructures.stacksandqueues.NodeTest
-dataStructures/utilities/AnimalShelterTest.java
- dataStructures.utilities.AnimalShelterTest
+dataStructures/utilities/MultiBracketValidationTest.java
+ dataStructures.utilities.MultiBracketValidationTest
