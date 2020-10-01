@@ -8,3 +8,4 @@ Table of Contents
 - [llZip.md](LL Zip);
 - [pseudoQueue.md](Pseudo Queue);
 - [animalShelter.md](Animal Shelter);
+- [multiBracketValidation.md](Multi Bracket Validation);
