@@ -7,6 +7,9 @@ dataStructures/utilities/AnimalShelter.java
  dataStructures.utilities.AnimalShelter
 challenges/Library.java
  challenges.Library
+dataStructures/utilities/StackGeneric.java
+ dataStructures.utilities.StackGeneric
+ dataStructures.utilities.StackGeneric$gNode
 dataStructures/stacksandqueues/PseudoQueue.java
  dataStructures.stacksandqueues.PseudoQueue
 dataStructures/stacksandqueues/Queue.java
@@ -17,6 +20,5 @@ challenges/BinarySearch.java
  challenges.BinarySearch
 dataStructures/stacksandqueues/Node.java
  dataStructures.stacksandqueues.Node
-dataStructures/utilities/StackGeneric.java
- dataStructures.utilities.StackGeneric
- dataStructures.utilities.StackGeneric$gNode
+dataStructures/utilities/MultiBracketValidation.java
+ dataStructures.utilities.MultiBracketValidation
