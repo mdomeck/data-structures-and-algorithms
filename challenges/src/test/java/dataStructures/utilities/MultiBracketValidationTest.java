@@ -24,19 +24,15 @@ public class MultiBracketValidationTest {
 
     @Test
     public void removeCurlyBrackets() {
-//        assertTrue(MultiBracketValidation.testForMirrors("{}"));
-//        assertTrue(MultiBracketValidation.testForMirrors("{{}}"));
-//        assertTrue(MultiBracketValidation.testForMirrors("{{a}"));
-//        assertTrue(MultiBracketValidation.testForMirrors("a{a}"));
+        assertTrue(MultiBracketValidation.testForMirrors("{}"));
+        assertTrue(MultiBracketValidation.testForMirrors("{}()[]"));
+        assertTrue(MultiBracketValidation.testForMirrors("{{a}}"));
+        assertTrue(MultiBracketValidation.testForMirrors("a{a}"));
         assertTrue(MultiBracketValidation.testForMirrors("{}a()"));
-
-//        assertFalse(MultiBracketValidation.testForMirrors("{)}"));
-//        assertFalse(MultiBracketValidation.testForMirrors("{[}"));
-//        assertFalse(MultiBracketValidation.testForMirrors("}{)}"));
-
-
+        assertFalse(MultiBracketValidation.testForMirrors("{)}"));
+        assertFalse(MultiBracketValidation.testForMirrors("{[}"));
+        assertFalse(MultiBracketValidation.testForMirrors("}{)}"));
 
     }
-
 
 }
