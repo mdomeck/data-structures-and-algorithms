@@ -24,9 +24,9 @@ dataStructures/utilities/MultiBracketValidation.java
  dataStructures.utilities.MultiBracketValidation
 dataStructures/tree/Node.java
  dataStructures.tree.Node
-dataStructures/tree/BinarySearchTree.java
- dataStructures.tree.BinarySearchTree
-dataStructures/tree/BinaryTree.java
- dataStructures.tree.BinaryTree
 dataStructures/tree/Tree.java
  dataStructures.tree.Tree
+dataStructures/tree/BinaryTree.java
+ dataStructures.tree.BinaryTree
+dataStructures/tree/BinarySearchTree.java
+ dataStructures.tree.BinarySearchTree

@@ -1,12 +1,20 @@
 package dataStructures.tree;
 
+import challenges.BinarySearch;
+
 import java.util.ArrayList;
 
 public class BinaryTree extends Tree {
 
 
+
+
     public BinaryTree(Node root) {
         super(root);
+    }
+
+    public BinaryTree(){
+        super();
     }
 
     public ArrayList<Integer> preOrder(Node current, ArrayList<Integer> outputArray) {
