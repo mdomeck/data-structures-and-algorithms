@@ -65,17 +65,16 @@ public class AnimalShelterTest {
         assertTrue(newStackGeneric.dequeue("null"), true);
     }
 
-//    @Test
-//    public void dequeueLastAnimalNull() {
-//        StackGeneric newStackGeneric = new StackGeneric();
-//        //StackGeneric.gNode<String> nullAnimalTest = new StackGeneric.gNode<>("dog");
-//        newStackGeneric.enqueue("dog");
-//        newStackGeneric.enqueue("cat");
-//        System.out.println(newStackGeneric.toString());
-//        assertEquals("no pref? your get last cat!", "dog", newStackGeneric.dequeue("dog"));
-//        assertEquals("no pref? your get last dog!", "cat", newStackGeneric.dequeue("cat"));
-//        assertEquals("We are out of pets!", "Sorry, we are out of animals", newStackGeneric.dequeue("Sorry, we are out of animals"));
-//
-//
-//    }
+    @Test
+    public void dequeueLastAnimalNull() {
+        StackGeneric newStackGeneric = new StackGeneric();
+        newStackGeneric.enqueue("dog");
+        newStackGeneric.enqueue("cat");
+        System.out.println(newStackGeneric.toString());
+        assertEquals("no pref? your get last dog!", "dog", newStackGeneric.dequeue("dog"));
+        //assertEquals("no pref? your get last cat!", "cat", newStackGeneric.dequeue("cat"));
+        assertEquals("We are out of pets!", "null", newStackGeneric.dequeue("Sorry, we are out of animals"));
+
+
+    }
 }
