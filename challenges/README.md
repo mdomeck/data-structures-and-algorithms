@@ -9,3 +9,4 @@ Table of Contents
 - [pseudoQueue.md](Pseudo Queue);
 - [animalShelter.md](Animal Shelter);
 - [multiBracketValidation.md](Multi Bracket Validation);
+- [Find Max Value](maxvalue.md);

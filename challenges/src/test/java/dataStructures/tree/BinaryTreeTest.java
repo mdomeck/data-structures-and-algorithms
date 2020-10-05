@@ -1,10 +1,12 @@
 package dataStructures.tree;
 
+import challenges.BinarySearch;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
 
 public class BinaryTreeTest {
 
@@ -63,5 +65,20 @@ public class BinaryTreeTest {
         assertEquals("should be values of the nosed as the are passed", "[1, 3, 2, 5, 7, 6, 4]", tree.postOrder(tree.getRoot(), new ArrayList<Integer>()).toString());
     }
 
+
+    @Test
+    public void findMaxTest() throws Exception {
+        Node rootNode = makeTree();
+
+        BinaryTree tree = new BinaryTree(rootNode);
+        System.out.println(tree.findMaxValue());
+        assertEquals("returns max value", 7, tree.findMaxValue());
+    }
+
+    @Test
+    public void findMaxEmptyTest() {
+        BinaryTree tree = new BinaryTree(null);
+        assertThrows(Exception.class, () -> tree.findMaxValue());
+    }
 
 }
