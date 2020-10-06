@@ -16,13 +16,13 @@ dataStructures/linkedList/LinkedListTest.java
  dataStructures.linkedList.LinkedListTest
 dataStructures/utilities/AnimalShelterTest.java
  dataStructures.utilities.AnimalShelterTest
-dataStructures/tree/BinaryTreeTest.java
- dataStructures.tree.BinaryTreeTest
+challenges/LibraryTest.java
+ challenges.LibraryTest
 dataStructures/tree/NodeTest.java
  dataStructures.tree.NodeTest
 dataStructures/stacksandqueues/StackTest.java
  dataStructures.stacksandqueues.StackTest
-challenges/LibraryTest.java
- challenges.LibraryTest
 dataStructures/tree/BinarySearchTreeTeat.java
  dataStructures.tree.BinarySearchTreeTeat
+dataStructures/tree/BinaryTreeTest.java
+ dataStructures.tree.BinaryTreeTest

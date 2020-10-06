@@ -52,4 +52,27 @@ public class BinaryTree extends Tree {
         return outputArray;
     }
 
+    public int findMaxValue() throws Exception{
+
+        if (root == null) {
+            throw new Exception();
+        }
+        int max = findMaxHelper(this.root, root.value);
+
+        return max;
+    }
+
+    private int findMaxHelper(Node current, int max){
+
+        if (current.value > max){
+            max = current.value;
+        }
+        if (current.left != null) {
+            max = findMaxHelper(current.left, max);
+        }
+        if (current.right != null) {
+            max = findMaxHelper(current.right, max);
+        }
+        return max;
+    }
 }
