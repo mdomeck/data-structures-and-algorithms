@@ -81,4 +81,20 @@ public class BinaryTreeTest {
         assertThrows(Exception.class, () -> tree.findMaxValue());
     }
 
+    @Test
+    public void breadthFirstNullTest(){
+        BinaryTree tree = new BinaryTree();
+        assertEquals("empty tree", "null", tree.breathFirstTraversal());
+    }
+
+    @Test
+    public void breadthFirstTreeTest(){
+        Node rootNode = makeTree();
+        BinaryTree tree = new BinaryTree(rootNode);
+        assertEquals("[4, 2, 6, 1, 3, 5, 7]", tree.breathFirstTraversal());
+    }
+
+
+
+
 }
