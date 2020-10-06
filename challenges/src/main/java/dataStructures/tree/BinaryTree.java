@@ -3,6 +3,8 @@ package dataStructures.tree;
 import challenges.BinarySearch;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class BinaryTree extends Tree {
 
@@ -75,4 +77,27 @@ public class BinaryTree extends Tree {
         }
         return max;
     }
+
+    public String breathFirstTraversal(){
+        ArrayList<Integer> output = new ArrayList<>();
+        Queue<Node> queue = new LinkedList<>();
+        if (getRoot() == null) {
+            return "null";
+        }
+        queue.add(getRoot());
+        while(!queue.isEmpty()){
+            Node current = queue.remove();
+            output.add(current.getValue());
+            if(current.getLeft() != null){
+                queue.add(current.getLeft());
+            }
+            if(current.getRight() != null){
+                queue.add(current.getRight());
+            }
+        }
+        return output.toString();
+
+    }
+
+
 }

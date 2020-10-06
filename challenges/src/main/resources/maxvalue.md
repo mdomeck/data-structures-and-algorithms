@@ -1,4 +1,4 @@
-# PseudoQueue
+# Max Value
 <!-- Short summary or background information -->
 - Traverse a binary tree and return max value
 
