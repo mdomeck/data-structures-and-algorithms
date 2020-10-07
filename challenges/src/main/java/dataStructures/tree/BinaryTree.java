@@ -1,7 +1,9 @@
 package dataStructures.tree;
 
 import challenges.BinarySearch;
+import dataStructures.utilities.StackGeneric;
 
+import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -99,5 +101,35 @@ public class BinaryTree extends Tree {
 
     }
 
+
+    public static Gtree<StackGeneric.gNode> fizzBuzzTree(Gtree oldTree) throws Exception {
+        if(oldTree.root != null){
+            Gtree gtree = new Gtree();
+            gtree.root = recursiveFunctionWalk((StackGeneric.gNode) oldTree.root);
+            return gtree;
+        } else {
+            throw new Exception("Nothing here");
+        }
+    }
+
+    private static StackGeneric.gNode recursiveFunctionWalk(StackGeneric.gNode currentNode){
+        String newValue = BinaryTree.fizzingBuzzingFunction((String) currentNode.getValue());
+        return new StackGeneric.gNode(newValue);
+    }
+
+
+    public static String fizzingBuzzingFunction(String value) {
+        if (Integer.parseInt(value) % 3 == 0 && Integer.parseInt(value) % 5 == 0) {
+            return "fizzbuzz";
+        }
+        if (Integer.parseInt(value) % 3 == 0) {
+            return "fizz";
+        }
+        if (Integer.parseInt(value) % 5 == 0) {
+            return "buzz";
+        } else {
+            return value;
+        }
+    }
 
 }

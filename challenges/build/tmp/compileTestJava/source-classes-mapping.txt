@@ -22,7 +22,7 @@ dataStructures/tree/NodeTest.java
  dataStructures.tree.NodeTest
 dataStructures/stacksandqueues/StackTest.java
  dataStructures.stacksandqueues.StackTest
-dataStructures/tree/BinarySearchTreeTeat.java
- dataStructures.tree.BinarySearchTreeTeat
 dataStructures/tree/BinaryTreeTest.java
  dataStructures.tree.BinaryTreeTest
+dataStructures/tree/BinarySearchTreeTeat.java
+ dataStructures.tree.BinarySearchTreeTeat
