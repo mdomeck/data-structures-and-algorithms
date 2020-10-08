@@ -10,3 +10,4 @@ Table of Contents
 - [animalShelter.md](Animal Shelter);
 - [multiBracketValidation.md](Multi Bracket Validation);
 - [Find Max Value](maxvalue.md);
+- [Fizz Buzz Tree](fizzbuzz.md)
