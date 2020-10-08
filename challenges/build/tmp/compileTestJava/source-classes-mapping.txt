@@ -14,15 +14,17 @@ dataStructures/stacksandqueues/NodeTest.java
  dataStructures.stacksandqueues.NodeTest
 dataStructures/linkedList/LinkedListTest.java
  dataStructures.linkedList.LinkedListTest
-dataStructures/utilities/AnimalShelterTest.java
- dataStructures.utilities.AnimalShelterTest
+dataStructures/stacksandqueues/StackTest.java
+ dataStructures.stacksandqueues.StackTest
 challenges/LibraryTest.java
  challenges.LibraryTest
 dataStructures/tree/NodeTest.java
  dataStructures.tree.NodeTest
-dataStructures/stacksandqueues/StackTest.java
- dataStructures.stacksandqueues.StackTest
 dataStructures/tree/BinarySearchTreeTeat.java
  dataStructures.tree.BinarySearchTreeTeat
+dataStructures/utilities/AnimalShelterTest.java
+ dataStructures.utilities.AnimalShelterTest
 dataStructures/tree/BinaryTreeTest.java
  dataStructures.tree.BinaryTreeTest
+dataStructures/tree/FizzBuzzTreeTest.java
+ dataStructures.tree.FizzBuzzTreeTest

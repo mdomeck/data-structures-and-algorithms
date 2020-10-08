@@ -70,8 +70,8 @@ public class StackGeneric {
 
     public static class gNode<T> {
         T value;
-        gNode<T> next;
-        gNode<T> last;
+        public gNode<T> next;
+        public gNode<T> last;
 
 //        public gNode(T value) {
 //            this.value = value;

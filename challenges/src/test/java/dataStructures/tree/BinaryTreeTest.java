@@ -1,6 +1,7 @@
 package dataStructures.tree;
 
 import challenges.BinarySearch;
+import dataStructures.utilities.StackGeneric;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -93,8 +94,6 @@ public class BinaryTreeTest {
         BinaryTree tree = new BinaryTree(rootNode);
         assertEquals("[4, 2, 6, 1, 3, 5, 7]", tree.breathFirstTraversal());
     }
-
-
 
 
 }
