@@ -23,10 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474f673a-6c9c-41f2-899e-cab6744a9016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/tree/Gtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/tree/Gtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/tree/GtreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/tree/GtreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/tree/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/tree/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/tree/FizzBuzzTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/tree/FizzBuzzTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,13 +114,13 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FizzBuzzTreeTest.fizzBuzzTreeTestSixNodes">
-    <configuration name="BinaryTreeTest.fizzBuzzTreeTestException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FizzBuzzTreeTest">
+    <configuration name="FizzBuzzTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.tree.BinaryTreeTest.fizzBuzzTreeTestException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.tree.FizzBuzzTreeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -136,12 +134,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FizzBuzzTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FizzBuzzTreeTest.fizzBuzzTreeTestException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.tree.FizzBuzzTreeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.tree.FizzBuzzTreeTest.fizzBuzzTreeTestException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -214,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FizzBuzzTreeTest" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTreeTestOneRoot" />
+        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTreeTestException" />
         <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTreeTestSixNodes" />
         <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTreeTestThreeNodes" />
-        <item itemvalue="Gradle.FizzBuzzTreeTest.fizzBuzzTreeTestOneRoot" />
-        <item itemvalue="Gradle.FizzBuzzTreeTest" />
-        <item itemvalue="Gradle.BinaryTreeTest.fizzBuzzTreeTestException" />
       </list>
     </recent_temporary>
   </component>
@@ -267,25 +265,25 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601956661260" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1601171940230" />
-    <state width="1461" height="181" key="GridCell.Tab.0.bottom" timestamp="1602122912411">
+    <state width="1342" height="181" key="GridCell.Tab.0.bottom" timestamp="1602123888386">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="181" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602122912411" />
+    <state width="1342" height="181" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602123888386" />
     <state width="1342" height="276" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1461" height="181" key="GridCell.Tab.0.center" timestamp="1602122912411">
+    <state width="1342" height="181" key="GridCell.Tab.0.center" timestamp="1602123888386">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="181" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602122912411" />
+    <state width="1342" height="181" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602123888386" />
     <state width="1342" height="276" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1461" height="181" key="GridCell.Tab.0.left" timestamp="1602122912410">
+    <state width="1342" height="181" key="GridCell.Tab.0.left" timestamp="1602123888386">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="181" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602122912410" />
+    <state width="1342" height="181" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602123888386" />
     <state width="1342" height="276" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1461" height="181" key="GridCell.Tab.0.right" timestamp="1602122912411">
+    <state width="1342" height="181" key="GridCell.Tab.0.right" timestamp="1602123888386">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="181" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602122912411" />
+    <state width="1342" height="181" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602123888386" />
     <state width="1342" height="276" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
     <state width="1342" height="315" key="GridCell.Tab.1.bottom" timestamp="1601535756820">
       <screen x="0" y="0" width="1504" height="963" />

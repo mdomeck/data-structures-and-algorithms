@@ -28,12 +28,12 @@ public class FizzBuzzTreeTest {
     }
 
 
-    @Test
-    public void fizzBuzzTreeTestOneRoot() throws Exception {
-        Gtree tree = new Gtree();
-        tree.add("500");
-        assertEquals("root=GtreeNode{value=buzz}", FizzBuzzTree.fizzBuzzTree(tree).toString());
-    }
+//    @Test
+//    public void fizzBuzzTreeTestOneRoot() throws Exception {
+//        Gtree tree = new Gtree();
+//        tree.add("500");
+//        assertEquals("root=GtreeNode{value=buzz}", FizzBuzzTree.fizzBuzzTree(tree).toString());
+//    }
 
     @Test
     public void fizzBuzzTreeTestThreeNodes() throws Exception {
