@@ -5,37 +5,38 @@ import dataStructures.utilities.StackGeneric;
 public class Gtree<T>{
 
 
-    StackGeneric.gNode root = null;
+    GtreeNode root = null;
 
     public Gtree(){}
 
     public Gtree(T root) {
 
-        this.root = new StackGeneric.gNode(root);
+        this.root = new GtreeNode(root);
     }
 
-
+    // Veej sent helper code
     public T getRoot() {
+
         return (T) root.getValue();
     }
 
     public void setRoot(T root) {
-        this.root = (StackGeneric.gNode) root;
+        this.root = new GtreeNode(root);
     }
 
     Gqueue rootQueue;
     // use breadth traversal to add to the tree
     public void add(T newVal){
         if (this.root == null) {
-            this.root = new StackGeneric.gNode(newVal);
+            this.root = new GtreeNode(newVal);
             return;
         }
         rootQueue = new Gqueue();
-        StackGeneric.gNode newNode = new StackGeneric.gNode(newVal);
+        GtreeNode newNode = new GtreeNode(newVal);
         this._walk(this.root, newNode);
         //while loop is checking the queue and dequeing and then find the spot where there is null and assign the newNode to that spot
     }
-    private void _walk(StackGeneric.gNode<T> newRoot, StackGeneric.gNode<T> newNode){
+    private void _walk(GtreeNode<T> newRoot, GtreeNode<T> newNode){
         if (newRoot.left != null){ rootQueue.enqueue(newRoot.left);}
         else {
             newRoot.left = newNode;
@@ -46,7 +47,7 @@ public class Gtree<T>{
             newRoot.right = newNode;
             return;
         }
-        NodeTree<T> temp = rootQueue.dequeue();
+        GtreeNode<T> temp = rootQueue.dequeue();
         _walk(temp, newNode);
         return;
 
