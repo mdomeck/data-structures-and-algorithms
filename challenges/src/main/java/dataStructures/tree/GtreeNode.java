@@ -26,4 +26,13 @@ public class GtreeNode<T> {
     public GtreeNode getRight() {
         return right;
     }
+
+    @Override
+    public String toString() {
+        return "GtreeNode{" +
+                "value=" + value +
+                ", left=" + left +
+                ", right=" + right +
+                '}';
+    }
 }

@@ -11,11 +11,17 @@ dataStructures/utilities/MultiBracketValidation.java
  dataStructures.utilities.MultiBracketValidation
 dataStructures/stacksandqueues/PseudoQueue.java
  dataStructures.stacksandqueues.PseudoQueue
+challenges/BinarySearch.java
+ challenges.BinarySearch
 dataStructures/linkedList/LinkedList.java
  dataStructures.linkedList.LinkedList
  dataStructures.linkedList.LinkedList$Node
-dataStructures/tree/Gtree.java
- dataStructures.tree.Gtree
+dataStructures/tree/Gqueue.java
+ dataStructures.tree.Gqueue
+challenges/Library.java
+ challenges.Library
+dataStructures/stacksandqueues/Node.java
+ dataStructures.stacksandqueues.Node
 dataStructures/tree/BinarySearchTree.java
  dataStructures.tree.BinarySearchTree
 dataStructures/stacksandqueues/Queue.java
@@ -26,9 +32,9 @@ dataStructures/tree/Tree.java
  dataStructures.tree.Tree
 dataStructures/tree/Node.java
  dataStructures.tree.Node
-challenges/BinarySearch.java
- challenges.BinarySearch
-dataStructures/stacksandqueues/Node.java
- dataStructures.stacksandqueues.Node
-challenges/Library.java
- challenges.Library
+dataStructures/tree/GtreeNode.java
+ dataStructures.tree.GtreeNode
+dataStructures/tree/FizzBuzzTree.java
+ dataStructures.tree.FizzBuzzTree
+dataStructures/tree/Gtree.java
+ dataStructures.tree.Gtree
