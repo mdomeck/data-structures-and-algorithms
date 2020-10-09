@@ -37,12 +37,12 @@ public class StackGeneric {
                     }
                     if (thisNode.getLast() == null) {
                         thisNode.getNext().setLast(null);
-                        back = thisNode.getNext();
+                        front = thisNode.getNext();
                         return thisNode.getValue();
 
                     } else if (thisNode.getNext() == null) {
                         thisNode.getLast().setNext(null);
-                        front = thisNode.getLast();
+                        back = thisNode.getLast();
                         return thisNode.getValue();
 
                     } else {
@@ -51,7 +51,7 @@ public class StackGeneric {
                         return thisNode.getValue();
                     }
                 }
-                thisNode = thisNode.getLast();
+                thisNode = thisNode.getNext();
             }
             return String.format("Sorry, we are out of animals");
         } else {
@@ -73,9 +73,7 @@ public class StackGeneric {
         public gNode<T> next;
         public gNode<T> last;
 
-//        public gNode(T value) {
-//            this.value = value;
-//        }
+
 
         public gNode(T value) {
             this.value = value;

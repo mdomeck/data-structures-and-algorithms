@@ -2,9 +2,8 @@ challenges/ArrayShift.java
  challenges.ArrayShift
 dataStructures/tree/BinaryTree.java
  dataStructures.tree.BinaryTree
-dataStructures/utilities/StackGeneric.java
- dataStructures.utilities.StackGeneric
- dataStructures.utilities.StackGeneric$gNode
+dataStructures/tree/FizzBuzzTree.java
+ dataStructures.tree.FizzBuzzTree
 dataStructures/utilities/AnimalShelter.java
  dataStructures.utilities.AnimalShelter
 dataStructures/utilities/MultiBracketValidation.java
@@ -16,8 +15,8 @@ challenges/BinarySearch.java
 dataStructures/linkedList/LinkedList.java
  dataStructures.linkedList.LinkedList
  dataStructures.linkedList.LinkedList$Node
-dataStructures/tree/Gqueue.java
- dataStructures.tree.Gqueue
+dataStructures/tree/Gtree.java
+ dataStructures.tree.Gtree
 challenges/Library.java
  challenges.Library
 dataStructures/stacksandqueues/Node.java
@@ -34,7 +33,8 @@ dataStructures/tree/Node.java
  dataStructures.tree.Node
 dataStructures/tree/GtreeNode.java
  dataStructures.tree.GtreeNode
-dataStructures/tree/FizzBuzzTree.java
- dataStructures.tree.FizzBuzzTree
-dataStructures/tree/Gtree.java
- dataStructures.tree.Gtree
+dataStructures/tree/Gqueue.java
+ dataStructures.tree.Gqueue
+dataStructures/utilities/StackGeneric.java
+ dataStructures.utilities.StackGeneric
+ dataStructures.utilities.StackGeneric$gNode
