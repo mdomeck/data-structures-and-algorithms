@@ -72,8 +72,8 @@ public class AnimalShelterTest {
         newStackGeneric.enqueue("cat");
         System.out.println(newStackGeneric.toString());
         assertEquals("no pref? your get last dog!", "dog", newStackGeneric.dequeue("dog"));
-        //assertEquals("no pref? your get last cat!", "cat", newStackGeneric.dequeue("cat"));
-        assertEquals("We are out of pets!", "null", newStackGeneric.dequeue("Sorry, we are out of animals"));
+        assertEquals("no pref? your get last cat!", "cat", newStackGeneric.dequeue("cat"));
+        assertEquals("We are out of pets!", "We are out of animals", newStackGeneric.dequeue("cat"));
 
 
     }

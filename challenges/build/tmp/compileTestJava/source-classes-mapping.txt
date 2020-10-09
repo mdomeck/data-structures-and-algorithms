@@ -6,25 +6,25 @@ dataStructures/stacksandqueues/QueueTest.java
  dataStructures.stacksandqueues.QueueTest
 dataStructures/utilities/MultiBracketValidationTest.java
  dataStructures.utilities.MultiBracketValidationTest
-challenges/ArrayShiftTest.java
- challenges.ArrayShiftTest
+challenges/LibraryTest.java
+ challenges.LibraryTest
 challenges/BinarySearchTest.java
  challenges.BinarySearchTest
 dataStructures/stacksandqueues/NodeTest.java
  dataStructures.stacksandqueues.NodeTest
-dataStructures/linkedList/LinkedListTest.java
- dataStructures.linkedList.LinkedListTest
-dataStructures/stacksandqueues/StackTest.java
- dataStructures.stacksandqueues.StackTest
-challenges/LibraryTest.java
- challenges.LibraryTest
-dataStructures/tree/NodeTest.java
- dataStructures.tree.NodeTest
 dataStructures/tree/BinarySearchTreeTeat.java
  dataStructures.tree.BinarySearchTreeTeat
-dataStructures/utilities/AnimalShelterTest.java
- dataStructures.utilities.AnimalShelterTest
+dataStructures/linkedList/LinkedListTest.java
+ dataStructures.linkedList.LinkedListTest
+challenges/ArrayShiftTest.java
+ challenges.ArrayShiftTest
 dataStructures/tree/BinaryTreeTest.java
  dataStructures.tree.BinaryTreeTest
+dataStructures/tree/NodeTest.java
+ dataStructures.tree.NodeTest
+dataStructures/stacksandqueues/StackTest.java
+ dataStructures.stacksandqueues.StackTest
 dataStructures/tree/FizzBuzzTreeTest.java
  dataStructures.tree.FizzBuzzTreeTest
+dataStructures/utilities/AnimalShelterTest.java
+ dataStructures.utilities.AnimalShelterTest
