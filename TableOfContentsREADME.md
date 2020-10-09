@@ -1,6 +1,6 @@
 # data-structures-and-algorithms
 Code Challenges
 
-[Java Readme Link](javaREADME.md);
+[Java Readme Link](/challenges/javaREADME.md);
 
 
