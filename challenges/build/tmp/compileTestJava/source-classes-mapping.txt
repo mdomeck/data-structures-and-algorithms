@@ -12,19 +12,19 @@ challenges/BinarySearchTest.java
  challenges.BinarySearchTest
 dataStructures/stacksandqueues/NodeTest.java
  dataStructures.stacksandqueues.NodeTest
-dataStructures/tree/BinarySearchTreeTeat.java
- dataStructures.tree.BinarySearchTreeTeat
+dataStructures/tree/FizzBuzzTreeTest.java
+ dataStructures.tree.FizzBuzzTreeTest
 dataStructures/linkedList/LinkedListTest.java
  dataStructures.linkedList.LinkedListTest
-challenges/ArrayShiftTest.java
- challenges.ArrayShiftTest
+dataStructures/utilities/AnimalShelterTest.java
+ dataStructures.utilities.AnimalShelterTest
 dataStructures/tree/BinaryTreeTest.java
  dataStructures.tree.BinaryTreeTest
 dataStructures/tree/NodeTest.java
  dataStructures.tree.NodeTest
 dataStructures/stacksandqueues/StackTest.java
  dataStructures.stacksandqueues.StackTest
-dataStructures/tree/FizzBuzzTreeTest.java
- dataStructures.tree.FizzBuzzTreeTest
-dataStructures/utilities/AnimalShelterTest.java
- dataStructures.utilities.AnimalShelterTest
+dataStructures/tree/BinarySearchTreeTeat.java
+ dataStructures.tree.BinarySearchTreeTeat
+challenges/ArrayShiftTest.java
+ challenges.ArrayShiftTest

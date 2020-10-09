@@ -34,12 +34,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/utilities/StackGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/utilities/StackGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenges/ArrayShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenges/ArrayShift.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/challenges/ArrayShiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenges/ArrayShiftTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/utilities/AnimalShelterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/utilities/AnimalShelterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +127,7 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AnimalShelterTest">
+  <component name="RunManager" selected="Gradle.ArrayShiftTest">
     <configuration name="AnimalShelterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,25 +166,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalShelterTest.dequeueOtherAnimalNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.utilities.AnimalShelterTest.dequeueOtherAnimalNull&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="ArrayShiftTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,12 +185,31 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ArrayShiftTest.arrayShiftTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ArrayShiftTest.testArrayShift" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.ArrayShiftTest.arrayShiftTest2&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.ArrayShiftTest.testArrayShift&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ArrayShiftTest.testEmptyArrayShift" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenges.ArrayShiftTest.testEmptyArrayShift&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -227,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ArrayShiftTest" />
+        <item itemvalue="Gradle.ArrayShiftTest.testEmptyArrayShift" />
+        <item itemvalue="Gradle.ArrayShiftTest.testArrayShift" />
         <item itemvalue="Gradle.AnimalShelterTest" />
         <item itemvalue="Gradle.AnimalShelterTest.dequeueLastAnimalNull" />
-        <item itemvalue="Gradle.AnimalShelterTest.dequeueOtherAnimalNull" />
-        <item itemvalue="Gradle.ArrayShiftTest" />
-        <item itemvalue="Gradle.ArrayShiftTest.arrayShiftTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -280,25 +278,25 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602177083617" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1601171940230" />
-    <state width="1461" height="280" key="GridCell.Tab.0.bottom" timestamp="1602219312260">
+    <state width="1442" height="280" key="GridCell.Tab.0.bottom" timestamp="1602258907237">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="280" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602219312260" />
+    <state width="1442" height="280" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602258907237" />
     <state width="1342" height="276" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1461" height="280" key="GridCell.Tab.0.center" timestamp="1602219312259">
+    <state width="1442" height="280" key="GridCell.Tab.0.center" timestamp="1602258907237">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="280" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602219312259" />
+    <state width="1442" height="280" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602258907237" />
     <state width="1342" height="276" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1461" height="280" key="GridCell.Tab.0.left" timestamp="1602219312259">
+    <state width="1442" height="280" key="GridCell.Tab.0.left" timestamp="1602258907237">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="280" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602219312259" />
+    <state width="1442" height="280" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602258907237" />
     <state width="1342" height="276" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
-    <state width="1461" height="280" key="GridCell.Tab.0.right" timestamp="1602219312260">
+    <state width="1442" height="280" key="GridCell.Tab.0.right" timestamp="1602258907237">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="280" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602219312260" />
+    <state width="1442" height="280" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602258907237" />
     <state width="1342" height="276" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1601150589126" />
     <state width="1342" height="315" key="GridCell.Tab.1.bottom" timestamp="1601535756820">
       <screen x="0" y="0" width="1504" height="963" />
