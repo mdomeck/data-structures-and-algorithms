@@ -1,5 +1,6 @@
-challenges/ArrayShift.java
- challenges.ArrayShift
+dataStructures/utilities/StackGeneric.java
+ dataStructures.utilities.StackGeneric
+ dataStructures.utilities.StackGeneric$gNode
 dataStructures/tree/BinaryTree.java
  dataStructures.tree.BinaryTree
 dataStructures/tree/FizzBuzzTree.java
@@ -35,6 +36,5 @@ dataStructures/tree/GtreeNode.java
  dataStructures.tree.GtreeNode
 dataStructures/tree/Gqueue.java
  dataStructures.tree.Gqueue
-dataStructures/utilities/StackGeneric.java
- dataStructures.utilities.StackGeneric
- dataStructures.utilities.StackGeneric$gNode
+challenges/ArrayShift.java
+ challenges.ArrayShift
