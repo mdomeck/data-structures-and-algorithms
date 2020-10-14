@@ -1,6 +1,6 @@
 Table of Contents
 
-- [Array Shift](resources/arrayShift.md);
+- [Array Shift](main/resources/arrayShift.md);
 - [Binary Search](binarySearch.md);
 - [Linked List](linkedList.md); 
 - [LL Insertions](llInsertions.md); 
