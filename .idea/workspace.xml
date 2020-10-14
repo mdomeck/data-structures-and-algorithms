@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48c397a1-06e2-4ca5-8304-4a1b586c2998" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TableOfContentsREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/TableOfContentsREADME.md" afterDir="false" />
-    </list>
+    <list default="true" id="48c397a1-06e2-4ca5-8304-4a1b586c2998" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyCareerAssistant" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,9 +68,9 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="495" y="266" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602259250207" />
-    <state x="598" y="343" key="FileChooserDialogImpl" timestamp="1600284848933">
+    <state x="598" y="343" key="FileChooserDialogImpl" timestamp="1602280192792">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="598" y="343" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600284848933" />
+    <state x="598" y="343" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602280192792" />
   </component>
 </project>
