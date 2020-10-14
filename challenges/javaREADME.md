@@ -2,7 +2,7 @@ Table of Contents
 
 - [Array Shift](src/main/resources/arrayShift.md);
 - [Binary Search](src/main/resources/binarySearch.md);
-- [Linked List](src/main/resources/READMElinkedList.md); 
+- [Linked List](src/main/resources/READMElinkedlist.md); 
 - [LL Insertions](src/main/resources/llInsertions.md); 
 - [Kth From End](src/main/resources/kthFromEnd.md);
 - [LL Zip](src/main/resources/llZip.md);
