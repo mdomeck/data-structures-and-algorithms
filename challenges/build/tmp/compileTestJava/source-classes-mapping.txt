@@ -28,3 +28,5 @@ dataStructures/tree/BinarySearchTreeTeat.java
  dataStructures.tree.BinarySearchTreeTeat
 challenges/ArrayShiftTest.java
  challenges.ArrayShiftTest
+challenges/InsertionSortTest.java
+ challenges.InsertionSortTest

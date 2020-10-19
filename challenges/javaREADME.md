@@ -13,4 +13,5 @@ Table of Contents
 - [Find Max Value](src/main/resources/maxvalue.md);
 - [Binary Tree](src/main/resources/tree.README.md);
 - [Breadth First Search](src/main/resources/breadthFirst.md);
-- [Fizz Buzz Tree](src/main/resources/fizzbuzz.md)
+- [Fizz Buzz Tree](src/main/resources/fizzbuzz.md);
+- [Insertion Sort BLOG](src/main/resources/BLOG.md);
