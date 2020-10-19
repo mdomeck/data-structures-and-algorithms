@@ -38,3 +38,5 @@ dataStructures/tree/Gqueue.java
  dataStructures.tree.Gqueue
 challenges/ArrayShift.java
  challenges.ArrayShift
+challenges/InsertionSort.java
+ challenges.InsertionSort
