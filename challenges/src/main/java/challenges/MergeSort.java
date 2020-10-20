@@ -19,8 +19,9 @@ public class MergeSort {                    // set up Java Class
 
             int[] newLeft = mergeSort(left);                             //recursive on the above code on left array
             int[] newRight = mergeSort(right);                              // recursive on the above code on right array
-            merge(newLeft, newRight, sortedArr);                      // merge the left and right and return sorted array
-            return sortedArr;            // return sortedArr
+//            merge(newLeft, newRight, sortedArr);                      // merge the left and right and return sorted array
+//            return sortedArr;         // return sortedArr
+            return merge(newLeft, newRight, sortedArr);
         } else {
             return unsortedArr;                                         // base case return with just 1 value in array
         }
