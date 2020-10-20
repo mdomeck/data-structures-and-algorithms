@@ -5,7 +5,8 @@ public class PseudoQueue {
     private Stack s1;
     private Stack s2;
 
-    public PseudoQueue(){
+
+    public PseudoQueue() {
         s1 = new Stack();
         s2 = new Stack();
     }
@@ -14,27 +15,32 @@ public class PseudoQueue {
         return s1;
     }
 
-    public void enqueue(int value){
-        while (!s1.isEmpty()){
+    public void enqueue(int value) {
+        while (!s1.isEmpty()) {
             s2.push(s1.pop());
         }
         s1.push(value);
 
-        while(!s2.isEmpty()){
+        while (!s2.isEmpty()) {
             s1.push(s2.pop());
         }
     }
 
-    public int deQueue(){
-        if(s1.isEmpty()){
-            System.out.println("Q is empty");
-            return -1;
+    public int deQueue() throws Exception {
+        if (s2.isEmpty()) {
+            if (s1.isEmpty()) {
+                throw new Exception("empty");
+            }
+            while (!s1.isEmpty()) {
+                int value = s1.pop();
+                s2.push(value);
+            }
         }
-        int value = s1.peek();
-        s1.pop();
-        return s1.pop();
+        return s2.pop();
 
     }
+    
+
 
     @Override
     public String toString() {
@@ -44,3 +50,4 @@ public class PseudoQueue {
                 '}';
     }
 }
+
