@@ -1,5 +1,5 @@
-challenges/LibraryTest.java
- challenges.LibraryTest
+dataStructures/stacksandqueues/PseudoQueueTest.java
+ dataStructures.stacksandqueues.PseudoQueueTest
 dataStructures/tree/TreeTest.java
  dataStructures.tree.TreeTest
 dataStructures/stacksandqueues/QueueTest.java
@@ -10,6 +10,8 @@ challenges/ArrayShiftTest.java
  challenges.ArrayShiftTest
 challenges/BinarySearchTest.java
  challenges.BinarySearchTest
+challenges/MergeSortTest.java
+ challenges.MergeSortTest
 dataStructures/stacksandqueues/NodeTest.java
  dataStructures.stacksandqueues.NodeTest
 dataStructures/tree/FizzBuzzTreeTest.java
@@ -28,5 +30,5 @@ dataStructures/stacksandqueues/StackTest.java
  dataStructures.stacksandqueues.StackTest
 dataStructures/tree/BinarySearchTreeTeat.java
  dataStructures.tree.BinarySearchTreeTeat
-dataStructures/stacksandqueues/PseudoQueueTest.java
- dataStructures.stacksandqueues.PseudoQueueTest
+challenges/LibraryTest.java
+ challenges.LibraryTest

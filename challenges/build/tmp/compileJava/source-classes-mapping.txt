@@ -40,3 +40,5 @@ dataStructures/stacksandqueues/Node.java
  dataStructures.stacksandqueues.Node
 challenges/Library.java
  challenges.Library
+challenges/MergeSort.java
+ challenges.MergeSort
