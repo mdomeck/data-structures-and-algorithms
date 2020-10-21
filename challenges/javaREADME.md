@@ -14,4 +14,5 @@ Table of Contents
 - [Binary Tree](src/main/resources/tree.README.md);
 - [Breadth First Search](src/main/resources/breadthFirst.md);
 - [Fizz Buzz Tree](src/main/resources/fizzbuzz.md);
-- [Insertion Sort BLOG](src/main/resources/BLOG.md);
+- [Insertion Sort BLOG](src/main/resources/insertionSortBLOG.md);
+- [Merge Sort BLOG](src/main/resources/merge-sortBLOG.md)
