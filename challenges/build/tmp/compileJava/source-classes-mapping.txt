@@ -5,8 +5,8 @@ dataStructures/tree/BinaryTree.java
 dataStructures/utilities/StackGeneric.java
  dataStructures.utilities.StackGeneric
  dataStructures.utilities.StackGeneric$gNode
-dataStructures/utilities/AnimalShelter.java
- dataStructures.utilities.AnimalShelter
+challenges/MergeSort.java
+ challenges.MergeSort
 dataStructures/utilities/MultiBracketValidation.java
  dataStructures.utilities.MultiBracketValidation
 dataStructures/stacksandqueues/PseudoQueue.java
@@ -40,5 +40,6 @@ dataStructures/stacksandqueues/Node.java
  dataStructures.stacksandqueues.Node
 challenges/Library.java
  challenges.Library
-challenges/MergeSort.java
- challenges.MergeSort
+dataStructures/utilities/AnimalShelter.java
+ dataStructures.utilities.AnimalShelter
+ dataStructures.utilities.AnimalShelter$gNode

@@ -24,8 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="474f673a-6c9c-41f2-899e-cab6744a9016" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenges/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenges/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/merge-sortBLOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/merge-sortBLOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/utilities/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/utilities/AnimalShelter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,26 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MergeSortTest.mergeSort3Test">
+  <component name="RunManager" selected="Gradle.AnimalShelterTest">
+    <configuration name="AnimalShelterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.utilities.AnimalShelterTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MergeSortTest.mergeSort2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -193,32 +211,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.pseudoQueueDequeueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.PseudoQueueTest.pseudoQueueDequeueTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AnimalShelterTest" />
         <item itemvalue="Gradle.MergeSortTest.mergeSort3Test" />
         <item itemvalue="Gradle.MergeSortTest.mergeSortTest" />
         <item itemvalue="Gradle.MergeSortTest.mergeSort2Test" />
         <item itemvalue="Gradle.PseudoQueueTest.emptyPseudoQueueException" />
-        <item itemvalue="Gradle.PseudoQueueTest.pseudoQueueDequeueTest" />
       </list>
     </recent_temporary>
   </component>
