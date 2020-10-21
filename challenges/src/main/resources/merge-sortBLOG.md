@@ -44,6 +44,11 @@ ALGORITHM Merge(left, right, arr)
  
  [8, 4, 23, 42, 16, 15]
 
+ This image maps the steps as the array splits and then merges into a sorted array. It moved down the left side first and then comes back up and goes down the right. Super fun dance is made!
+
+ ![Merge Sort Steps](assets/merge-sort-whiteboard.png)
+
+### Merge Sort
 
 Set n to the length of the array
 
@@ -53,53 +58,34 @@ set mid = n/2
 set left = first half of array
 set right = second half array
 
-run Mergesort(left) to sort the left array this will continue to sort until one value remains in each
- array
-run Mergesort(right) to sort the right array this will contine to sort until one value remains in each
- array
-Mergesort(left, right, arr) to merge the sorted left and right together and return sorted array
+run Mergesort(left) to sort the left array recursively this will continue to sort until one value remains in each array
+run Mergesort(right) to sort the right array recursively this will contine to sort until one value remains in each array
+Mergesort(left, right, arr) to merge the sorted left's and right's together and return sorted array
  
  
- ![Iteration 1](assets/merge-sort-whiteboard.png)
+### Merge
  
- ###### Pass 1
-  
- In the first pass through the insertion sort, we evaluated if there is a smaller number in the array
- than what is currently present in index 0 (8). We find this smaller number in index 1(4). The index's
- will swap values. It will recheck by updating "arr[j]" to the index in front of it to make sure there
-  isn't
- another value at the current replaces value needs to jump ahead of. Since "4" is at the very front of
-  the array we iterate through the next pass of the for loop.
-  
-  Ending array at end of first pass: `[4, 8, 23, 42, 16 ,15]`
- 
- ###### Pass 2
- 
-  Second iteration starts at "23" and sets "arr[j]" to "8". Since these are in the right order the while
-   loop will not be accesed and will iterate through to the next pass.
-  
- ###### Pass 3
- 
-  Third iteration starts at "42" and sets "arr[j]" to "23". Since these are in order the while loop
-   will not be accessed and iterate through to the next pass.
-  
- ###### Pass 4
+declare the helper function that will return sorted array
+declaring i as 0, it's a counter
+declaring j as 0, it's a counter
+declaring k as 0, its a counter
+
+while i is less that the length of the left array and j is less than the length of the right array
+
+if the int at left array's value at index position of 1 is less than or equal to the right array. Then the value of array at position k is equal to the value at the index position of left at 1. Then it increments 1
+
+Otherwise the value of array at position k is equal to the value of he right array at position j. Then it increments
+
+increments k
+
+if i is equal to the length of the left move the remainder of the right array into array in position. Otherwise move the remainder of the left array into aray in position.
+
       
-   Forth iteration starts at "16" and sets "arr[j]" to "42". The 16 is less than 42 so the while loop
-    is accessed and the first swap occurs. While loop reassigns "arr[j]" to index in front of it and
-     checks again until the original value is at index 2. 
-    
- ###### Pass 5 
-    
-   Final iteration starts at "15" and sets "arr[j]" to "42". The 15 is less than 42 so the while loop
-   is accessed and the first swap occurs. While loop reassigns "arr[j]" to index in front of it and
-   checks again until the original value is at index 2. 
-      
- ### Efficency
+### Efficency
  
-   Time: O(n log n)
-   It will be less space you won't have to itterate over them again so more efficient on speed
-   . Without a nested for loop you won't be at n squared
-   Space: O(log n)
-   Will have as many spaces as what you are itterating over n + however many values are in the array.
+Time: O(n log n)
+It will be less space you won't have to itterate over them again so more efficient on speed. Without a nested for loop you won't be at n squared.
+
+Space: O(log n)
+Will have as many spaces as what you are itterating over n + however many values are in the array.
    
