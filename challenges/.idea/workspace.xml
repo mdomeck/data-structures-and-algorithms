@@ -24,8 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="474f673a-6c9c-41f2-899e-cab6744a9016" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/stacksandqueues/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/stacksandqueues/PseudoQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/stacksandqueues/PseudoQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/stacksandqueues/PseudoQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenges/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenges/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -116,13 +115,51 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PseudoQueueTest.emptyPseudoQueueException">
-    <configuration name="PseudoQueueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MergeSortTest.mergeSort3Test">
+    <configuration name="MergeSortTest.mergeSort2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.PseudoQueueTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.MergeSortTest.mergeSort2Test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MergeSortTest.mergeSort3Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenges.MergeSortTest.mergeSort3Test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MergeSortTest.mergeSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenges.MergeSortTest.mergeSortTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -174,51 +211,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PseudoQueueTest.pseudoQueueEnqueueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.PseudoQueueTest.pseudoQueueEnqueueTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PseudoQueueTest.pseudoQueueTestInAndOut" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.stacksandqueues.PseudoQueueTest.pseudoQueueTestInAndOut&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MergeSortTest.mergeSort3Test" />
+        <item itemvalue="Gradle.MergeSortTest.mergeSortTest" />
+        <item itemvalue="Gradle.MergeSortTest.mergeSort2Test" />
         <item itemvalue="Gradle.PseudoQueueTest.emptyPseudoQueueException" />
         <item itemvalue="Gradle.PseudoQueueTest.pseudoQueueDequeueTest" />
-        <item itemvalue="Gradle.PseudoQueueTest.pseudoQueueEnqueueTest" />
-        <item itemvalue="Gradle.PseudoQueueTest.pseudoQueueTestInAndOut" />
-        <item itemvalue="Gradle.PseudoQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,25 +266,25 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602718642291" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1601171940230" />
-    <state width="1230" height="200" key="GridCell.Tab.0.bottom" timestamp="1603206924530">
+    <state width="1461" height="199" key="GridCell.Tab.0.bottom" timestamp="1603237907932">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1312" height="205" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603159426812" />
+    <state width="1461" height="199" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603237907932" />
     <state width="1230" height="200" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1603206924530" />
-    <state width="1230" height="200" key="GridCell.Tab.0.center" timestamp="1603206924530">
+    <state width="1461" height="199" key="GridCell.Tab.0.center" timestamp="1603237907931">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1312" height="205" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603159426811" />
+    <state width="1461" height="199" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603237907931" />
     <state width="1230" height="200" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1603206924530" />
-    <state width="1230" height="200" key="GridCell.Tab.0.left" timestamp="1603206924530">
+    <state width="1461" height="199" key="GridCell.Tab.0.left" timestamp="1603237907931">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1312" height="205" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603159426811" />
+    <state width="1461" height="199" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603237907931" />
     <state width="1230" height="200" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1603206924530" />
-    <state width="1230" height="200" key="GridCell.Tab.0.right" timestamp="1603206924530">
+    <state width="1461" height="199" key="GridCell.Tab.0.right" timestamp="1603237907931">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1312" height="205" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603159426811" />
+    <state width="1461" height="199" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603237907931" />
     <state width="1230" height="200" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1603206924530" />
     <state width="1342" height="315" key="GridCell.Tab.1.bottom" timestamp="1601535756820">
       <screen x="0" y="0" width="1504" height="963" />
@@ -307,10 +306,10 @@
     </state>
     <state width="1342" height="315" key="GridCell.Tab.1.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1601535756820" />
     <state width="1342" height="314" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1601093282832" />
-    <state x="225" y="21" key="SettingsEditor" timestamp="1603145978292">
+    <state x="225" y="21" key="SettingsEditor" timestamp="1603226902514">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="225" y="21" key="SettingsEditor/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603145978292" />
+    <state x="225" y="21" key="SettingsEditor/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603226902514" />
     <state x="444" y="0" width="1074" height="942" key="dock-window-1" timestamp="1601331260443">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
