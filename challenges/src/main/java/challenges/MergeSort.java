@@ -13,8 +13,9 @@ public class MergeSort {                    // set up Java Class
             System.arraycopy(unsortedArr, 0, left, 0, mid); // Java way to move first half of array to left
 
             int[] right = new int[n - mid];                                     // new array right is assigned the length of the array subtracted by the mid (the back half size of unsortedArr)
-            System.out.println("this is the left array" + Arrays.toString(left));
             System.arraycopy(unsortedArr, mid, right, 0, n - mid);    // Java way to split second half of the array
+
+            System.out.println("this is the left array" + Arrays.toString(left));
             System.out.println("this is right array" + Arrays.toString(right));
 
             int[] newLeft = mergeSort(left);                             //recursive on the above code on left array
