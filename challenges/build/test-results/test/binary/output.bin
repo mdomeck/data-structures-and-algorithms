@@ -1,9 +1,8 @@
-this is the left array[8, 10]
-this is right array[20, -15]
-this is the left array[8]
-this is right array[10]
-this is is i is equal[8, 10]
-this is the left array[20]
-this is right array[-15]
- this is is j is equal[-15, 20]
-'this is is i is equal[-15, 8, 10, 20]
+%StackGeneric{front=null, back=null}
+gNode{value=dog, next=null}
+null
+ÆStackGeneric{front=gNode{value=cat, next=gNode{value=dog, next=gNode{value=dog, next=gNode{value=dog, next=gNode{value=cat, next=gNode{value=dog, next=null}}}}}}, back=gNode{value=dog, next=null}}
+gNode{value=null, next=null}
+cat
+Sorry, we are out of animals
+jStackGeneric{front=gNode{value=dog, next=gNode{value=cat, next=null}}, back=gNode{value=cat, next=null}}
