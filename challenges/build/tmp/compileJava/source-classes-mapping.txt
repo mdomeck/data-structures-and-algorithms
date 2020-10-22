@@ -43,3 +43,5 @@ challenges/Library.java
 dataStructures/utilities/AnimalShelter.java
  dataStructures.utilities.AnimalShelter
  dataStructures.utilities.AnimalShelter$gNode
+challenges/QuickSort.java
+ challenges.QuickSort

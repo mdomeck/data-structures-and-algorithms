@@ -32,3 +32,5 @@ dataStructures/tree/BinarySearchTreeTeat.java
  dataStructures.tree.BinarySearchTreeTeat
 challenges/MergeSortTest.java
  challenges.MergeSortTest
+challenges/QuickSortTest.java
+ challenges.QuickSortTest

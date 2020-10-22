@@ -37,7 +37,7 @@ InsertionSort(int[] arr)
    
  ###### Pass 2
  
-  ![Iteration 1](assets/itteration-2.png)
+  ![Iteration 2](assets/itteration-2.png)
   
   Second iteration starts at "23" and sets "arr[j]" to "8". Since these are in the right order the while
    loop will not be accesed and will iterate through to the next pass.
@@ -45,7 +45,7 @@ InsertionSort(int[] arr)
 
  ###### Pass 3
  
-  ![Iteration 1](assets/itteration-3.png)
+  ![Iteration 3](assets/itteration-3.png)
   
   Third iteration starts at "42" and sets "arr[j]" to "23". Since these are in order the while loop
    will not be accessed and iterate through to the next pass.
@@ -53,7 +53,7 @@ InsertionSort(int[] arr)
   
  ###### Pass 4
    
-   ![Iteration 1](assets/itteration-4.png)
+   ![Iteration 4](assets/itteration-4.png)
    
    Forth iteration starts at "16" and sets "arr[j]" to "42". The 16 is less than 42 so the while loop
     is accessed and the first swap occurs. While loop reassigns "arr[j]" to index in front of it and
@@ -61,7 +61,7 @@ InsertionSort(int[] arr)
     
  ###### Pass 5
      
-   ![Iteration 1](assets/itteration-5.png)
+   ![Iteration 5](assets/itteration-5.png)
     
     
    Final iteration starts at "15" and sets "arr[j]" to "42". The 15 is less than 42 so the while loop
