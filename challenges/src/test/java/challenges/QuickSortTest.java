@@ -10,12 +10,40 @@ public class QuickSortTest {
 
     @Test
     public void quickSortTest(){
-        //int[] lostNumbers = {8, 4, 23, 42, 16, 15};
         int[] lostNumbers = {42, 8, 4, 23, 16, 15};
         QuickSort quickSort = new QuickSort();
         int[] quickNumbers = quickSort.quickSort(lostNumbers, 0, 5);
         System.out.println(Arrays.toString(quickNumbers));
-        //assertArrayEquals(sortedLostNumbers, sortedNumbers);
+        assertArrayEquals(lostNumbers, quickNumbers);
     }
 
+    @Test
+    public void testEmpty(){
+        QuickSort quickSort = new QuickSort();
+        int[] arr = {};
+        int[] expected = {};
+
+        quickSort.quickSort(arr, 0, 0);
+        assertArrayEquals("empty array", expected, arr);
+    }
+
+    @Test
+    public void testOneValue(){
+        QuickSort quickSort = new QuickSort();
+        int[] arr = {8};
+        int[] expected = {8};
+
+        quickSort.quickSort(arr, 0, 0);
+        assertArrayEquals("array with one position", expected, arr);
+    }
+
+    @Test
+    public void testNegativeValue(){
+        QuickSort quickSort = new QuickSort();
+        int[] arr = {8, 10, -5, -3};
+        int[] expected = {-5, -3, 8, 10};
+
+        quickSort.quickSort(arr, 0, 3);
+        assertArrayEquals("array with one position", expected, arr);
+    }
 }
