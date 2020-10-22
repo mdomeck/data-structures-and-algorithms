@@ -15,4 +15,5 @@ Table of Contents
 - [Breadth First Search](src/main/resources/breadthFirst.md);
 - [Fizz Buzz Tree](src/main/resources/fizzbuzz.md);
 - [Insertion Sort BLOG](src/main/resources/insertionSortBLOG.md);
-- [Merge Sort BLOG](src/main/resources/merge-sortBLOG.md)
+- [Merge Sort BLOG](src/main/resources/merge-sortBLOG.md);
+- [Quick Sort](src/main/resources/quickSortBLOG.md);
