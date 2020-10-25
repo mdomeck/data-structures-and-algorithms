@@ -1,7 +1,7 @@
 # Fizz Buzz
 <!-- Short summary or background information -->
 - Write a function FizzBuzzTree that takes a k-ary tree as an argument.
-Determine if value of each node is divisible by 3, 5, or both. 
+ Determine if value of each node is divisible by 3, 5, or both. 
 Create new tree with same structure but values changes to "Fizz", "Buzz" or "FizzBuzz"
 
 ## Challenge
