@@ -3,7 +3,7 @@
 - function should take in a string as its only argument nad return a boolean representing whether or not the brackets in the string are balanced. 
 ## Challenge
 <!-- Description of the challenge -->
-- Match up braces open and close with no other bracket types in between. 
+-  Match up braces open and close with no other bracket types in between. 
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
