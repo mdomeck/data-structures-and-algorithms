@@ -10,7 +10,7 @@ Table of Contents
 - [Psuedo Queue](src/main/resources/pseudoQueue.md);
 - [Animal Shelter](src/main/resources/animalShelter.md);
 - [Multi Bracket Validation](src/main/resources/multiBracketValidation.md);
-- [Find Max Value](src/main/resources/maxvalue.md);
+- [Find Max Value Binary Tree](src/main/resources/maxvalue.md);
 - [Binary Tree](src/main/resources/tree.README.md);
 - [Breadth First Search](src/main/resources/breadthFirst.md);
 - [Fizz Buzz Tree](src/main/resources/fizzbuzz.md);
