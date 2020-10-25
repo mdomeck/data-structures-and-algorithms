@@ -16,4 +16,5 @@ O(1) Space
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![Pseudo Queue](assets/pseudoQueueWhiteboard.png)
+![Pseudo Queue](assets/pseudoQueueWhiteboard.png);
+![Pseudo Queue 2](assets/psuedoQueue-whiteboard2.png);
