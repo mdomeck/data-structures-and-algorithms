@@ -4,7 +4,7 @@
 
 ## Challenge
 <!-- Description of the challenge -->
-- Breadth first traversal of binary tree and return values in order as they are encountered.
+-  Breadth first traversal of binary tree and return values in order as they are encountered.
 - Without utilizing any of the built in methods.
 
 ## Approach & Efficiency
