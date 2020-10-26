@@ -1,36 +1,12 @@
-dataStructures/stacksandqueues/PseudoQueueTest.java
- dataStructures.stacksandqueues.PseudoQueueTest
-dataStructures/tree/TreeTest.java
- dataStructures.tree.TreeTest
-dataStructures/stacksandqueues/QueueTest.java
- dataStructures.stacksandqueues.QueueTest
-dataStructures/utilities/MultiBracketValidationTest.java
- dataStructures.utilities.MultiBracketValidationTest
+challenges/InsertionSortTest.java
+ challenges.InsertionSortTest
+challenges/QuickSortTest.java
+ challenges.QuickSortTest
 challenges/ArrayShiftTest.java
  challenges.ArrayShiftTest
 challenges/BinarySearchTest.java
  challenges.BinarySearchTest
-challenges/LibraryTest.java
- challenges.LibraryTest
-dataStructures/stacksandqueues/NodeTest.java
- dataStructures.stacksandqueues.NodeTest
-dataStructures/tree/FizzBuzzTreeTest.java
- dataStructures.tree.FizzBuzzTreeTest
-challenges/InsertionSortTest.java
- challenges.InsertionSortTest
-dataStructures/linkedList/LinkedListTest.java
- dataStructures.linkedList.LinkedListTest
-dataStructures/utilities/AnimalShelterTest.java
- dataStructures.utilities.AnimalShelterTest
-dataStructures/tree/BinaryTreeTest.java
- dataStructures.tree.BinaryTreeTest
-dataStructures/tree/NodeTest.java
- dataStructures.tree.NodeTest
-dataStructures/stacksandqueues/StackTest.java
- dataStructures.stacksandqueues.StackTest
-dataStructures/tree/BinarySearchTreeTeat.java
- dataStructures.tree.BinarySearchTreeTeat
 challenges/MergeSortTest.java
  challenges.MergeSortTest
-challenges/QuickSortTest.java
- challenges.QuickSortTest
+challenges/LibraryTest.java
+ challenges.LibraryTest
