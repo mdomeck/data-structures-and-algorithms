@@ -35,9 +35,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/hashtable/HashNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/hashtable/HashNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/hashtable/Hashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/hashtable/Hashtable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hashtable.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hashtable.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/hashtable/HashtableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/hashtable/HashtableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,13 +130,13 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HashtableTest.testNewHashTable">
-    <configuration name="HashtableTest.testNewHashTable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.HashtableTest">
+    <configuration name="HashtableTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.hashtable.HashtableTest.testNewHashTable&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.hashtable.HashtableTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -149,12 +150,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest.quickSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testAddCollision" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.QuickSortTest.quickSortTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.hashtable.HashtableTest.testAddCollision&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -168,12 +169,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest.testEmptyInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testGet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.QuickSortTest.testEmptyInput&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.hashtable.HashtableTest.testGet&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -187,12 +188,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest.testNegativeValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testGetCollision" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.QuickSortTest.testNegativeValue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.hashtable.HashtableTest.testGetCollision&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -206,12 +207,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest.testOneValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HashtableTest.testGetException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.QuickSortTest.testOneValue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.hashtable.HashtableTest.testGetException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -227,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HashtableTest.testNewHashTable" />
-        <item itemvalue="Gradle.QuickSortTest.testNegativeValue" />
-        <item itemvalue="Gradle.QuickSortTest.testOneValue" />
-        <item itemvalue="Gradle.QuickSortTest.quickSortTest" />
-        <item itemvalue="Gradle.QuickSortTest.testEmptyInput" />
+        <item itemvalue="Gradle.HashtableTest" />
+        <item itemvalue="Gradle.HashtableTest.testGetCollision" />
+        <item itemvalue="Gradle.HashtableTest.testAddCollision" />
+        <item itemvalue="Gradle.HashtableTest.testGet" />
+        <item itemvalue="Gradle.HashtableTest.testGetException" />
       </list>
     </recent_temporary>
   </component>
@@ -280,30 +281,30 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1602718642291" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1601171940230" />
-    <state width="1407" height="153" key="GridCell.Tab.0.bottom" timestamp="1603681622692">
+    <state width="1407" height="153" key="GridCell.Tab.0.bottom" timestamp="1603719036910">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
-    <state width="1407" height="153" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603681622692" />
-    <state width="1239" height="177" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1603287464098" />
-    <state width="1407" height="153" key="GridCell.Tab.0.center" timestamp="1603681622691">
+    <state width="1407" height="153" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603681692649" />
+    <state width="1407" height="153" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1603719036910" />
+    <state width="1407" height="153" key="GridCell.Tab.0.center" timestamp="1603719036910">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
-    <state width="1407" height="153" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603681622691" />
-    <state width="1239" height="177" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1603287464098" />
-    <state width="1407" height="153" key="GridCell.Tab.0.left" timestamp="1603681622691">
+    <state width="1407" height="153" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603681692649" />
+    <state width="1407" height="153" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1603719036910" />
+    <state width="1407" height="153" key="GridCell.Tab.0.left" timestamp="1603719036910">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
-    <state width="1407" height="153" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603681622691" />
-    <state width="1239" height="177" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1603287464098" />
-    <state width="1407" height="153" key="GridCell.Tab.0.right" timestamp="1603681622692">
+    <state width="1407" height="153" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603681692649" />
+    <state width="1407" height="153" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1603719036910" />
+    <state width="1407" height="153" key="GridCell.Tab.0.right" timestamp="1603719036910">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
-    <state width="1407" height="153" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603681622692" />
-    <state width="1239" height="177" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1603287464098" />
+    <state width="1407" height="153" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603681692649" />
+    <state width="1407" height="153" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1603719036910" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1603322602711">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
