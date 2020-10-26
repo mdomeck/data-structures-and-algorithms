@@ -34,12 +34,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/hashtable/HashNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/hashtable/HashNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/hashtable/Hashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/hashtable/Hashtable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hashtable.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hashtable.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/hashtable/HashtableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/hashtable/HashtableTest.java" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/javaREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/javaREADME.md" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
