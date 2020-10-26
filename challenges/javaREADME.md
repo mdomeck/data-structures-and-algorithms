@@ -17,4 +17,6 @@ Table of Contents
 - [Insertion Sort BLOG](src/main/resources/insertionSortBLOG.md);
 - [Merge Sort BLOG](src/main/resources/merge-sortBLOG.md);
 - [Quick Sort](src/main/resources/quickSortBLOG.md);
+- [Hash Table](src/main/resources/hashtable.md);
+
 
