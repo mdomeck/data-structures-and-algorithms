@@ -37,8 +37,8 @@ dataStructures/hashtable/Hashtable.java
  dataStructures.hashtable.Hashtable
 dataStructures/tree/BinaryTree.java
  dataStructures.tree.BinaryTree
-dataStructures/stacksandqueues/Node.java
- dataStructures.stacksandqueues.Node
+challenges/repeatedWord/RepeatedWord.java
+ challenges.repeatedWord.RepeatedWord
 dataStructures/tree/GtreeNode.java
  dataStructures.tree.GtreeNode
 challenges/InsertionSort.java
@@ -49,5 +49,12 @@ dataStructures/tree/FizzBuzzTree.java
  dataStructures.tree.FizzBuzzTree
 dataStructures/hashtable/HashNode.java
  dataStructures.hashtable.HashNode
-challenges/repeatedWord/RepeatedWord.java
- challenges.repeatedWord.RepeatedWord
+dataStructures/stacksandqueues/Node.java
+ dataStructures.stacksandqueues.Node
+challenges/treeIntersection/TreeIntersectionStack.java
+ challenges.treeIntersection.TreeIntersectionStack
+ challenges.treeIntersection.TreeIntersectionStack$Node
+challenges/treeIntersection/TreeIntersection.java
+ challenges.treeIntersection.TreeIntersection
+ challenges.treeIntersection.TreeIntersection$Node
+ challenges.treeIntersection.TreeIntersection$Tree

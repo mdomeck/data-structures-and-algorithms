@@ -19,3 +19,4 @@ Table of Contents
 - [Quick Sort](src/main/resources/quickSortBLOG.md);
 - [Hash Table](src/main/resources/hashtable.md);
 - [Repeated Word](src/main/resources/repeatedword.md);
+- [Tree Intersection](src/main/resources/treeIntersection.md);
