@@ -19,7 +19,7 @@ public class RepeatedWordTest {
         String input = "It was the best of times, it was the worst of times";
         assertEquals("should return first repeated work of it", "it", RepeatedWord.duplicateWord(input));
     }
-    
+
     @Test
     public void testException() throws Exception {
         String input = "There is no repeat here";
