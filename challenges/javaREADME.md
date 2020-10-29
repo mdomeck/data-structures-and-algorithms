@@ -1,3 +1,4 @@
+
 Table of Contents
 
 - [Array Shift](src/main/resources/arrayShift.md);
@@ -21,3 +22,4 @@ Table of Contents
 - [Repeated Word](src/main/resources/repeatedword.md);
 - [Tree Intersection](src/main/resources/treeIntersection.md);
 - [Left Join](src/main/resources/leftJoin.md);
+
