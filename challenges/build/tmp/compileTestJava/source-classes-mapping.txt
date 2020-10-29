@@ -8,6 +8,8 @@ challenges/QuickSortTest.java
  challenges.QuickSortTest
 dataStructures/utilities/MultiBracketValidationTest.java
  dataStructures.utilities.MultiBracketValidationTest
+challenges/LibraryTest.java
+ challenges.LibraryTest
 challenges/ArrayShiftTest.java
  challenges.ArrayShiftTest
 challenges/BinarySearchTest.java
@@ -16,12 +18,14 @@ challenges/MergeSortTest.java
  challenges.MergeSortTest
 dataStructures/stacksandqueues/NodeTest.java
  dataStructures.stacksandqueues.NodeTest
-challenges/LibraryTest.java
- challenges.LibraryTest
+dataStructures/hashtable/HashtableTest.java
+ dataStructures.hashtable.HashtableTest
 dataStructures/tree/FizzBuzzTreeTest.java
  dataStructures.tree.FizzBuzzTreeTest
 challenges/InsertionSortTest.java
  challenges.InsertionSortTest
+challenges/repeatedWord/RepeatedWordTest.java
+ challenges.repeatedWord.RepeatedWordTest
 dataStructures/linkedList/LinkedListTest.java
  dataStructures.linkedList.LinkedListTest
 dataStructures/utilities/AnimalShelterTest.java
@@ -34,5 +38,7 @@ dataStructures/stacksandqueues/StackTest.java
  dataStructures.stacksandqueues.StackTest
 dataStructures/tree/BinarySearchTreeTeat.java
  dataStructures.tree.BinarySearchTreeTeat
-dataStructures/hashtable/HashtableTest.java
- dataStructures.hashtable.HashtableTest
+challenges/treeIntersection/TreeIntersectionTest.java
+ challenges.treeIntersection.TreeIntersectionTest
+challenges/leftJoin/leftJoinTest.java
+ challenges.leftJoin.leftJoinTest

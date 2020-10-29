@@ -1,3 +1,4 @@
+
 Table of Contents
 
 - [Array Shift](src/main/resources/arrayShift.md);
@@ -18,5 +19,7 @@ Table of Contents
 - [Merge Sort BLOG](src/main/resources/merge-sortBLOG.md);
 - [Quick Sort](src/main/resources/quickSortBLOG.md);
 - [Hash Table](src/main/resources/hashtable.md);
-
+- [Repeated Word](src/main/resources/repeatedword.md);
+- [Tree Intersection](src/main/resources/treeIntersection.md);
+- [Left Join](src/main/resources/leftJoin.md);
 
