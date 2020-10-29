@@ -20,3 +20,4 @@ Table of Contents
 - [Hash Table](src/main/resources/hashtable.md);
 - [Repeated Word](src/main/resources/repeatedword.md);
 - [Tree Intersection](src/main/resources/treeIntersection.md);
+- [Left Join](src/main/resources/leftJoin.md);

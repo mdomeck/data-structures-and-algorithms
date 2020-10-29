@@ -31,12 +31,19 @@ challenges/BinarySearch.java
  challenges.BinarySearch
 challenges/Library.java
  challenges.Library
+challenges/treeIntersection/TreeIntersectionStack.java
+ challenges.treeIntersection.TreeIntersectionStack
+ challenges.treeIntersection.TreeIntersectionStack$Node
 challenges/MergeSort.java
  challenges.MergeSort
 dataStructures/hashtable/Hashtable.java
  dataStructures.hashtable.Hashtable
 dataStructures/tree/BinaryTree.java
  dataStructures.tree.BinaryTree
+challenges/treeIntersection/TreeIntersection.java
+ challenges.treeIntersection.TreeIntersection
+ challenges.treeIntersection.TreeIntersection$Node
+ challenges.treeIntersection.TreeIntersection$Tree
 challenges/repeatedWord/RepeatedWord.java
  challenges.repeatedWord.RepeatedWord
 dataStructures/tree/GtreeNode.java
@@ -51,10 +58,5 @@ dataStructures/hashtable/HashNode.java
  dataStructures.hashtable.HashNode
 dataStructures/stacksandqueues/Node.java
  dataStructures.stacksandqueues.Node
-challenges/treeIntersection/TreeIntersectionStack.java
- challenges.treeIntersection.TreeIntersectionStack
- challenges.treeIntersection.TreeIntersectionStack$Node
-challenges/treeIntersection/TreeIntersection.java
- challenges.treeIntersection.TreeIntersection
- challenges.treeIntersection.TreeIntersection$Node
- challenges.treeIntersection.TreeIntersection$Tree
+challenges/leftJoin/LeftJoin.java
+ challenges.leftJoin.LeftJoin

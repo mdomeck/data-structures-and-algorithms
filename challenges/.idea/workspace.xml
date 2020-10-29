@@ -128,13 +128,13 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TreeIntersectionTest">
-    <configuration name="TreeIntersectionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.leftJoinTest.emptyTest">
+    <configuration name="leftJoinTest.HshMapKeyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.treeIntersection.TreeIntersectionTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.leftJoin.leftJoinTest.HshMapKeyTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -148,12 +148,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeIntersectionTest.emptyTreeException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="leftJoinTest.emptyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.treeIntersection.TreeIntersectionTest.emptyTreeException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.leftJoin.leftJoinTest.emptyTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -167,12 +167,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeIntersectionTest.treeCollisionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="leftJoinTest.hashMapTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.treeIntersection.TreeIntersectionTest.treeCollisionTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.leftJoin.leftJoinTest.hashMapTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -186,12 +186,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeIntersectionTest.treeCreationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="leftJoinTest.hashNotSameSize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.treeIntersection.TreeIntersectionTest.treeCreationTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.leftJoin.leftJoinTest.hashNotSameSize&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -205,12 +205,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeIntersectionTest.treeHashCreationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="leftJoinTest.joinLeftTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;challenges.treeIntersection.TreeIntersectionTest.treeHashCreationTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;challenges.leftJoin.leftJoinTest.joinLeftTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -226,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TreeIntersectionTest" />
-        <item itemvalue="Gradle.TreeIntersectionTest.emptyTreeException" />
-        <item itemvalue="Gradle.TreeIntersectionTest.treeCollisionTest" />
-        <item itemvalue="Gradle.TreeIntersectionTest.treeHashCreationTest" />
-        <item itemvalue="Gradle.TreeIntersectionTest.treeCreationTest" />
+        <item itemvalue="Gradle.leftJoinTest.emptyTest" />
+        <item itemvalue="Gradle.leftJoinTest.hashNotSameSize" />
+        <item itemvalue="Gradle.leftJoinTest.joinLeftTest" />
+        <item itemvalue="Gradle.leftJoinTest.HshMapKeyTest" />
+        <item itemvalue="Gradle.leftJoinTest.hashMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -266,10 +266,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="1003" y="427" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603755972544" />
-    <state x="560" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1603834318644">
+    <state x="560" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1603925301031">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="560" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603834318644" />
+    <state x="560" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603925301031" />
     <state x="368" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600717664419">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -279,29 +279,29 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603738585371" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1601171940230" />
-    <state width="1408" height="247" key="GridCell.Tab.0.bottom" timestamp="1603843158747">
+    <state width="1412" height="247" key="GridCell.Tab.0.bottom" timestamp="1603929149857">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
-    <state width="1408" height="247" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603843158747" />
+    <state width="1412" height="247" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603929149857" />
     <state width="1461" height="153" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1603720210799" />
-    <state width="1408" height="247" key="GridCell.Tab.0.center" timestamp="1603843158747">
+    <state width="1412" height="247" key="GridCell.Tab.0.center" timestamp="1603929149857">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
-    <state width="1408" height="247" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603843158747" />
+    <state width="1412" height="247" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603929149857" />
     <state width="1461" height="153" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1603720210799" />
-    <state width="1408" height="247" key="GridCell.Tab.0.left" timestamp="1603843158747">
+    <state width="1412" height="247" key="GridCell.Tab.0.left" timestamp="1603929149857">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
-    <state width="1408" height="247" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603843158747" />
+    <state width="1412" height="247" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603929149857" />
     <state width="1461" height="153" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1603720210799" />
-    <state width="1408" height="247" key="GridCell.Tab.0.right" timestamp="1603843158747">
+    <state width="1412" height="247" key="GridCell.Tab.0.right" timestamp="1603929149857">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
-    <state width="1408" height="247" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603843158747" />
+    <state width="1412" height="247" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603929149857" />
     <state width="1461" height="153" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1603720210799" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1603322602711">
       <screen x="0" y="0" width="1504" height="963" />
