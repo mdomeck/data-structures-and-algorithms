@@ -1,15 +1,19 @@
+challenges/leftJoin/leftJoinTest.java
+ challenges.leftJoin.leftJoinTest
 dataStructures/stacksandqueues/PseudoQueueTest.java
  dataStructures.stacksandqueues.PseudoQueueTest
 dataStructures/tree/TreeTest.java
  dataStructures.tree.TreeTest
+dataStructures/graph/GraphTest.java
+ dataStructures.graph.GraphTest
 dataStructures/stacksandqueues/QueueTest.java
  dataStructures.stacksandqueues.QueueTest
 challenges/QuickSortTest.java
  challenges.QuickSortTest
 dataStructures/utilities/MultiBracketValidationTest.java
  dataStructures.utilities.MultiBracketValidationTest
-challenges/LibraryTest.java
- challenges.LibraryTest
+challenges/treeIntersection/TreeIntersectionTest.java
+ challenges.treeIntersection.TreeIntersectionTest
 challenges/ArrayShiftTest.java
  challenges.ArrayShiftTest
 challenges/BinarySearchTest.java
@@ -38,7 +42,5 @@ dataStructures/stacksandqueues/StackTest.java
  dataStructures.stacksandqueues.StackTest
 dataStructures/tree/BinarySearchTreeTeat.java
  dataStructures.tree.BinarySearchTreeTeat
-challenges/treeIntersection/TreeIntersectionTest.java
- challenges.treeIntersection.TreeIntersectionTest
-challenges/leftJoin/leftJoinTest.java
- challenges.leftJoin.leftJoinTest
+challenges/LibraryTest.java
+ challenges.LibraryTest
