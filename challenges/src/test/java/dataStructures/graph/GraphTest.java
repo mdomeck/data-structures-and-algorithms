@@ -15,8 +15,8 @@ public void graphTest(){
     testGraph.addNode("California");
     testGraph.addNode("Ohio");
 
-    testGraph.addEdge(testGraph.vertexes.get(0), testGraph.vertexes.get(1));
-    testGraph.addEdge(testGraph.vertexes.get(2), testGraph.vertexes.get(3));
+    testGraph.addEdge(testGraph.vertexes.get(0), testGraph.vertexes.get(1), 760);
+    testGraph.addEdge(testGraph.vertexes.get(2), testGraph.vertexes.get(3), 54);
 
     ArrayList<GraphNode> nodes = testGraph.getVertexes();
     ArrayList<Edge> edges = nodes.get(0).getEdges();

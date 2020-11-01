@@ -60,9 +60,9 @@ dataStructures/stacksandqueues/Node.java
  dataStructures.stacksandqueues.Node
 challenges/leftJoin/LeftJoin.java
  challenges.leftJoin.LeftJoin
+dataStructures/graph/GraphNode.java
+ dataStructures.graph.GraphNode
 dataStructures/graph/Edge.java
  dataStructures.graph.Edge
 dataStructures/graph/Graph.java
  dataStructures.graph.Graph
-dataStructures/graph/GraphNode.java
- dataStructures.graph.GraphNode

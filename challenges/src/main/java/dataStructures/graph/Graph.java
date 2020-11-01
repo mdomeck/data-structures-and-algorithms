@@ -11,7 +11,7 @@ public class Graph {
        this.vertexes = new ArrayList<>();
    }
 
-    public void addEdge(GraphNode nodeOne, GraphNode nodeTwo) {
+    public void addEdge(GraphNode nodeOne, GraphNode nodeTwo, int weight) {
         Edge edge1 = new Edge(nodeOne, nodeTwo);
         nodeOne.getEdges().add(edge1);
 
@@ -19,21 +19,28 @@ public class Graph {
         nodeTwo.getEdges().add(edge2);
     }
 
-    public void addNode(String value) {
-        GraphNode<String> newNode = new GraphNode<String>(value);
+    public GraphNode addNode(String value) {
+        GraphNode<String> newNode = new GraphNode<>(value);
         vertexes.add(newNode);
+        return newNode;
     }
 
     public void getNodes(){
 
     }
 
-    public void getNeighbors(){
+    public LinkedHashMap getNeighbors(GraphNode home){
+                LinkedHashMap neighbors = new LinkedHashMap();
+                ArrayList<Edge> neighborhood = home.getEdges();
 
-    }
-    
-    public void sizeWithNodes(){
+                for(Edge neighbor : neighborhood){
+                    neighbors.put(neighbor.getDestination(), neighbor.getWeight());
+                }
+                return neighbors;
+   }
 
+    public int size(){
+        return vertexes.size();
     }
 
     public String toString() {
