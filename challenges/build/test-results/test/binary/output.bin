@@ -1,6 +1,0 @@
-whole graph Graph :
-      Seattle : [New York ]
-      New York : [Seattle ]
-      California : [Ohio ]
-      Ohio : [California ]
-

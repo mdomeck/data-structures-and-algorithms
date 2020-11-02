@@ -66,3 +66,6 @@ dataStructures/graph/Edge.java
  dataStructures.graph.Edge
 dataStructures/graph/Graph.java
  dataStructures.graph.Graph
+ dataStructures.graph.Graph$Edge
+ dataStructures.graph.Graph$GraphNode
+ dataStructures.graph.Graph$Neighbor
