@@ -1,0 +1,3 @@
+4
+{[GraphNode{value=4, edges=[Edge{origin=4, destination=15}]}, GraphNode{value=15, edges=[Edge{origin=15, destination=4}]}]
+Graph{vertexes=[]}

@@ -4,11 +4,10 @@ package dataStructures.graph;
 import org.junit.Test;
 
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+
 
 public class GraphTest {
 
@@ -48,7 +47,7 @@ public class GraphTest {
         graph.getVertexes().add(graphNodeOne);
         graph.getVertexes().add(graphNodeTwo);
         graph.addEdge(graphNodeOne, graphNodeTwo, 19);
-        assertEquals("vertices connected", "Graph{vertexes=[GraphNode{value=null, edges=[Edge{origin=null, destination=15}]}, GraphNode{value=15, edges=[Edge{origin=15, destination=null}]}]}", graph.toString());
+        assertEquals("vertices connected", "Graph{vertexes=[GraphNode{value=15, edges=[Edge{origin=15, destination=null}]}, GraphNode{value=null, edges=[Edge{origin=null, destination=15}]}]}", graph.toString());
     }
 
     @Test

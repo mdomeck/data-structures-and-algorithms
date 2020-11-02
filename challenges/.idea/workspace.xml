@@ -33,15 +33,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/javaREADME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/graph/Edge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/graph/GraphNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/graph.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dataStructures/graph/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataStructures/graph/GraphTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +127,26 @@
       <recent name="C:\Users\mdome\codefellows\401\data-structures-and-algorithms\challenges\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GraphTest.getNeighbors">
+  <component name="RunManager" selected="Gradle.GraphTest">
+    <configuration name="GraphTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.graph.GraphTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="GraphTest.getNeighbors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -153,31 +166,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GraphTest.getNodes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphTest.makeEdges" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.graph.GraphTest.getNodes&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GraphTest.makeEdge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.graph.GraphTest.makeEdge&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.graph.GraphTest.makeEdges&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -210,12 +204,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GraphTest.makeGraphOneNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphTest.makeGraphNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.graph.GraphTest.makeGraphOneNode&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.graph.GraphTest.makeGraphNode&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -231,10 +225,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GraphTest" />
+        <item itemvalue="Gradle.GraphTest.makeEdges" />
         <item itemvalue="Gradle.GraphTest.getNeighbors" />
-        <item itemvalue="Gradle.GraphTest.getNodes" />
-        <item itemvalue="Gradle.GraphTest.makeEdge" />
-        <item itemvalue="Gradle.GraphTest.makeGraphOneNode" />
+        <item itemvalue="Gradle.GraphTest.makeGraphNode" />
         <item itemvalue="Gradle.GraphTest.makeGraphEmpty" />
       </list>
     </recent_temporary>
@@ -267,10 +261,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="0" y="113" key="#Project_Structure/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1600484564342" />
-    <state x="563" y="219" width="1266" height="658" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604279903773">
+    <state x="213" y="631" width="1266" height="658" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604289043052">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="563" y="219" width="1266" height="658" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1504.963@0.0.1504.963" timestamp="1604279903773" />
+    <state x="213" y="631" width="1266" height="658" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1504.963@0.0.1504.963" timestamp="1604289043052" />
     <state x="1003" y="427" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603755972544">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -289,30 +283,30 @@
     </state>
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1603738585371" />
     <state x="545" y="232" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1601171940230" />
-    <state width="1156" height="185" key="GridCell.Tab.0.bottom" timestamp="1604288256095">
+    <state width="1461" height="325" key="GridCell.Tab.0.bottom" timestamp="1604289034379">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
     <state width="1408" height="246" key="GridCell.Tab.0.bottom/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1604109225519" />
-    <state width="1156" height="185" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1604288256095" />
-    <state width="1156" height="185" key="GridCell.Tab.0.center" timestamp="1604288256095">
+    <state width="1461" height="325" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1604289034379" />
+    <state width="1461" height="325" key="GridCell.Tab.0.center" timestamp="1604289034379">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
     <state width="1408" height="246" key="GridCell.Tab.0.center/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1604109225519" />
-    <state width="1156" height="185" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1604288256095" />
-    <state width="1156" height="185" key="GridCell.Tab.0.left" timestamp="1604288256095">
+    <state width="1461" height="325" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1604289034379" />
+    <state width="1461" height="325" key="GridCell.Tab.0.left" timestamp="1604289034379">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
     <state width="1408" height="246" key="GridCell.Tab.0.left/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1604109225518" />
-    <state width="1156" height="185" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1604288256095" />
-    <state width="1156" height="185" key="GridCell.Tab.0.right" timestamp="1604288256095">
+    <state width="1461" height="325" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1604289034379" />
+    <state width="1461" height="325" key="GridCell.Tab.0.right" timestamp="1604289034379">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603317154485" />
     <state width="1408" height="246" key="GridCell.Tab.0.right/0.0.1504.963/-1920.0.1920.1040@0.0.1504.963" timestamp="1604109225519" />
-    <state width="1156" height="185" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1604288256095" />
+    <state width="1461" height="325" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1604289034379" />
     <state width="1156" height="185" key="GridCell.Tab.1.bottom" timestamp="1604288256095">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
