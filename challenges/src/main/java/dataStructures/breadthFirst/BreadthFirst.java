@@ -6,8 +6,8 @@ import java.util.*;
 
 public class BreadthFirst extends Graph{
 
-    public HashSet breadthFirstTraversal(Graph.GraphNode node) {
-        HashSet returnSet = new HashSet();
+    public LinkedList breadthFirstTraversal(Graph.GraphNode node) {
+        LinkedList returnSet = new LinkedList();
         Queue<Graph.GraphNode> qGraph = new Queue<>();
         qGraph.enqueue(node);
 

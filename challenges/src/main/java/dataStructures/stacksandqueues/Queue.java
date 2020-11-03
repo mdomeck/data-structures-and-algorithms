@@ -27,8 +27,10 @@ public class Queue<T> {
 
     public T dequeue() {
         try {
-            if (front == null) {
-        return null;
+            if (front != null) {
+                Node temp = front;
+                front = front.next;
+                return (T) temp.value;
             }
 
             System.out.println("in try below if");
@@ -36,10 +38,7 @@ public class Queue<T> {
             System.out.println("the queue is empty " + e);
             throw new NullPointerException();
         }
-                Node temp = front;
-                front = front.next;
-
-                return (T) temp.value;
+        return null;
     }
 
     public T peek() {
