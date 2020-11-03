@@ -9,10 +9,7 @@
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-Created a method BreathFirstTraversal that traversed the tree from the root.
-Adds value of current to output. 
-While loop that checks for left value and right value and add to the queue. 
-Adds each time the current to output.
+Created a method BreathFirstTraversal that starting with a node traversed in the order they were visited. Checking to not visit the same node twice.
 
 O(n^2) Time 
 O(n) Space
