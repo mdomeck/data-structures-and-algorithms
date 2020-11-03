@@ -1,3 +1,7 @@
-4
-{[GraphNode{value=4, edges=[Edge{origin=4, destination=15}]}, GraphNode{value=15, edges=[Edge{origin=15, destination=4}]}]
-Graph{vertexes=[]}
+in try below if
+éQueue{front=null, back=NodeQueue{value=GraphNode{value=A, edges=[Edge{origin=A, destination=B}, Edge{origin=A, destination=C}]}, next=null}}
+in try below if
+˛Queue{front=NodeQueue{value=GraphNode{value=C, edges=[Edge{origin=C, destination=A}, Edge{origin=C, destination=B}]}, next=null}, back=NodeQueue{value=GraphNode{value=C, edges=[Edge{origin=C, destination=A}, Edge{origin=C, destination=B}]}, next=null}}
+in try below if
+éQueue{front=null, back=NodeQueue{value=GraphNode{value=C, edges=[Edge{origin=C, destination=A}, Edge{origin=C, destination=B}]}, next=null}}
+ê[GraphNode{value=A, edges=[Edge{origin=A, destination=B}, Edge{origin=A, destination=C}]}, GraphNode{value=C, edges=[Edge{origin=C, destination=A}, Edge{origin=C, destination=B}]}, GraphNode{value=B, edges=[Edge{origin=B, destination=C}, Edge{origin=B, destination=A}]}]

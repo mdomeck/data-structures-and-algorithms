@@ -22,3 +22,4 @@ Table of Contents
 - [Tree Intersection](src/main/resources/treeIntersection.md);
 - [Left Join](src/main/resources/leftJoin.md);
 - [Graph](src/main/resources/graph.md);
+- [Breadth First Graph](src/main/resources/breadthFirstGraph.md)

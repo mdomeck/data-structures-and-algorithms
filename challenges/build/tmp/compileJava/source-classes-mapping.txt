@@ -19,8 +19,11 @@ dataStructures/tree/Gtree.java
  dataStructures.tree.Gtree
 dataStructures/tree/BinarySearchTree.java
  dataStructures.tree.BinarySearchTree
-dataStructures/stacksandqueues/Queue.java
- dataStructures.stacksandqueues.Queue
+dataStructures/graph/Graph.java
+ dataStructures.graph.Graph
+ dataStructures.graph.Graph$Edge
+ dataStructures.graph.Graph$GraphNode
+ dataStructures.graph.Graph$Neighbor
 dataStructures/stacksandqueues/Stack.java
  dataStructures.stacksandqueues.Stack
 dataStructures/tree/Tree.java
@@ -40,12 +43,16 @@ dataStructures/hashtable/Hashtable.java
  dataStructures.hashtable.Hashtable
 dataStructures/tree/BinaryTree.java
  dataStructures.tree.BinaryTree
+challenges/leftJoin/LeftJoin.java
+ challenges.leftJoin.LeftJoin
 challenges/treeIntersection/TreeIntersection.java
  challenges.treeIntersection.TreeIntersection
  challenges.treeIntersection.TreeIntersection$Node
  challenges.treeIntersection.TreeIntersection$Tree
 challenges/repeatedWord/RepeatedWord.java
  challenges.repeatedWord.RepeatedWord
+dataStructures/stacksandqueues/Node.java
+ dataStructures.stacksandqueues.Node
 dataStructures/tree/GtreeNode.java
  dataStructures.tree.GtreeNode
 challenges/InsertionSort.java
@@ -56,12 +63,7 @@ dataStructures/tree/FizzBuzzTree.java
  dataStructures.tree.FizzBuzzTree
 dataStructures/hashtable/HashNode.java
  dataStructures.hashtable.HashNode
-dataStructures/stacksandqueues/Node.java
- dataStructures.stacksandqueues.Node
-challenges/leftJoin/LeftJoin.java
- challenges.leftJoin.LeftJoin
-dataStructures/graph/Graph.java
- dataStructures.graph.Graph
- dataStructures.graph.Graph$Edge
- dataStructures.graph.Graph$GraphNode
- dataStructures.graph.Graph$Neighbor
+dataStructures/stacksandqueues/Queue.java
+ dataStructures.stacksandqueues.Queue
+dataStructures/breadthFirst/BreadthFirst.java
+ dataStructures.breadthFirst.BreadthFirst

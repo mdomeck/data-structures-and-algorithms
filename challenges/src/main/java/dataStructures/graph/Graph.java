@@ -3,15 +3,15 @@ package dataStructures.graph;
 
 import java.util.*;
 
-public class Graph {
+public class Graph<T> {
 
     public Graph() {}
 
     private Set<GraphNode> vertexes = new HashSet<>();
     public Set<GraphNode> getVertexes() {return vertexes; }
 
-    public void add(int value) {
-        GraphNode<Integer> node = new GraphNode();
+    public void add(T value) {
+        GraphNode<T> node = new GraphNode();
         node.setValue(value);
         vertexes.add(node);
     }
@@ -44,7 +44,7 @@ public class Graph {
         }
 
     }
-    private class Edge{
+    public static class Edge{
 
         private GraphNode origin;
         private GraphNode destination;

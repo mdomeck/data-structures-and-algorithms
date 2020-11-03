@@ -1,16 +1,18 @@
 package dataStructures.stacksandqueues;
 
-public class Queue {
+
+public class Queue<T> {
 
     public Node front;
     public Node back;
+
 
     public Queue() {
         this.front = null;
         this.back = null;
     }
 
-    public void enqueue(int value) {
+    public void enqueue(T value) {
         Node temp = new Node(value);
         if (front == null) {
             front = temp;
@@ -21,19 +23,12 @@ public class Queue {
             back = temp;
             //System.out.println("if body is not null " + back);
         }
-
     }
 
-    public void dequeue() {
+    public T dequeue() {
         try {
-            if (front != null) {
-
-//            } else {
-
-                Node temp = front;
-                front = front.next;
-                System.out.println("front.next " + front.next);
-                System.out.println("dequeue " + temp);
+            if (front == null) {
+        return null;
             }
 
             System.out.println("in try below if");
@@ -41,11 +36,15 @@ public class Queue {
             System.out.println("the queue is empty " + e);
             throw new NullPointerException();
         }
+                Node temp = front;
+                front = front.next;
+
+                return (T) temp.value;
     }
 
-    public int peek() {
+    public T peek() {
         try {
-            return front.value;
+            return (T) front.value;
         } catch (NullPointerException e) {
             System.out.println("the queue is empty ");
             throw new NullPointerException();
@@ -54,6 +53,14 @@ public class Queue {
 
     public boolean isEmpty() {
         return front == null;
+    }
+
+    @Override
+    public String toString() {
+        return "Queue{" +
+                "front=" + front +
+                ", back=" + back +
+                '}';
     }
 }
 
