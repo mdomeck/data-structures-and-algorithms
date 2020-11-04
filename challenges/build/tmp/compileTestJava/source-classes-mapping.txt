@@ -4,8 +4,8 @@ dataStructures/stacksandqueues/PseudoQueueTest.java
  dataStructures.stacksandqueues.PseudoQueueTest
 dataStructures/tree/TreeTest.java
  dataStructures.tree.TreeTest
-dataStructures/graph/GraphTest.java
- dataStructures.graph.GraphTest
+dataStructures/tree/BinarySearchTreeTeat.java
+ dataStructures.tree.BinarySearchTreeTeat
 dataStructures/stacksandqueues/QueueTest.java
  dataStructures.stacksandqueues.QueueTest
 challenges/QuickSortTest.java
@@ -24,6 +24,8 @@ dataStructures/stacksandqueues/NodeTest.java
  dataStructures.stacksandqueues.NodeTest
 dataStructures/hashtable/HashtableTest.java
  dataStructures.hashtable.HashtableTest
+challenges/LibraryTest.java
+ challenges.LibraryTest
 dataStructures/tree/FizzBuzzTreeTest.java
  dataStructures.tree.FizzBuzzTreeTest
 challenges/InsertionSortTest.java
@@ -40,7 +42,9 @@ dataStructures/tree/NodeTest.java
  dataStructures.tree.NodeTest
 dataStructures/stacksandqueues/StackTest.java
  dataStructures.stacksandqueues.StackTest
-dataStructures/tree/BinarySearchTreeTeat.java
- dataStructures.tree.BinarySearchTreeTeat
-challenges/LibraryTest.java
- challenges.LibraryTest
+dataStructures/breadthFirst/BreadthFirstTest.java
+ dataStructures.breadthFirst.BreadthFirstTest
+dataStructures/graph/GraphTest.java
+ dataStructures.graph.GraphTest
+dataStructures/getEdge/GetEdgeTest.java
+ dataStructures.getEdge.GetEdgeTest

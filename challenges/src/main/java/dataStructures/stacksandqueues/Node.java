@@ -1,11 +1,11 @@
 package dataStructures.stacksandqueues;
 
-public class Node {
+public class Node<T> {
 
-    public int value; // why does this need to be public
+    public T value; // why does this need to be public
     public Node next;
 
-    public Node(int value) {
+    public Node(T value) {
         this.value = value;
         this.next = null;
     }
