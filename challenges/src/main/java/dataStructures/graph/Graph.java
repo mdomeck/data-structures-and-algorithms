@@ -7,8 +7,9 @@ public class Graph<T> {
 
     public Graph() {}
 
-    private Set<GraphNode> vertexes = new HashSet<>();
+    private final Set<GraphNode> vertexes = new HashSet<>();
     public Set<GraphNode> getVertexes() {return vertexes; }
+    
 
     public void add(T value) {
         GraphNode<T> node = new GraphNode();

@@ -19,11 +19,8 @@ dataStructures/tree/Gtree.java
  dataStructures.tree.Gtree
 dataStructures/tree/BinarySearchTree.java
  dataStructures.tree.BinarySearchTree
-dataStructures/graph/Graph.java
- dataStructures.graph.Graph
- dataStructures.graph.Graph$Edge
- dataStructures.graph.Graph$GraphNode
- dataStructures.graph.Graph$Neighbor
+dataStructures/stacksandqueues/Queue.java
+ dataStructures.stacksandqueues.Queue
 dataStructures/stacksandqueues/Stack.java
  dataStructures.stacksandqueues.Stack
 dataStructures/tree/Tree.java
@@ -45,14 +42,18 @@ dataStructures/tree/BinaryTree.java
  dataStructures.tree.BinaryTree
 challenges/leftJoin/LeftJoin.java
  challenges.leftJoin.LeftJoin
-challenges/treeIntersection/TreeIntersection.java
- challenges.treeIntersection.TreeIntersection
- challenges.treeIntersection.TreeIntersection$Node
- challenges.treeIntersection.TreeIntersection$Tree
+dataStructures/graph/Graph.java
+ dataStructures.graph.Graph
+ dataStructures.graph.Graph$Edge
+ dataStructures.graph.Graph$GraphNode
+ dataStructures.graph.Graph$Neighbor
 challenges/repeatedWord/RepeatedWord.java
  challenges.repeatedWord.RepeatedWord
-dataStructures/stacksandqueues/Node.java
- dataStructures.stacksandqueues.Node
+dataStructures/breadthFirst/BreadthFirst.java
+ dataStructures.breadthFirst.BreadthFirst
+dataStructures/getEdge/GetEdge.java
+ dataStructures.getEdge.GetEdge
+ dataStructures.getEdge.GetEdge$DirectFlight
 dataStructures/tree/GtreeNode.java
  dataStructures.tree.GtreeNode
 challenges/InsertionSort.java
@@ -63,7 +64,9 @@ dataStructures/tree/FizzBuzzTree.java
  dataStructures.tree.FizzBuzzTree
 dataStructures/hashtable/HashNode.java
  dataStructures.hashtable.HashNode
-dataStructures/stacksandqueues/Queue.java
- dataStructures.stacksandqueues.Queue
-dataStructures/breadthFirst/BreadthFirst.java
- dataStructures.breadthFirst.BreadthFirst
+dataStructures/stacksandqueues/Node.java
+ dataStructures.stacksandqueues.Node
+challenges/treeIntersection/TreeIntersection.java
+ challenges.treeIntersection.TreeIntersection
+ challenges.treeIntersection.TreeIntersection$Node
+ challenges.treeIntersection.TreeIntersection$Tree

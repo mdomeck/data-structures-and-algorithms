@@ -8,8 +8,8 @@
 - Return whether the full trip is possible with direct flights, and how much it would cost.
 
 ## Approach & Efficiency
-
-Created a method BreathFirstTraversal that starting with a node traversed in the order they were visited. Checking to not visit the same node twice.
+- called a function takeATrip passing a string array as input. set a counter to 0. Had for loops into
+ for loops so not the best with the Big O but got the output we were looking for. 
 
 O(n^2) Time 
 O(n) Space
