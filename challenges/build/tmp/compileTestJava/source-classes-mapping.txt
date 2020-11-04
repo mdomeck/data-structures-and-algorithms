@@ -42,9 +42,11 @@ dataStructures/tree/NodeTest.java
  dataStructures.tree.NodeTest
 dataStructures/stacksandqueues/StackTest.java
  dataStructures.stacksandqueues.StackTest
-dataStructures/breadthFirst/BreadthFirstTest.java
- dataStructures.breadthFirst.BreadthFirstTest
 dataStructures/graph/GraphTest.java
  dataStructures.graph.GraphTest
-dataStructures/getEdge/GetEdgeTest.java
- dataStructures.getEdge.GetEdgeTest
+dataStructures/graph/GetEdgeTest.java
+ dataStructures.graph.GetEdgeTest
+dataStructures/graph/BreadthFirstTest.java
+ dataStructures.graph.BreadthFirstTest
+dataStructures/graph/DepthFirstTest.java
+ dataStructures.graph.DepthFirstTest
