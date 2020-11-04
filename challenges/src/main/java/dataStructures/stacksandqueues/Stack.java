@@ -2,7 +2,7 @@ package dataStructures.stacksandqueues;
 
 public class Stack {
 
-    public Node top;
+    public Node<Integer> top;
 
     public Stack() {
 

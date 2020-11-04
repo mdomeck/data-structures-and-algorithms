@@ -40,12 +40,20 @@ dataStructures/hashtable/Hashtable.java
  dataStructures.hashtable.Hashtable
 dataStructures/tree/BinaryTree.java
  dataStructures.tree.BinaryTree
-challenges/treeIntersection/TreeIntersection.java
- challenges.treeIntersection.TreeIntersection
- challenges.treeIntersection.TreeIntersection$Node
- challenges.treeIntersection.TreeIntersection$Tree
+challenges/leftJoin/LeftJoin.java
+ challenges.leftJoin.LeftJoin
+dataStructures/graph/Graph.java
+ dataStructures.graph.Graph
+ dataStructures.graph.Graph$Edge
+ dataStructures.graph.Graph$GraphNode
+ dataStructures.graph.Graph$Neighbor
 challenges/repeatedWord/RepeatedWord.java
  challenges.repeatedWord.RepeatedWord
+dataStructures/breadthFirst/BreadthFirst.java
+ dataStructures.breadthFirst.BreadthFirst
+dataStructures/getEdge/GetEdge.java
+ dataStructures.getEdge.GetEdge
+ dataStructures.getEdge.GetEdge$DirectFlight
 dataStructures/tree/GtreeNode.java
  dataStructures.tree.GtreeNode
 challenges/InsertionSort.java
@@ -58,11 +66,7 @@ dataStructures/hashtable/HashNode.java
  dataStructures.hashtable.HashNode
 dataStructures/stacksandqueues/Node.java
  dataStructures.stacksandqueues.Node
-challenges/leftJoin/LeftJoin.java
- challenges.leftJoin.LeftJoin
-dataStructures/graph/Edge.java
- dataStructures.graph.Edge
-dataStructures/graph/Graph.java
- dataStructures.graph.Graph
-dataStructures/graph/GraphNode.java
- dataStructures.graph.GraphNode
+challenges/treeIntersection/TreeIntersection.java
+ challenges.treeIntersection.TreeIntersection
+ challenges.treeIntersection.TreeIntersection$Node
+ challenges.treeIntersection.TreeIntersection$Tree

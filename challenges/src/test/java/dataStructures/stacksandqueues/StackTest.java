@@ -11,19 +11,19 @@ public class StackTest {
     public void pushStackTest() {
         Stack stack = new Stack();
         stack.push(3);
-        assertEquals("This should return value", 3, stack.top.value);
+        assertEquals("This should return value", 3, (int) stack.top.value);
     }
 
     @Test
     public void addMultipleValuesToStackTest() {
         Stack stack = new Stack();
         stack.push(3);
-        assertEquals("This should return value", 3, stack.top.value);
+        assertEquals("This should return value", 3, (int) stack.top.value);
         stack.push(5);
-        assertEquals("This should return value", 5, stack.top.value);
-        assertEquals("This should return value", 3, stack.top.next.value);
+        assertEquals("This should return value", 5, (int) stack.top.value);
+        assertEquals("This should return value", 3, (int) stack.top.next.value);
         stack.push(7);
-        assertEquals("This should return value", 7, stack.top.value);
+        assertEquals("This should return value", 7, (int) stack.top.value);
     }
 
     @Test
@@ -51,7 +51,7 @@ public class StackTest {
         stack.push(3);
         stack.push(5);
         assertEquals("this is the top", 5, stack.peek());
-        assertEquals("this is still the top", 5, stack.top.value);
+        assertEquals("this is still the top", 5, (int) stack.top.value);
     }
 
     @Test

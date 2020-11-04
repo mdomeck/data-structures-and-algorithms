@@ -1,30 +1,86 @@
 package dataStructures.graph;
 
-import org.apache.commons.math3.geometry.spherical.twod.Edge;
+
 import org.junit.Test;
 
-import java.util.ArrayList;
+
+import java.util.Arrays;
+
+import static org.junit.Assert.assertEquals;
+
 
 public class GraphTest {
 
-@Test
-public void graphTest(){
-    Graph testGraph = new Graph();
-    testGraph.addNode("Seattle");
-    testGraph.addNode("New York");
-    testGraph.addNode("California");
-    testGraph.addNode("Ohio");
 
-    testGraph.addEdge(testGraph.vertexes.get(0), testGraph.vertexes.get(1));
-    testGraph.addEdge(testGraph.vertexes.get(2), testGraph.vertexes.get(3));
+    @Test
+    public void makeGraphNode(){
+        Graph.GraphNode<Integer> graphNode = new Graph.GraphNode<>();
+        graphNode.setValue(4);
+        System.out.println(graphNode.getValue());
+        assertEquals("graph vertex", "4", graphNode.getValue().toString());
+    }
 
-    ArrayList<GraphNode> nodes = testGraph.getVertexes();
-    ArrayList<Edge> edges = nodes.get(0).getEdges();
+    @Test
+    public void makeGraphEmpty(){
+        Graph.GraphNode<Integer> graphNode = new Graph.GraphNode<>();
+        Graph graph = new Graph();
+        System.out.println(graph);
+        assertEquals("this is an empty graph", "Graph{vertexes=[]}", graph.toString());
+    }
 
-    //String place = edges.get(0).getDestination().toString();
-    //System.out.println("the end result " + place);
-    System.out.println("whole graph " + testGraph.toString());
-    testGraph.toString();
-}
+    @Test
+    public void makeGraphOneNode(){
+        Graph.GraphNode<Integer> graphNode = new Graph.GraphNode<>();
+        graphNode.setValue(4);
+        Graph graph = new Graph();
+        graph.getVertexes().add(graphNode);
+        assertEquals("has 1 graphNode in it", "Graph{vertexes=[GraphNode{value=4, edges=[]}]}", graph.toString());
+    }
+
+    @Test
+    public void makeEdges(){
+        Graph.GraphNode<Integer> graphNodeOne = new Graph.GraphNode<>();
+        graphNodeOne.setValue(4);
+        Graph.GraphNode<Integer> graphNodeTwo = new Graph.GraphNode<>();
+        graphNodeOne.setValue(15);
+        Graph graph = new Graph();
+        graph.getVertexes().add(graphNodeOne);
+        graph.getVertexes().add(graphNodeTwo);
+        graph.addEdge(graphNodeOne, graphNodeTwo, 19);
+        assertEquals("vertices connected", "Graph{vertexes=[GraphNode{value=15, edges=[Edge{origin=15, destination=null}]}, GraphNode{value=null, edges=[Edge{origin=null, destination=15}]}]}", graph.toString());
+    }
+
+    @Test
+    public void getNodes(){
+        Graph.GraphNode<Integer> graphNodeOne = new Graph.GraphNode<>();
+        graphNodeOne.setValue(4);
+        Graph.GraphNode<Integer> graphNodeTwo = new Graph.GraphNode<>();
+        graphNodeTwo.setValue(15);
+        Graph graph = new Graph();
+        graph.getVertexes().add(graphNodeOne);
+        graph.getVertexes().add(graphNodeTwo);
+        graph.addEdge(graphNodeOne, graphNodeTwo, 19);
+        Object[] verticesArray = graph.getVertexes().toArray();
+        System.out.println(Arrays.toString(verticesArray));
+        assertEquals("2 vertices graph", 2, graph.getVertexes().size());
+    }
+
+    @Test
+    public void getNeighbors(){
+        Graph.GraphNode<Integer> graphNodeOne = new Graph.GraphNode<>();
+        Graph.GraphNode<Integer> graphNodeTwo = new Graph.GraphNode<>();
+        Graph.GraphNode<Integer> graphNodeThree = new Graph.GraphNode<>();
+        graphNodeOne.setValue(4);
+        graphNodeTwo.setValue(15);
+        graphNodeThree.setValue(30);
+        Graph graph = new Graph();
+        graph.getVertexes().add(graphNodeOne);
+        graph.getVertexes().add(graphNodeTwo);
+        graph.getVertexes().add(graphNodeThree);
+        graph.addEdge(graphNodeOne, graphNodeTwo, 19);
+        graph.addEdge(graphNodeOne, graphNodeThree, 60);
+        assertEquals("some neighbors", "[Neighbor{weight=15, destination=19}, Neighbor{weight=30, destination=60}]", graph.getNeighbors(graphNodeOne).toString());
+        assertEquals("graph has 2 vertices", 3, graph.getVertexes().size());
+    }
 
 }
