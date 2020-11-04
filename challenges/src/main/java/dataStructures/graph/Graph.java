@@ -20,7 +20,7 @@ public class Graph<T> {
         private T value;
 
 
-        private Set<Edge> edges = new HashSet<>();
+        public Set<Edge> edges = new HashSet<>();
 
         public Set<Edge> getEdges() {
             return edges;
