@@ -1,4 +1,4 @@
-package dataStructures.breadthFirst;
+package dataStructures.graph;
 
 import dataStructures.graph.Graph;
 import dataStructures.stacksandqueues.Queue;

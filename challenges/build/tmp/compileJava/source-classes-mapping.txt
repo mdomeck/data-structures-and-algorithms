@@ -49,11 +49,12 @@ dataStructures/graph/Graph.java
  dataStructures.graph.Graph$Neighbor
 challenges/repeatedWord/RepeatedWord.java
  challenges.repeatedWord.RepeatedWord
-dataStructures/breadthFirst/BreadthFirst.java
- dataStructures.breadthFirst.BreadthFirst
-dataStructures/getEdge/GetEdge.java
- dataStructures.getEdge.GetEdge
- dataStructures.getEdge.GetEdge$DirectFlight
+challenges/treeIntersection/TreeIntersection.java
+ challenges.treeIntersection.TreeIntersection
+ challenges.treeIntersection.TreeIntersection$Node
+ challenges.treeIntersection.TreeIntersection$Tree
+dataStructures/stacksandqueues/Node.java
+ dataStructures.stacksandqueues.Node
 dataStructures/tree/GtreeNode.java
  dataStructures.tree.GtreeNode
 challenges/InsertionSort.java
@@ -64,9 +65,10 @@ dataStructures/tree/FizzBuzzTree.java
  dataStructures.tree.FizzBuzzTree
 dataStructures/hashtable/HashNode.java
  dataStructures.hashtable.HashNode
-dataStructures/stacksandqueues/Node.java
- dataStructures.stacksandqueues.Node
-challenges/treeIntersection/TreeIntersection.java
- challenges.treeIntersection.TreeIntersection
- challenges.treeIntersection.TreeIntersection$Node
- challenges.treeIntersection.TreeIntersection$Tree
+dataStructures/graph/GetEdge.java
+ dataStructures.graph.GetEdge
+ dataStructures.graph.GetEdge$DirectFlight
+dataStructures/graph/BreadthFirst.java
+ dataStructures.graph.BreadthFirst
+dataStructures/graph/DepthFirst.java
+ dataStructures.graph.DepthFirst

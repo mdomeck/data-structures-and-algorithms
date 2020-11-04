@@ -1,4 +1,4 @@
-package dataStructures.getEdge;
+package dataStructures.graph;
 
 import dataStructures.graph.Graph;
 

@@ -24,4 +24,6 @@ Table of Contents
 - [Graph](src/main/resources/graph.md);
 - [Breadth First Graph](src/main/resources/breadthFirstGraph.md);
 - [Get Edges Graph](src/main/resources/getedge.md);
+- [Depth First Graph](src/main/resources/depthFirst.md);
+
 

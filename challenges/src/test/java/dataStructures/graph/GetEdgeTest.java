@@ -1,5 +1,6 @@
-package dataStructures.getEdge;
+package dataStructures.graph;
 
+import dataStructures.graph.GetEdge;
 import dataStructures.graph.Graph;
 import org.junit.Test;
 
