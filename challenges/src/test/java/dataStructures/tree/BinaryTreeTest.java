@@ -1,13 +1,14 @@
 package dataStructures.tree;
 
-import challenges.BinarySearch;
-import dataStructures.utilities.StackGeneric;
-import org.junit.Test;
+
+
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 
 public class BinaryTreeTest {
 
@@ -33,7 +34,7 @@ public class BinaryTreeTest {
     public void preOrder() {
         ArrayList<Integer> testArray = new ArrayList<>();
         BinaryTree tree = new BinaryTree(new Node(3));
-        assertEquals("check that returns array list", testArray, tree.preOrder(tree.getRoot(), testArray));
+        assertEquals(testArray, tree.preOrder(tree.getRoot(), testArray), "check that returns array list");
     }
 
     @Test
@@ -73,7 +74,7 @@ public class BinaryTreeTest {
 
         BinaryTree tree = new BinaryTree(rootNode);
         System.out.println(tree.findMaxValue());
-        assertEquals("returns max value", 7, tree.findMaxValue());
+        assertEquals(7, tree.findMaxValue(), "returns max value");
     }
 
     @Test

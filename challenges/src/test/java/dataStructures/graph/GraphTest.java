@@ -1,12 +1,11 @@
 package dataStructures.graph;
 
 
-import org.junit.Test;
-
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class GraphTest {
@@ -62,7 +61,7 @@ public class GraphTest {
         graph.addEdge(graphNodeOne, graphNodeTwo, 19);
         Object[] verticesArray = graph.getVertexes().toArray();
         System.out.println(Arrays.toString(verticesArray));
-        assertEquals("2 vertices graph", 2, graph.getVertexes().size());
+        assertEquals(2, graph.getVertexes().size(), "2 vertices graph");
     }
 
     @Test
@@ -80,7 +79,7 @@ public class GraphTest {
         graph.addEdge(graphNodeOne, graphNodeTwo, 19);
         graph.addEdge(graphNodeOne, graphNodeThree, 60);
         assertEquals("some neighbors", "[Neighbor{weight=15, destination=19}, Neighbor{weight=30, destination=60}]", graph.getNeighbors(graphNodeOne).toString());
-        assertEquals("graph has 2 vertices", 3, graph.getVertexes().size());
+        assertEquals(3, graph.getVertexes().size(), "graph has 2 vertices");
     }
 
 }

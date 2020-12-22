@@ -1,10 +1,11 @@
 package challenges.repeatedWord;
 
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class RepeatedWordTest {
 
@@ -23,7 +24,7 @@ public class RepeatedWordTest {
     @Test
     public void testException() throws Exception {
         String input = "There is no repeat here";
-        assertThrows("should throw exception", Exception.class, () -> RepeatedWord.duplicateWord(input));
+        assertThrows(Exception.class, () -> RepeatedWord.duplicateWord(input), "should throw exception");
     }
 }
 

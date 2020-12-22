@@ -1,9 +1,7 @@
 package dataStructures.linkedList;
 
-import org.junit.Test;
-
-import static org.junit.Assert.*;
-
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class LinkedListTest {
 
@@ -107,7 +105,7 @@ public class LinkedListTest {
         test.insert(4);
         test.insert(7);
         test.insert(2);
-        assertThrows("Value entered is greater than total linked list length", Exception.class, () -> test.findKFromEnd(5));
+        assertThrows(Exception.class, () -> test.findKFromEnd(5), "Value entered is greater than total linked list length");
         System.out.println(test);
     }
 
@@ -118,7 +116,7 @@ public class LinkedListTest {
         test.insert(4);
         test.insert(7);
         test.insert(2);
-        assertThrows("Value entered is greater than total linked list length", Exception.class, () -> test.findKFromEnd(-1));
+        assertThrows(Exception.class, () -> test.findKFromEnd(-1), "Value entered is greater than total linked list length");
         System.out.println(test);
     }
 

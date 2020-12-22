@@ -1,10 +1,13 @@
 package challenges;
 
-import org.junit.Test;
+
+
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
 
 public class QuickSortTest {
 
@@ -24,7 +27,7 @@ public class QuickSortTest {
         int[] expected = {};
 
         quickSort.quickSort(arr, 0, 0);
-        assertArrayEquals("empty array", expected, arr);
+        assertArrayEquals(expected, arr, "empty array");
     }
 
     @Test
@@ -34,7 +37,7 @@ public class QuickSortTest {
         int[] expected = {8};
 
         quickSort.quickSort(arr, 0, 0);
-        assertArrayEquals("array with one position", expected, arr);
+        assertArrayEquals(expected, arr, "array with one position");
     }
 
     @Test
@@ -44,6 +47,6 @@ public class QuickSortTest {
         int[] expected = {-5, -3, 8, 10};
 
         quickSort.quickSort(arr, 0, 3);
-        assertArrayEquals("array with one position", expected, arr);
+        assertArrayEquals(expected, arr, "array with one position");
     }
 }

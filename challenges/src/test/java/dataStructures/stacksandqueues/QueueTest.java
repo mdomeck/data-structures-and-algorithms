@@ -1,8 +1,11 @@
 package dataStructures.stacksandqueues;
 
-import org.junit.Test;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class QueueTest {
 
@@ -10,7 +13,7 @@ public class QueueTest {
     public void enqueueIntoQueue() {
         Queue queue = new Queue();
         queue.enqueue(4);
-        assertEquals("this queue is front ", 4, queue.front.value);
+        assertEquals(4, queue.front.value, "this queue is front ");
     }
 
     @Test
@@ -19,8 +22,8 @@ public class QueueTest {
         queue.enqueue(4);
         queue.enqueue(6);
         queue.enqueue(8);
-        assertEquals("this queue is front ", 4, queue.front.value);
-        assertEquals("this queue is back", 8, queue.back.value);
+        assertEquals(4, queue.front.value, "this queue is front ");
+        assertEquals(8, queue.back.value, "this queue is back");
     }
 
     @Test
@@ -28,9 +31,9 @@ public class QueueTest {
         Queue queue = new Queue();
         queue.enqueue(4);
         queue.enqueue(6);
-        assertEquals("this queue is front ", 4, queue.front.value);
+        assertEquals(4, queue.front.value, "this queue is front ");
         queue.dequeue();
-        assertEquals("this is the new front ",6, queue.front.value);
+        assertEquals(6, queue.front.value, "this is the new front ");
         assertThrows(NullPointerException.class, () -> queue.dequeue());
     }
 
@@ -40,8 +43,8 @@ public class QueueTest {
         queue.enqueue(4);
         queue.enqueue(6);
         queue.enqueue(8);
-        assertEquals("peeking at the front ", 4, queue.peek());
-        assertEquals("this queue is front ", 4, queue.front.value);
+        assertEquals(4, queue.peek(), "peeking at the front ");
+        assertEquals(4, queue.front.value, "this queue is front ");
     }
 
     @Test
@@ -58,12 +61,12 @@ public class QueueTest {
     @Test
     public void instantiateEmptyQueue() {
         Queue queue = new Queue();
-        assertNull("this queue is empty", queue.front);
+        assertNull(queue.front, "this queue is empty");
     }
 
     @Test
     public void emptyQueueException() {
         Queue queue = new Queue();
-        assertTrue("This should be empty", queue.isEmpty());
+        assertTrue(queue.isEmpty(), "This should be empty");
     }
 }
