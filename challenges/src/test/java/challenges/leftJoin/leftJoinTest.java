@@ -1,20 +1,22 @@
 package challenges.leftJoin;
 
-import org.junit.Before;
-import org.junit.Test;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Set;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class leftJoinTest {
 
     HashMap<String, String> synonymHash = new HashMap<>();
     HashMap<String, String> antonymHash = new HashMap<>();
 
-    @Before
+    @BeforeEach
     public void hashMapCreate(){
         synonymHash.put("fond", "enamored");
         synonymHash.put("wrath", "angered");

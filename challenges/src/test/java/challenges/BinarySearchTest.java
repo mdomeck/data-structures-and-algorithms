@@ -1,15 +1,15 @@
 package challenges;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class BinarySearchTest {
     @Test
     public void testSomeLibraryMethod() {
         BinarySearch classUnderTest = new BinarySearch();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
     }
     @Test
     public void testBinarySearchArray() {

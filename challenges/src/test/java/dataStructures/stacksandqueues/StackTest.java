@@ -1,8 +1,10 @@
 package dataStructures.stacksandqueues;
 
-import org.junit.Test;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class StackTest {
 
@@ -11,26 +13,26 @@ public class StackTest {
     public void pushStackTest() {
         Stack stack = new Stack();
         stack.push(3);
-        assertEquals("This should return value", 3, (int) stack.top.value);
+        assertEquals(3, (int) stack.top.value, "This should return value");
     }
 
     @Test
     public void addMultipleValuesToStackTest() {
         Stack stack = new Stack();
         stack.push(3);
-        assertEquals("This should return value", 3, (int) stack.top.value);
+        assertEquals(3, (int) stack.top.value, "This should return value");
         stack.push(5);
-        assertEquals("This should return value", 5, (int) stack.top.value);
-        assertEquals("This should return value", 3, (int) stack.top.next.value);
+        assertEquals(5, (int) stack.top.value, "This should return value");
+        assertEquals(3, (int) stack.top.next.value, "This should return value");
         stack.push(7);
-        assertEquals("This should return value", 7, (int) stack.top.value);
+        assertEquals(7, (int) stack.top.value, "This should return value");
     }
 
     @Test
     public void popTest() {
         Stack stack = new Stack();
         stack.push(3);
-        assertEquals("This returns 3", 3, stack.pop());
+        assertEquals(3, stack.pop(), "This returns 3");
     }
 
     @Test
@@ -50,21 +52,21 @@ public class StackTest {
         Stack stack = new Stack();
         stack.push(3);
         stack.push(5);
-        assertEquals("this is the top", 5, stack.peek());
-        assertEquals("this is still the top", 5, (int) stack.top.value);
+        assertEquals(5, stack.peek(), "this is the top");
+        assertEquals(5, (int) stack.top.value, "this is still the top");
     }
 
     @Test
     public void isEmptyStackTest() {
         Stack stack = new Stack();
-        assertTrue("This should be empty", stack.isEmpty());
+        assertTrue(stack.isEmpty(), "This should be empty");
     }
 
     @Test
     public void emptyStackException() {
         Stack stack = new Stack();
         stack.push(3);
-        assertEquals("This returns 3", 3, stack.pop());
+        assertEquals(3, stack.pop(), "This returns 3");
         assertThrows(NullPointerException.class, () -> stack.pop());
     }
 

@@ -1,15 +1,14 @@
 package challenges.treeIntersection;
 
 
-import dataStructures.tree.Tree;
-import org.junit.Before;
-import org.junit.Test;
 
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.HashMap;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThrows;
 
 public class TreeIntersectionTest {
 
@@ -18,7 +17,7 @@ public class TreeIntersectionTest {
     TreeIntersection.Tree tree3 = new TreeIntersection.Tree();
 
 
-    @Before
+    @BeforeEach
     public void makeTree1() {
         TreeIntersection.Node node = new TreeIntersection.Node();
         node.setValue(150);
@@ -55,7 +54,7 @@ public class TreeIntersectionTest {
         node8.setRight(node10);
     }
 
-    @Before
+    @BeforeEach
     public void makeTree2() {
         TreeIntersection.Node node = new TreeIntersection.Node();
         node.setValue(42);
@@ -133,7 +132,7 @@ public class TreeIntersectionTest {
     @Test
     public void emptyTreeException() throws Exception {
         TreeIntersection functionTree = new TreeIntersection();
-        assertThrows("no root",  Exception.class, ()-> functionTree.preOrderCreation(tree3));
+        assertThrows(Exception.class, ()-> functionTree.preOrderCreation(tree3), "no root");
     }
 
 }

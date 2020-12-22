@@ -1,10 +1,9 @@
 package dataStructures.graph;
 
-import dataStructures.graph.GetEdge;
-import dataStructures.graph.Graph;
-import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GetEdgeTest<T> extends Graph<T> {
 

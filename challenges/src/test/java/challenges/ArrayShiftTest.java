@@ -1,13 +1,9 @@
 package challenges;
 
-import org.checkerframework.checker.units.qual.A;
-import org.junit.Assert;
-import org.junit.Test;
 
-import java.util.ArrayList;
-
-import static org.junit.Assert.*;
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ArrayShiftTest {
 
@@ -16,7 +12,7 @@ public class ArrayShiftTest {
         ArrayShift emptyArray = new ArrayShift();
         int[] testEmpty = {};
         int[] arrayAdded = {3};
-        Assert.assertArrayEquals(arrayAdded, emptyArray.arrayShift(testEmpty, 3));
+        assertArrayEquals(arrayAdded, emptyArray.arrayShift(testEmpty, 3));
     }
 
 

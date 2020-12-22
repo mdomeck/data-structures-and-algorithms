@@ -1,8 +1,10 @@
 package dataStructures.stacksandqueues;
 
-import org.junit.Test;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PseudoQueueTest {
 
@@ -29,14 +31,12 @@ public class PseudoQueueTest {
         s1.enqueue(5);
         System.out.println(s1.toString());
         assertTrue(s1.deQueue() == 5);
-//        assertTrue(s1.deQueue() == 2);
-//        assertTrue(s1.deQueue() == 5);
     }
 
     @Test
     public void emptyPseudoQueueException() {
         PseudoQueue s1 = new PseudoQueue();
-        assertTrue("This should be empty", s1.getS1().isEmpty());
+        assertTrue(s1.getS1().isEmpty(), "This should be empty");
     }
 
 }

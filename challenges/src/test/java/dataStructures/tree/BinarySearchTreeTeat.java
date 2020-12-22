@@ -1,11 +1,13 @@
 package dataStructures.tree;
 
-import challenges.BinarySearch;
-import org.junit.Test;
-
+import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import static org.junit.Assert.*;
 
 public class BinarySearchTreeTeat {
 
@@ -31,7 +33,7 @@ public class BinarySearchTreeTeat {
     @Test
     public void addToEmptyTreeTest() {
         BinarySearchTree tree = new BinarySearchTree();
-        assertNotNull("tree is empty", tree);
+        assertNotNull(tree, "tree is empty");
     }
 
     @Test public void addLeftChildTest() throws Exception {
@@ -53,21 +55,19 @@ public class BinarySearchTreeTeat {
     @Test public void addSameChildTest(){
         BinarySearchTree tree = new BinarySearchTree(new Node(4));
         System.out.println(tree.inOrder(tree.getRoot(), new ArrayList<Integer>()));
-        assertThrows("should throw and exception if value is already in tree",
-                Exception.class,
-                () -> tree.add(4, tree.getRoot()));
+        assertThrows(Exception.class, () -> tree.add(4, tree.getRoot()), "should throw and exception if value is already in tree");
     }
 
     @Test public void ContainsTest() throws Exception{
         BinarySearchTree tree = new BinarySearchTree();
-        assertFalse("should not find value in empty tree", tree.contains(3, tree.getRoot()));
+        assertFalse(tree.contains(3, tree.getRoot()), "should not find value in empty tree");
         tree.add(4, tree.getRoot());
-        assertTrue("should find value in root node", tree.contains(4, tree.getRoot()));
+        assertTrue(tree.contains(4, tree.getRoot()), "should find value in root node");
         tree.add(2, tree.getRoot());
         tree.add(6, tree.getRoot());
-        assertTrue("should find value of left node", tree.contains(2, tree.getRoot()));
-        assertTrue("should find value of right node", tree.contains(6, tree.getRoot()));
-        assertFalse("should not find value if its not in tree", tree.contains(5, tree.getRoot()));
+        assertTrue(tree.contains(2, tree.getRoot()), "should find value of left node");
+        assertTrue(tree.contains(6, tree.getRoot()), "should find value of right node");
+        assertFalse(tree.contains(5, tree.getRoot()), "should not find value if its not in tree");
 
 
 

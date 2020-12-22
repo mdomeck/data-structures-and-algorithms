@@ -1,9 +1,10 @@
 package dataStructures.utilities;
 
-import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AnimalShelterTest {
 
@@ -43,7 +44,7 @@ public class AnimalShelterTest {
         newStackGeneric.enqueue("dog");
         System.out.println(newStackGeneric.dequeue("cat"));
         System.out.println(newStackGeneric.dequeue("cat"));
-        assertTrue(newStackGeneric.dequeue("cat"), true);
+        assertTrue(true, newStackGeneric.dequeue("cat"));
     }
 
     @Test
@@ -51,7 +52,7 @@ public class AnimalShelterTest {
         StackGeneric newStackGeneric = new StackGeneric();
         StackGeneric.gNode<String> empty = new StackGeneric.gNode<>("null");
         System.out.println(empty);
-        assertTrue(empty.value, true);
+        assertTrue(true, empty.value);
     }
 
     @Test
@@ -62,7 +63,7 @@ public class AnimalShelterTest {
         newStackGeneric.enqueue("dog");
         newStackGeneric.enqueue("pig");
         System.out.println(newStackGeneric.dequeue("pig"));
-        assertTrue(newStackGeneric.dequeue("null"), true);
+        assertTrue(true, newStackGeneric.dequeue("null"));
     }
 
     @Test

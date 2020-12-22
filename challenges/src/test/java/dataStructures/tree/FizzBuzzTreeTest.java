@@ -1,10 +1,12 @@
 package dataStructures.tree;
 
 import dataStructures.utilities.StackGeneric;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThrows;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 
 public class FizzBuzzTreeTest {
 
@@ -24,7 +26,7 @@ public class FizzBuzzTreeTest {
     @Test
     public void fizzBuzzTreeTestException(){
         Gtree tree = new Gtree();
-        assertThrows("It is an empty tree", Exception.class, ()->FizzBuzzTree.fizzBuzzTree(tree));
+        assertThrows(Exception.class, ()->FizzBuzzTree.fizzBuzzTree(tree), "It is an empty tree");
     }
 
 
