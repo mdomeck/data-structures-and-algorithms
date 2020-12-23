@@ -21,5 +21,4 @@ public class SortOddTest {
     public void exampleTest3() {
         assertArrayEquals(new int[]{}, SortOdd.sortArray(new int[]{}));
     }
-
 }
