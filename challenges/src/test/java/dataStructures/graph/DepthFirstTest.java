@@ -28,6 +28,6 @@ public class DepthFirstTest {
         graph.addEdge(graphNodeTwo, graphNodeThree, 99);
         ArrayList<String> results = graph.depthFirstPreOrder(graphNodeOne);
         System.out.println(results);
-        assertEquals("This is a thing.", "[1, 14, 23]", results.toString());
+        assertEquals("[1, 14, 23]", results.toString());
     }
 }

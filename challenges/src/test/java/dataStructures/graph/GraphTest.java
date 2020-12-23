@@ -16,7 +16,7 @@ public class GraphTest {
         Graph.GraphNode<Integer> graphNode = new Graph.GraphNode<>();
         graphNode.setValue(4);
         System.out.println(graphNode.getValue());
-        assertEquals("graph vertex", "4", graphNode.getValue().toString());
+        assertEquals("4", graphNode.getValue().toString());
     }
 
     @Test
@@ -24,7 +24,7 @@ public class GraphTest {
         Graph.GraphNode<Integer> graphNode = new Graph.GraphNode<>();
         Graph graph = new Graph();
         System.out.println(graph);
-        assertEquals("this is an empty graph", "Graph{vertexes=[]}", graph.toString());
+        assertEquals("Graph{vertexes=[]}", graph.toString());
     }
 
     @Test
@@ -33,7 +33,7 @@ public class GraphTest {
         graphNode.setValue(4);
         Graph graph = new Graph();
         graph.getVertexes().add(graphNode);
-        assertEquals("has 1 graphNode in it", "Graph{vertexes=[GraphNode{value=4, edges=[]}]}", graph.toString());
+        assertEquals("Graph{vertexes=[GraphNode{value=4, edges=[]}]}", graph.toString());
     }
 
     @Test
@@ -46,7 +46,7 @@ public class GraphTest {
         graph.getVertexes().add(graphNodeOne);
         graph.getVertexes().add(graphNodeTwo);
         graph.addEdge(graphNodeOne, graphNodeTwo, 19);
-        assertEquals("vertices connected", "Graph{vertexes=[GraphNode{value=15, edges=[Edge{origin=15, destination=null}]}, GraphNode{value=null, edges=[Edge{origin=null, destination=15}]}]}", graph.toString());
+        assertEquals("Graph{vertexes=[GraphNode{value=15, edges=[Edge{origin=15, destination=null}]}, GraphNode{value=null, edges=[Edge{origin=null, destination=15}]}]}", graph.toString());
     }
 
     @Test
@@ -78,7 +78,7 @@ public class GraphTest {
         graph.getVertexes().add(graphNodeThree);
         graph.addEdge(graphNodeOne, graphNodeTwo, 19);
         graph.addEdge(graphNodeOne, graphNodeThree, 60);
-        assertEquals("some neighbors", "[Neighbor{weight=15, destination=19}, Neighbor{weight=30, destination=60}]", graph.getNeighbors(graphNodeOne).toString());
+        assertEquals("[Neighbor{weight=15, destination=19}, Neighbor{weight=30, destination=60}]", graph.getNeighbors(graphNodeOne).toString());
         assertEquals(3, graph.getVertexes().size(), "graph has 2 vertices");
     }
 

@@ -41,9 +41,9 @@ public class GetEdgeTest<T> extends Graph<T> {
         System.out.println(graph);
 
         GetEdge.DirectFlight result = graph.takeATrip(new String[]{"Pandora", "Arendelle"});
-        assertEquals("This is a thing.", "DirectFlight{available=true, price=150}", result.toString());
+        assertEquals("DirectFlight{available=true, price=150}", result.toString());
         GetEdge.DirectFlight result2 = graph.takeATrip(new String[]{"Pandora", "Arendelle", "Metroville"});
-        assertEquals("happy case #2 is happy", "DirectFlight{available=true, price=249}", result2.toString());
+        assertEquals("DirectFlight{available=true, price=249}", result2.toString());
     }
 
     @Test
@@ -81,8 +81,8 @@ public class GetEdgeTest<T> extends Graph<T> {
 
      
         GetEdge.DirectFlight result3 = graph.takeATrip(new String[]{"Pandora", "Naboo"});
-        assertEquals("This is not possible.", "DirectFlight{available=false, price=0}", result3.toString());
+        assertEquals("DirectFlight{available=false, price=0}", result3.toString());
         GetEdge.DirectFlight result4 = graph.takeATrip(new String[]{"Pandora", "Arendelle", "Naboo"});
-        assertEquals("This too will break", "DirectFlight{available=false, price=0}", result4.toString());
+        assertEquals("DirectFlight{available=false, price=0}", result4.toString());
     }
 }
