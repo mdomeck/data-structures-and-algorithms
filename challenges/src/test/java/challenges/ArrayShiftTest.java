@@ -12,6 +12,7 @@ public class ArrayShiftTest {
         ArrayShift emptyArray = new ArrayShift();
         int[] testEmpty = {};
         int[] arrayAdded = {3};
+        System.out.println(testEmpty);
         assertArrayEquals(arrayAdded, emptyArray.arrayShift(testEmpty, 3));
     }
 

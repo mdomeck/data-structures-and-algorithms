@@ -3,7 +3,7 @@ package codewars;
 import java.util.Collections;
 import java.util.Vector;
 
-public class sortOdd {
+public class SortOdd {
     public static int[] sortArray(int[] array) {
 
         Vector<Integer> oddArr = new Vector<Integer>();
