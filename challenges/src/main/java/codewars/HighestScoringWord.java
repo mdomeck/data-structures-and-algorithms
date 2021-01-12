@@ -2,7 +2,12 @@ package codewars;
 
 public class HighestScoringWord {
     public static String high(String s) {
-        // Your code here...
+        String words = "";
+        int value = 0;
+        int counterValue = 0;
+
+
+
         return "";
     }
 }
