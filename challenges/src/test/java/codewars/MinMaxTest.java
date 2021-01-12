@@ -1,18 +1,16 @@
 package codewars;
 
 
-import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.util.Random;
-
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class MinMaxTest {
 
         Random rand;
 
-        @Before
+        @BeforeEach
         public void initTest() {
             rand = new Random();
         }
@@ -28,6 +26,7 @@ public class MinMaxTest {
         public void minMaxRandomTest() {
             for(int i = 0; i < 20; i++) {
                 int r = rand.nextInt();
+                System.out.println(r);
                 assertArrayEquals(new int[]{r, r}, MinMax.minMax(new int[]{r}));
             }
         }
