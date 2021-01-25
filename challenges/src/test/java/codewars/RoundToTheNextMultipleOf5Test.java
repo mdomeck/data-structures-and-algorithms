@@ -11,12 +11,15 @@ public class RoundToTheNextMultipleOf5Test {
     public void basicTests() {
         int[][] arr = {
                 {0, 0},
+                {-5, -5},
+                {-10, -10},
                 {1, 5},
                 {3, 5},
                 {5, 5},
                 {7, 10},
                 {39, 40},
-                {-2, 0}
+                {-2, 0},
+
         };
         Arrays.stream(arr)
                 .forEach(
