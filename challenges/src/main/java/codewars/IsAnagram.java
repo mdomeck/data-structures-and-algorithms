@@ -4,16 +4,14 @@ import java.util.Arrays;
 
 public class IsAnagram {
     public static boolean isAnagram(String test, String original) {
-        if(test.length() == original.length()) {
-            char[] char1 = test.toCharArray();
-            char[] char2 = original.toCharArray();
 
-            Arrays.sort(char1);
-            Arrays.sort(char2);
-        }
-            boolean result = Arrays.equals(char1, char2;
+        char[] word1 = test.replaceAll("[\\s]", "").toCharArray();
+        char[] word2 = original.replaceAll("[\\s]", "").toCharArray();
 
-            return result;
-
+        Arrays.sort(word1);
+        System.out.println(word1);
+        Arrays.sort(word2);
+        System.out.println(word2);
+        return Arrays.equals(word1, word2);
     }
 }
