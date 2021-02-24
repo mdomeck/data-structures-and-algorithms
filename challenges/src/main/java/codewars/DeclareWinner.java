@@ -20,6 +20,11 @@ public class DeclareWinner {
            fighter1 = fighter2;
            fighter2 = temp;
         }
+
+//        while (true) {
+//            if ((b.health -= a.damagePerAttack) <= 0) return a.name;  // a wins
+//            if ((a.health -= b.damagePerAttack) <= 0) return b.name;  // b wins
+//        }
         while (true) {
             fighter2.health -= fighter1.damagePerAttack;
             if (fighter2.health < 1) {
