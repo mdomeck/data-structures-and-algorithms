@@ -1,13 +1,14 @@
 package codewars;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class HighestScoringWord {
     public static String high(String s) {
-        String words = "";
-        int value = 0;
-        int counterValue = 0;
+        return Arrays.stream(s.split(" ")).max(Comparator.comparing(HighestScoringWord::scoreOfWord)).get();
+    }
 
-
-
-        return "";
+    public static int scoreOfWord(String word) {
+        return word.chars().sum() - word.length() * 96;
     }
 }
